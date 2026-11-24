@@ -1,0 +1,1 @@
+import{b as s}from"./main-CtCS_28t.js";const i={getLogs:async a=>{const{data:t}=await s.get("/audit/logs",{params:a});return t},getStats:async()=>{const{data:a}=await s.get("/audit/stats");return a},getRecordHistory:async a=>{const{data:t}=await s.get(`/audit/logs/${a}`);return Array.isArray(t)?t:t.items??t.data??[]}};export{i as a};

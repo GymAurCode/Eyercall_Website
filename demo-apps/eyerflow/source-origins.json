@@ -1,0 +1,867 @@
+[
+  {
+    "source": "Eyerflow-1\\src\\renderer\\App.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\App.tsx",
+    "sha256": "18bc4f6d60978761b9495b88c0bbbf26e07ef54fd1ce70a6e4145d1a4a5ee410"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\charts\\CategoryDonut.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\charts\\CategoryDonut.tsx",
+    "sha256": "5e97018065298f3204f6567c44ef37aa5dfeb7e0600afd1206b25bff30fb4245"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\charts\\chart-theme.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\charts\\chart-theme.ts",
+    "sha256": "af6ad7c845213d6b791ef9ca17d281690669b782652489856512b8bb81e17e32"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\charts\\FinanceCharts.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\charts\\FinanceCharts.tsx",
+    "sha256": "21fb054006173841bf763e20dd847ecccb690aec89bda08c6318f78628d4d12b"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\charts\\MiniBars.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\charts\\MiniBars.tsx",
+    "sha256": "148b9a80cac662d0e2277b601ffb859cc678af42ebfd6f7a1258c96cd5e7e7fd"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\charts\\MixDonut.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\charts\\MixDonut.tsx",
+    "sha256": "585db28133c0955343ca891c0eb0d1eb09c1c531729065dedb66c1e95fd9daf0"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\charts\\SalesExpenseChart.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\charts\\SalesExpenseChart.tsx",
+    "sha256": "d25fd07c214caaf145255d780c0fab1c7e5fa5d3af989434ede209ecf1de74bd"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\charts\\Sparkline.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\charts\\Sparkline.tsx",
+    "sha256": "32a4fae3b2492c8d8a732362a6c2c6dc9ebf0a6e9f70f3c3b92675f5efaf9233"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\charts\\StockValueTrendChart.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\charts\\StockValueTrendChart.tsx",
+    "sha256": "20cb48c653467ed5c8ff7dff4cbccd7934fb1db6dc9dd6f817d717fbd0adae51"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\documents\\DocumentDetailDialog.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\documents\\DocumentDetailDialog.tsx",
+    "sha256": "1f26fbdbbfc3be1ff7b27dea05249db71d63c43bf154ceb0225fe93815a2dc60"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\documents\\DocumentPaymentDialog.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\documents\\DocumentPaymentDialog.tsx",
+    "sha256": "3fe4cc296db76e519f23d5fc4fb41148420db0ab96161a7cbef5d8ba232b1a71"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\documents\\LineItemsEditor.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\documents\\LineItemsEditor.tsx",
+    "sha256": "5470d31f59883a1981d259a9c42ea05275bce0606114bd182a216e5fbad6f987"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\documents\\PurchaseDialog.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\documents\\PurchaseDialog.tsx",
+    "sha256": "b21b600dd35657faba00629cbd4ffc1544a92a5ac16e6d248108f487535223a9"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\documents\\SaleDialog.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\documents\\SaleDialog.tsx",
+    "sha256": "7cfef8182aa354218e2222af64957c44438ca44d9727a60e573b8df3e513ac60"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\layout\\AppShell.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\layout\\AppShell.tsx",
+    "sha256": "e00a5b99de1bb81419c0218d9fed2267f6ee5532d3501b3dcdaee8856d0b0f9f"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\layout\\BottomNav.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\layout\\BottomNav.tsx",
+    "sha256": "e3caa1d6eb116d77dd238975c06a0ca7de4ff6fea9f47db246893edd399e870b"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\layout\\Sidebar.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\layout\\Sidebar.tsx",
+    "sha256": "db66fd35a815459275959bc777e046d43fac99ea8dbd0d2e4293df8184115e27"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\layout\\Topbar.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\layout\\Topbar.tsx",
+    "sha256": "5e3d74a30d80b9d84750fa5b27b01adb5d6b18b956c046e043c9af2358bf0299"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\print\\company-document.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\print\\company-document.ts",
+    "sha256": "ccad7e9e9f4b802fd2f7b5d3802c56c5bc32421f5d24f86fd90a7f9d7684b991"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\print\\document-css.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\print\\document-css.ts",
+    "sha256": "9b60bacc50da00acfcefaa472f3a4485e31c6ad5fce05a6e187a6d5bcaaf4681"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\print\\document-templates.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\print\\document-templates.ts",
+    "sha256": "201062226eafd1774bc31e825349e39db4ab20f2be4ccb10b88e604576f2c91a"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\print\\DocumentPreview.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\print\\DocumentPreview.tsx",
+    "sha256": "18f2e4bf9b3430a2b0c03eee6b9808f3562370f4f0502daa547d3524a2371edd"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\print\\DocumentPrintDialog.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\print\\DocumentPrintDialog.tsx",
+    "sha256": "75b78e6a47e7fd3fe5da0b05e60ad4bba9a6e04a9dec038e30c09dc8a4399455"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\print\\html.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\print\\html.ts",
+    "sha256": "df6675ab64b6a314789a9f31da975969481b0326c88355d8f6a52ace91a258e5"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\print\\record-templates.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\print\\record-templates.ts",
+    "sha256": "e72b08b662b3709bd8cf04b92d517e9851198137fbd3d946c6479c9e71f5ad3c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\print\\report-document.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\print\\report-document.ts",
+    "sha256": "68f0bc79efd08443c6ca8e7f211ce7c48dff138034e2234c4636780c82d1dfd2"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\print\\report-templates.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\print\\report-templates.ts",
+    "sha256": "980de341c8acf1697c962ab2eeaf97170d9189582ac39bb700cd62ee4ab59644"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\print\\ReportPreview.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\print\\ReportPreview.tsx",
+    "sha256": "cf158ce959a8230cd49a3accc319fddf0da23ffe610f68b71810ab243b455da3"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\theme\\ThemeCard.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\theme\\ThemeCard.tsx",
+    "sha256": "5a3b0a2fd3e93538e648615557d882a8973d0e593679bb52422c1c1cb256cfb2"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\theme\\ThemeOnboarding.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\theme\\ThemeOnboarding.tsx",
+    "sha256": "250093f3c7dde16c8b691984f1b0cffae9711c7286d267ae282ea5ce27f86c28"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\Avatar.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\Avatar.tsx",
+    "sha256": "2825ce7700338785976e920594cfaa0297162ad773b369d124313337c46a3685"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\Badge.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\Badge.tsx",
+    "sha256": "cae81b8f5a67da7bef348d27e451235b5c68a6ce203fb9c27a1714a65db8335c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\Button.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\Button.tsx",
+    "sha256": "b6ecd14785f61df40e795c4439b5005a84b3cd05363b19f693bb4a36783d128d"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\Card.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\Card.tsx",
+    "sha256": "a07fe49fb40d875dd7d956ec08c2297ab7fd07a8ad84d42bd8f5ae39306c000e"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\ChartCard.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\ChartCard.tsx",
+    "sha256": "8874f4b9e9c6b9913c6e2f7961e550852415050a5007a716383bc214abb13625"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\Combobox.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\Combobox.tsx",
+    "sha256": "25da92e85230803c2b237853c7fe097fa0ca53d3fbc30b9ad0aa110e16bb6e8a"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\DataTable.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\DataTable.tsx",
+    "sha256": "0faa789fb499f467cdc908049fb3e9418b274df975226fb9b3b71d26c7de8a3e"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\DeleteConfirmDialog.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\DeleteConfirmDialog.tsx",
+    "sha256": "f5d0ac1f608f39f77933313bde8c18a8be5f5a443c4d5fd53db9bed452a0ecfe"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\DetailList.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\DetailList.tsx",
+    "sha256": "323a785492200780d77e48b626bc0f3fc29665677103e5265f95e8331ab65119"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\Dialog.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\Dialog.tsx",
+    "sha256": "910a4efb357d073de6eb474ae95e7c2698763f754a8f9dde94c11e60ea1933f3"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\Dropdown.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\Dropdown.tsx",
+    "sha256": "66bc7b44d8d4a914c27828cf0547e4f9e5c716d1ea0cb252c95d12ff5d598015"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\Feedback.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\Feedback.tsx",
+    "sha256": "7a7bb41d41d417861ff91e4c23e5d0404ea4645ce3db831c035884bd5e96ff08"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\Glass.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\Glass.tsx",
+    "sha256": "7358bbd83292ce87266f754dca35783c9b28f21b7a37f73071f9449bc33db5e6"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\HighlightText.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\HighlightText.tsx",
+    "sha256": "04d299edc396a5764767900c1c45c4fe5ddd26adb161e90b133928b2dd91f127"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\Input.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\Input.tsx",
+    "sha256": "624d5aedc56d38dbd9659b27c504ae128470a046b0afe7c0cc5e594bd8c8e42c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\RecordActions.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\RecordActions.tsx",
+    "sha256": "194e37c7ca80d29fbbe4ccd226989b08a826c142b327cbb2437d830a9e7a1dc4"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\ui\\StatCard.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\ui\\StatCard.tsx",
+    "sha256": "7ebaf0ecffda440479c749d9212fb7d85a6de8960d29d4c2406e8ca1447fa37b"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\updates\\UpdateDialog.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\updates\\UpdateDialog.tsx",
+    "sha256": "4bcbacc5b89fb159b09ff93c8971b255f1c6a204b128f3e2d6a1e821018df621"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\components\\updates\\UpdateNotifier.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\components\\updates\\UpdateNotifier.tsx",
+    "sha256": "ef40b89a258008b73bef554e07f3352dcd8ec340584991ec62c868c3a1b594af"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\index.html",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\index.html",
+    "sha256": "e753c31a3fe80128dade0842d5faeee50ff62524bc28e20f9d9bb37c47587439"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\account-tree.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\account-tree.ts",
+    "sha256": "9471017ccd6dc391da1795e9f73480efd37c7dcc429909b62fbd3f45abc2103c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\api.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\api.ts",
+    "sha256": "75a0bad04ca9c734fea029881ef8f6461556f93efe9cd735b967c3bf0087f86e"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\app-context.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\app-context.tsx",
+    "sha256": "13cb528e6ef9800f6a6ebd5299172adc44cdc7c4db1112ca08c4d14eb17b0c50"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\app-version.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\app-version.ts",
+    "sha256": "7aabcdc7bf9f43477d64f82b4176bfccf110e61d6af564c6cc0a3fd49186b4f5"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\clipboard.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\clipboard.ts",
+    "sha256": "665f33e7248fe01a6a5e92e4d0c6dde9de024ed9fe6500772438c50302c041de"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\erp-nav.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\erp-nav.ts",
+    "sha256": "0773ac3a182b25bc7350d44a28848e39e71124cb9f871a11c5d95f44cbb3440c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\finance.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\finance.ts",
+    "sha256": "bd31a891c8d84fd58b9e89e96e986a8d1e58ea837bd2681fc3df3dc9deafd398"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\format.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\format.ts",
+    "sha256": "e50a75b7f05736f4ad8f7a42bea568dedaeac42b44b508c36a505f23ff4537ea"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\hooks.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\hooks.ts",
+    "sha256": "19f1e16943c835b6a363c26803a0164468fd7d2153047756f0d2412d43597236"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\ims-nav.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\ims-nav.ts",
+    "sha256": "14ba527d3f7ba3e8e1ff9d2b45aee317ee0960d0c2e411cd20a6c314d6000e59"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\lookups.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\lookups.ts",
+    "sha256": "f9751b9acb8b0c56f37589606a71ece1b022a3d29fce1a565e14c2bed910a36c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\print-records.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\print-records.ts",
+    "sha256": "adc99804b60d8e9ec78774f4e45c91677ebc074b08bfc4b9a5fb5ddb75b84abe"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\print.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\print.ts",
+    "sha256": "afbb1c4ff3b4a1a6fbf0fa4cd8708b0e5316d8f4f9a86488024fdd5fa8424fc9"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\search-highlight.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\search-highlight.ts",
+    "sha256": "a97859b57d1b9680dc7d4c2b42cb079fa73fd9720572b52d76da5f7b02da5cde"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\select-options.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\select-options.ts",
+    "sha256": "2bd22638df6bdacc8e47ca2de4a98d507d047c0d0e0f2961bdba39ecc6ed6163"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\undo.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\undo.ts",
+    "sha256": "7def0ddda1e7aece84c4313abe24c91db09ed389f9272e1915cf2118a6a411d5"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\updates.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\updates.tsx",
+    "sha256": "e3818ceb60b057d3412406920584628de21457bbcfc8a6ab5b1e8c5c1018c46c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\utils.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\utils.ts",
+    "sha256": "755a4e81dd1c6b3f1ce4f6cdd69efeb4d1f48ae6fbf3a1be96b21628785fbff1"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\lib\\wms-nav.ts",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\lib\\wms-nav.ts",
+    "sha256": "21678344136b4de734f7ea0ad5dc5a1b77040631ef308817f51a26105190cebb"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\main.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\main.tsx",
+    "sha256": "0aa5ef3bac7698b6ad513e8e49fef1afdb08ee8234972fe9f8a85e71f73d8b2f"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\admin\\AppearancePanel.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\admin\\AppearancePanel.tsx",
+    "sha256": "36524f7cbfe3265b5f17959616d58fa8321f110c4e5607500e5d076d66c3e6f8"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\admin\\SettingsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\admin\\SettingsPage.tsx",
+    "sha256": "1312a7dde405e56b554da041fd09b790e9a0a9e824932c869bb37330da9d25a1"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\auth\\ActivatePage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\auth\\ActivatePage.tsx",
+    "sha256": "db8362abd7382d6b4411032cc2630412ebfeb7c97e5349d120204478e049a9fd"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\auth\\AuthPanel.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\auth\\AuthPanel.tsx",
+    "sha256": "a43fe90f634ed52b70a0e208508ba532ff38ad9291ce648a86e0c095227597e9"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\auth\\BrandPanel.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\auth\\BrandPanel.tsx",
+    "sha256": "01b428c834e0faaf4644ef0965f6c594f2f193aab55a77f29da6c1bf7f69eaaa"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\auth\\ForgotPasswordDialog.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\auth\\ForgotPasswordDialog.tsx",
+    "sha256": "2f077610abba86e0646e40fd60784ad12942925e298b9782b20a4a817de046ed"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\auth\\LoginPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\auth\\LoginPage.tsx",
+    "sha256": "77314ddbeb7db8dd29fc9b9bcb3de27b84a4d43ee2f0412b77cae38d73d5f5e2"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\auth\\RegistrationDialogs.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\auth\\RegistrationDialogs.tsx",
+    "sha256": "47df4192d6ceda35858b06282694e35e567e37b7a1f83779077f692e900cf21a"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\Dashboard.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\Dashboard.tsx",
+    "sha256": "122c32a6050c689db9e1540c68cb3a1fd331377a7b0d873ddb3a9000634e9f48"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomCatalogPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomCatalogPage.tsx",
+    "sha256": "48e01af454d4e4c69c270314a1c63d49265008d731bea7ad4ba64daa7a9fe2d6"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomChannelsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomChannelsPage.tsx",
+    "sha256": "47e3acd830188618ba8e97bb62e08bacc94144c50805d287f3f85ffcd279d2ae"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomDashboardPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomDashboardPage.tsx",
+    "sha256": "b3e90f9c72f58864af57a17e6647962e982394acc8d7af5535d50d6bba3d1e17"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomFulfillmentPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomFulfillmentPage.tsx",
+    "sha256": "8332a41ebd1f3ae92bda7701fc064ca2be1177c284ee7c104cdd2e8ea3bb5b91"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomInventoryPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomInventoryPage.tsx",
+    "sha256": "69801a4dcade97fdd95f2d24285d53e4fe0227f47e32fbbc74d5f9cf260785e9"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomMarketingPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomMarketingPage.tsx",
+    "sha256": "718d1f8ad55d5dda0611b59389032c3f2e050c83b49e543a01f551a4d9d9eabe"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomOrdersPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomOrdersPage.tsx",
+    "sha256": "b510caf4b6b40a9fe01c3e225614be89b533d28bb67fa82a28801a76494f20f7"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomReportsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomReportsPage.tsx",
+    "sha256": "c918fb346bc633e7365ac4846805a0db920b734ef6fc83e24b41c6118e135310"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomSettingsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomSettingsPage.tsx",
+    "sha256": "93e49c4cb6f33337087e5e8659d117e721d186fbbb1f5043163256e814e5d3d0"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomSettlementsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomSettlementsPage.tsx",
+    "sha256": "5d7188c9a0cf6f24382938620314afaae18fdb81d189e3cfa6838493508f4afe"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomShared.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomShared.tsx",
+    "sha256": "9b625e89d04540cb6a04ec091cf4259d48d0d5c3dc5c295f676f9c8cd58febdb"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ecom\\EcomSyncPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ecom\\EcomSyncPage.tsx",
+    "sha256": "e94f818df45e5f9de330ad96ac8714608e69e899d25f1198e848c32edb526598"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\erp\\ErpWorkspacePage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\erp\\ErpWorkspacePage.tsx",
+    "sha256": "f6fa15a7a8844855062f5de9ac44f7a088e9cabbe75771b905d340f848632ccb"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\AccountDetailPanel.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\AccountDetailPanel.tsx",
+    "sha256": "2356018dcf0bdeff02424b965f7f249b0d4a9be8134a7a514d564d04662d57c2"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\AccountEditorDialog.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\AccountEditorDialog.tsx",
+    "sha256": "04ab52f42dd7d4ca458b7943fd7fd5086bbbfb0d57b5e23f81e994bf861c8443"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\AccountLedgerPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\AccountLedgerPage.tsx",
+    "sha256": "855b448e77c0cf123d30fbada3ab0588768b860d6f478037260a21f398e12c2a"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\AccountTreePanel.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\AccountTreePanel.tsx",
+    "sha256": "457623cf6d45d4eb1ea983b7c1eb84e947e30f0d3660af77014719a5771cce42"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\CashAndBankPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\CashAndBankPage.tsx",
+    "sha256": "82145e8e06b1af182b3d4cd212bae4c71e3bbd351f9eb9c50df6b938c647e4f1"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\ChartOfAccountsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\ChartOfAccountsPage.tsx",
+    "sha256": "7a3a43416b72ff0a03330f3cc69e124dc6a194217e16a5a18744e8ff70d0be1b"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\ExpensesPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\ExpensesPage.tsx",
+    "sha256": "5b3e75f7f9fe7629480af8c65c47212c0b7bce4d5000db7edd11dd1ec37c3922"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\FinanceLayout.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\FinanceLayout.tsx",
+    "sha256": "ce3e1c803bdb3e39b62d1beb790bf96190c8313afbba128a3117c940cc8aff04"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\FinanceOverviewPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\FinanceOverviewPage.tsx",
+    "sha256": "01484e59a4a574f650cc0743617122a66766c9353d9b84e8c6c85dbe24b92ca0"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\FinancePaymentsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\FinancePaymentsPage.tsx",
+    "sha256": "1cf155621b5013432d223bbc2bd9fc81a140330cfb7145a76d7a1b308ccef897"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\FinanceSettingsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\FinanceSettingsPage.tsx",
+    "sha256": "d7d4b52466f4ab319380042ea3379ec2c5db670b9780537462245a78d78054bf"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\FinancialReportsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\FinancialReportsPage.tsx",
+    "sha256": "43412e1e9a37398c274261156d6d22987b60cfe5093e67cde74a37684a78dd72"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\JournalEntriesPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\JournalEntriesPage.tsx",
+    "sha256": "dcbca0ce95dd7b05e8d09b1e7e6e36df635a23dc8c198bc655512ad449accc2c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\finance\\PartyBalancesPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\finance\\PartyBalancesPage.tsx",
+    "sha256": "bbfc211153e1934e54b1dda1fb9b51098684740958dea34f06a5bd763f2c0beb"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\HomeDashboard.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\HomeDashboard.tsx",
+    "sha256": "c7dbbea99718930305e6c6b68a2c13e5e2bb10c5ce9c428653f5506c40345232"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\inventory\\ProductsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\inventory\\ProductsPage.tsx",
+    "sha256": "35fb5175e0bdd6648ad16d2a1fd4e6d5aec2bba84c16781bbc1240c490f0d6aa"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\inventory\\StockLedgerPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\inventory\\StockLedgerPage.tsx",
+    "sha256": "0980ca1bef495f39afed6504f8f237baf035d941751d548a03a694982776c5ed"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\BomDetailPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\BomDetailPage.tsx",
+    "sha256": "ff983cf57154e1a11d9623e327b5905752c83e9d70b65f149bb548ea3283f2a2"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\BomsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\BomsPage.tsx",
+    "sha256": "1edee292bbe26fb82650beab8874ba8f98a660adad20fa9886d616201885cce5"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\CostingPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\CostingPage.tsx",
+    "sha256": "8fd658eafd9386c5159b03e9ea49dfa86907a20a4ef41efb9de2cd2dc703f61c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\EquipmentPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\EquipmentPage.tsx",
+    "sha256": "b11b0d6a1dc048c127a1414ec8c3f36b2d8210c88cecea574650581419d2c5a6"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\FinishedReceiptsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\FinishedReceiptsPage.tsx",
+    "sha256": "5c4c84964ecf011e69575da0cf493d0e31532b382f3fc8cc2a228ffb06583769"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\MaterialIssuesPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\MaterialIssuesPage.tsx",
+    "sha256": "01b3ce1a04dc31c05de6f67a80dcb15318d93614e68580fb963d659bd05a0d9a"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\MmsCollectionPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\MmsCollectionPage.tsx",
+    "sha256": "5464fcf7cee8902c97a3861ea379589617825b2adaf2f40fde4a62176f52528a"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\MmsDashboardPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\MmsDashboardPage.tsx",
+    "sha256": "34ac9e6785fad5888625af21b9cbd7cc4e8c6a96f724269156e9c4f441c6a7e1"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\MmsReportsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\MmsReportsPage.tsx",
+    "sha256": "efc509e230ea868d6c6aa34aed2f7e0317bd89fdcdb329cd8128a7a9704535da"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\MmsSettingsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\MmsSettingsPage.tsx",
+    "sha256": "c87a4d35661d03c1a919df23e58cf9fdcb7a28a08006b082ad0ba891dd9a4f68"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\MmsTable.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\MmsTable.tsx",
+    "sha256": "903bdc47fdb4eadecd84b59167f1327774c9a37c8f89ecf2ceb7c52415a3d07e"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\MoDetailPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\MoDetailPage.tsx",
+    "sha256": "d60f16dd14fa3009b7e5294085af04e46a4caf4929185b6286ea0027a90e2c93"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\MoListPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\MoListPage.tsx",
+    "sha256": "b9110cdb499458ee52b639fe8b88d026bacf03b9fe508cb2672994794a700aa0"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\MpsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\MpsPage.tsx",
+    "sha256": "75f94e3429b8093cf5d20b40004bd570cd84318c580c82abbb7e25249c80d918"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\MrpPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\MrpPage.tsx",
+    "sha256": "815948a481d5c9d08e3fdd4ba37ead47ca8f60ac325d3c77cefdd8c681907e51"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\QualityPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\QualityPage.tsx",
+    "sha256": "2cd47652bbf1b45b8fe4bcc3f1cc8645d1e283d03caf077450330ad9689dc287"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\ReworkPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\ReworkPage.tsx",
+    "sha256": "12e5e851575fc0930779e0fcabe94217da0fc6d27326b2c17e1905ea24ba9f29"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\RouteDetailPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\RouteDetailPage.tsx",
+    "sha256": "e93343dcf706dad9d7a65718af7030ffb72e38339dde6606e1ca231f5b4e03a6"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\RoutesPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\RoutesPage.tsx",
+    "sha256": "959b7c168cb30b8f92ac475cb5beb7928318e94f2655be2e25f5c7ddd4a7d38c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\ScrapPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\ScrapPage.tsx",
+    "sha256": "1fd5be721030a4a3e7b226ab6f87c8f38b76b16f720e63c4801ac3838ae1b8e6"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\ShopFloorPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\ShopFloorPage.tsx",
+    "sha256": "7b84f340352e7acb88ad29550593ebab6dc4685fec5f41827f23180ce02bf7ff"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\WorkCentersPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\WorkCentersPage.tsx",
+    "sha256": "5e5e5cebf463736a66b06c5d99219c636ad5f6b3d7cebda7393f14e9d0dcaf21"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\mms\\WorkOrderListPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\mms\\WorkOrderListPage.tsx",
+    "sha256": "69ac852a4c143603663d2a48b968fd40499e47006898ee969fa5e5818f3962d2"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\oms\\OmsOrderDetailPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\oms\\OmsOrderDetailPage.tsx",
+    "sha256": "d2699f5cb938d3e8b1bede28045edfdfe0d36e556b338e89f55be5bc26feb104"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\oms\\OmsOrdersPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\oms\\OmsOrdersPage.tsx",
+    "sha256": "7935429dec797a1573748859decf9a18f42e8266cc35a064862a9303206b867e"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\parties\\PartiesPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\parties\\PartiesPage.tsx",
+    "sha256": "07683a349139d631147f42b76d2fdac7f5b8fd9f40c861fc65cbd6a31df6eb2c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ProfilePage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ProfilePage.tsx",
+    "sha256": "f7c93c493c7de3a8b410dd15842c96f40e8e7b95201f1b6922a1156e94d8cb83"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\ReportsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\ReportsPage.tsx",
+    "sha256": "3d321f8c90099ef65f2b8363fd6964bbe10ea00fd3bd7e040bbaa7d4161504ff"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\sales\\DocumentListPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\sales\\DocumentListPage.tsx",
+    "sha256": "7f4b7f191ae01375605099925bd3bede9531df4bbbb33a2380a094d3fbeeb94d"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\sales\\SalesListPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\sales\\SalesListPage.tsx",
+    "sha256": "c9879f16e92b95f133575aea26438fe0763c8268c8f750c9462df1280c37bc75"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\wms\\AccessPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\wms\\AccessPage.tsx",
+    "sha256": "ba0495d5d12804382be053371dc00febb9c6d6a72884072a8a90132bc5593b12"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\wms\\AnalyticsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\wms\\AnalyticsPage.tsx",
+    "sha256": "cbc84a9550f2618d97f783f3075c0de55243936af0ea1c172d0382e76a64cc7e"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\wms\\HandlingPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\wms\\HandlingPage.tsx",
+    "sha256": "315475a8d73e9e68d03d10cd20005581f6add80de17808dc90870e62c5ba5da3"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\wms\\OutboundPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\wms\\OutboundPage.tsx",
+    "sha256": "68ba28cc3596d87f5557d24cec0b6382767400aca125d158c116ca78f444fe16"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\wms\\OwnersPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\wms\\OwnersPage.tsx",
+    "sha256": "442a50c06919c966d0afbd58dd2451832160971bea2b8202808ba8771562e9c9"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\wms\\ProductionPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\wms\\ProductionPage.tsx",
+    "sha256": "bd0dfe3e02743d7eaf37c00f4ef17d151197b0fbc467c9d0e73f5da773939e15"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\wms\\WavesPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\wms\\WavesPage.tsx",
+    "sha256": "924684d2038993530213b424a141ff87b554628b2a755aa48654ff54f43db0d8"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\pages\\wms\\WmsPage.tsx",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\pages\\wms\\WmsPage.tsx",
+    "sha256": "4b1dfe02d96e30f731cdd35669aa695f54201b08509dee5c4d5a9b278576afb9"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\public\\theme-boot.js",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\public\\theme-boot.js",
+    "sha256": "d6b31883eb18243529d4e9f0538889897afdc9611f57f284e777a6b7b2ad7a9c"
+  },
+  {
+    "source": "Eyerflow-1\\src\\renderer\\styles.css",
+    "ported": "demo-apps\\eyerflow\\src\\renderer\\styles.css",
+    "sha256": "04da502c24cfa1214de7b306d2693e6ca9dd19b5e9e2714635286d64bb1b4783"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\content-security-policy.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\content-security-policy.ts",
+    "sha256": "2c3f75520df972e295a718b6d9fadca93044765d95a513d25b270ca7cb5e4911"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\ecom.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\ecom.ts",
+    "sha256": "d17ec5a7505f1b1035c8c75b28b5347d9757bc77b67ce992cb777322d6ec1ce2"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\erp-forms.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\erp-forms.ts",
+    "sha256": "d2f9357684f28fe87c60a55b6859c0718c0186ddaeda5da8c655fbc8256bb828"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\erp.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\erp.ts",
+    "sha256": "ce60b961037468f86187607d8e08faf2eb9a59b1f60a54ff4d1cde0f2ce8c482"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\finance.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\finance.ts",
+    "sha256": "71e1f98a08d5b029c67c7025fb245e81a6ec1179e4b362b96c734cd371f2186b"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\globals.d.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\globals.d.ts",
+    "sha256": "897ad0d49744fec456fdf394e78a508c446228ab7ac5ba6b3c15d6c76c7f4935"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\handling.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\handling.ts",
+    "sha256": "f9f8abb9fd04e6d818a3fb7784b32ea9f516673dd43c622b5beb68120570ca82"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\ims.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\ims.ts",
+    "sha256": "b127be7a02c8f831ae93042a63d6b2f03a835c2b4900fde8708e28a1abf349d8"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\ipc.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\ipc.ts",
+    "sha256": "870b9ab81962dfad8e59de0f474c51d13f3945eb15cc3c0f2d941cf89a36d548"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\mms.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\mms.ts",
+    "sha256": "c9e0abb323d58d6e150f87a97c37cc0a63c64d349b9c8a44b57dc7d70fcb0da9"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\oms.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\oms.ts",
+    "sha256": "04bd0b2f6b31919cbb61319b1a6e7661dad038507075558256ceeaa2849b6edd"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\owners.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\owners.ts",
+    "sha256": "3f268c13b0f68e41351b101539351871291630164f6fd16f73e26eb3178ef85f"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\permissions.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\permissions.ts",
+    "sha256": "ae10427f8c1c8faed76e9dff76eee93bb308ff46e75913fe659968ccf4369162"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\suites.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\suites.ts",
+    "sha256": "24cf0028e0af859ac145b9f68f858c11e6fd38e1ce3be59f65e1b33fb742130d"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\test_oms.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\test_oms.ts",
+    "sha256": "99fea88dbf2401c4412f9109c61216be9801593ec7831f872ec94fb515720a59"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\themes.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\themes.ts",
+    "sha256": "ac2682a29ebcd18da89c7851de7244853b4d3be47da55f192532ef33222a9cc7"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\types.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\types.ts",
+    "sha256": "4c02c3b09cd917b4d8bbffbe2146c0c6b37a613ab5aaa52e6f2ff49968235391"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\validation.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\validation.ts",
+    "sha256": "c8bb08ccc38ddc5b4cadbcbd7578f10bc64955d16cc0ba08d9768ba33731d299"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\warehouse-manufacturing.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\warehouse-manufacturing.ts",
+    "sha256": "2154c68d725948fefef376a240f0d6d203dbe3d3ff6db3520ed442afff7e9398"
+  },
+  {
+    "source": "Eyerflow-1\\src\\shared\\wms.ts",
+    "ported": "demo-apps\\eyerflow\\src\\shared\\wms.ts",
+    "sha256": "c88a721aeb3d7f71814d759c106b5c2a165afd0c65a9906c57175e5c71451fab"
+  },
+  {
+    "source": "Eyerflow-1\\src\\domain\\money.ts",
+    "ported": "demo-apps\\eyerflow\\src\\domain\\money.ts",
+    "sha256": "24bea47cdf89598b100a7553160d8c2db8e71c4a7b11457261301499bbae8789"
+  },
+  {
+    "source": "Eyerflow-1\\src\\domain\\costing.ts",
+    "ported": "demo-apps\\eyerflow\\src\\domain\\costing.ts",
+    "sha256": "84e54cd049bb33ba1c7767223d88a0cd18d599f6b6dff428521150ac8b5870f9"
+  },
+  {
+    "source": "Eyerflow-1\\src\\domain\\document.ts",
+    "ported": "demo-apps\\eyerflow\\src\\domain\\document.ts",
+    "sha256": "2f49c54545213dc7b00805271b8d73ebe172be21fcd2725af605e485af1cc989"
+  },
+  {
+    "source": "Eyerflow-1\\src\\domain\\vat.ts",
+    "ported": "demo-apps\\eyerflow\\src\\domain\\vat.ts",
+    "sha256": "32f1ad7d712ffaea2d672b1107694e200af41a935f9c39d271779affadde2a63"
+  }
+]

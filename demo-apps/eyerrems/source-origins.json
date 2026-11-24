@@ -1,0 +1,1757 @@
+[
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\App.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\App.tsx",
+    "sha256": "705b900eee8644b9c7559eb4b92081ace3a8c6fd952e70c0be12f8f02b08ea69"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\ActionButton.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\ActionButton.tsx",
+    "sha256": "b8e8f7ed4483fd0fe8469163c21da4902d8866fd05e5e66ee179e1bce9a42f69"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\actionConfig.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\actionConfig.ts",
+    "sha256": "26f281d514f17e6c17e28fcf6933ddc97a9cd9d29406745e9e0637b9c77c4bea"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\ActionDropdown.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\ActionDropdown.tsx",
+    "sha256": "1492e392847aeeb6c7173a08e456c2fc50aec4350c6ea761ce99f9db6c713b96"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\actionIcons.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\actionIcons.ts",
+    "sha256": "0b44ce1ec82ca1190c8435b8a3fb9f7824b7c4ab82968cfabc2921042b7d9af1"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\ActionsCell.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\ActionsCell.tsx",
+    "sha256": "9606a7b069a38c05a92406b7c5ba0caae8bb25c96023410c87315f12a3bca345"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\ConfirmDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\ConfirmDialog.tsx",
+    "sha256": "02155d42fd8611a8893db75ec670e0bf4e252bf1de78beacba6266f135e19644"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\index.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\index.ts",
+    "sha256": "fb2fa176a44fe178d861eb80317f75631e1c1828402904abf9cb8c71b630672c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\INTEGRATION_GUIDE.md",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\INTEGRATION_GUIDE.md",
+    "sha256": "7ef6c8b523fa6926a605f836c2342ff347752b72343e2afae7bd5f0bca9a192b"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\printRecord.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\printRecord.ts",
+    "sha256": "8a757a378d7cfe17dce9166826c66628b0d76aaba085d5d7b7a09627d4a08553"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\RowActions.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\RowActions.tsx",
+    "sha256": "06d1625d4b58f364f9e0bbf08c8f527d3b277bb7ed5e2c858ea794b47830c887"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\actions\\types.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\actions\\types.ts",
+    "sha256": "d06830e31cdf6819ede44e74bcf4c20be304adcf6f99cef07837135ed19cad86"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\attachments\\AttachmentPanel.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\attachments\\AttachmentPanel.tsx",
+    "sha256": "2e779cad8eaeb7ec7f76524d616df2009b93060e5be39a25280fd237de9b5db1"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\attachments\\AttachmentPreviewModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\attachments\\AttachmentPreviewModal.tsx",
+    "sha256": "5f7b887594b22d6cebc521f4e06acda19e4a62cdd482da2ff11ea195b1749435"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\attachments\\AttachmentsButton.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\attachments\\AttachmentsButton.tsx",
+    "sha256": "159a2d47c19cff77855f972aba22b3d34c3bf9c8099b1f65d281700c7882d9be"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\attachments\\FileUploadDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\attachments\\FileUploadDialog.tsx",
+    "sha256": "5f0dbd6b5e89cefcc7ae6b7498b3deb7e7904f22ecae4f2745a2001c3d22aeed"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\ActivityTimeline.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\ActivityTimeline.tsx",
+    "sha256": "c59cba109493c604c9d32d290d12b81860be01f090d8154f855baf140acf37ae"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\AddNoteModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\AddNoteModal.tsx",
+    "sha256": "aa4dfb3bc6483dbd90388b37bb34832e34595dc623c7d09063bf7ea316f51f82"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\BookingFormDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\BookingFormDialog.tsx",
+    "sha256": "16fa8ff0201335b6b2015d86558ab83fb250890164a78832a4caab2a8d41f71a"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\ClientForm.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\ClientForm.tsx",
+    "sha256": "efffe02f1e535fe49666fa8e1a9f8994b8b9ce150e315ee005824a607c91ad93"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\ClientFormDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\ClientFormDialog.tsx",
+    "sha256": "fcdbf499f96a3318e8fecfbf5bebba2a78abe92d45d7bd58dbf881153538596b"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\CommunicationForm.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\CommunicationForm.tsx",
+    "sha256": "a9be6fd3306b62ac87367b4545056685765b85b1596e1d736692c3fddac7ebe6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\DealerForm.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\DealerForm.tsx",
+    "sha256": "3f14148831f48155c0576df9cfb061fa4940f7721ec3619be358131d6ae6c360"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\DealerHierarchyView.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\DealerHierarchyView.tsx",
+    "sha256": "c36198cda2f3d6b391a6c6053de628d45157c4a3b91e32d0ee53fb4df357996c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\DealForm.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\DealForm.tsx",
+    "sha256": "35728884211ab7229c1afd1b457feda738884ceeb475aa441e2f4670db8336ae"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\FollowUpModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\FollowUpModal.tsx",
+    "sha256": "a2d572246af9f8c19932a5da15ae6f6d8bbd52c0d979802860706d13ce572791"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\FormField.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\FormField.tsx",
+    "sha256": "7adce18e4d2ce55aa6a7920ce3ed5057338a71e21f7bd440ae58e3b379bf9bf4"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\JourneyTracker.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\JourneyTracker.tsx",
+    "sha256": "e3a10984c4091b0143662ac917cba009d08cea80f3bf29101a33f93663d45a95"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\LeadFormDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\LeadFormDialog.tsx",
+    "sha256": "310b409acee6f3e7d2d382c2d4da2248d17c236f579e8c09235482e15bd381fb"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\PaymentVerificationDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\PaymentVerificationDialog.tsx",
+    "sha256": "7c8de4616318dc1c83fccbf50ed73882f4ff248c1e3824a38e9c04aed1eedaa6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\PipelineStepper.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\PipelineStepper.tsx",
+    "sha256": "aa0d6025ccee30800bbde66eef815538b604ddb534b6bd019725b424d16d2c3c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\crm\\QuickActionsPanel.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\crm\\QuickActionsPanel.tsx",
+    "sha256": "31161a907d3e50221827d3175493c7784421fe77704783573bf749600b40ec10"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\AppTable.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\AppTable.tsx",
+    "sha256": "3b5ee8b1ad1c8ad9a3b0e8e8ed5fa666aae1fc69eaa2ed28121863521fc618e9"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\components\\EmptyState.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\components\\EmptyState.tsx",
+    "sha256": "d174111c224091146906fceb574136d07c5b86873f26ce7108017f9bafae96f6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\components\\LoadingState.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\components\\LoadingState.tsx",
+    "sha256": "43bbd829e29f400487e8bb6ba29a60670e51e24f89f7e7efa93b0a8963af99a2"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\components\\TableHeader.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\components\\TableHeader.tsx",
+    "sha256": "e5a9eb3a7359bbaa2b6ee4a51a5a5eb76c1c9e80cc7fe337d4c22fdbb8bc1bfe"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\components\\TablePagination.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\components\\TablePagination.tsx",
+    "sha256": "ef7fd97b496c620d2d744b33041ca76bae8055596ef1a50c23df6a5e96b4c4fb"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\components\\TableRow.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\components\\TableRow.tsx",
+    "sha256": "d4e899befdfd1a401c8891888e50e86e867d3efec8dd0226af15d9872a6c3d86"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\components\\TableToolbar.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\components\\TableToolbar.tsx",
+    "sha256": "c8bc74e953ae0ffdea37223806c4f547ff28b1639605a5f63fa01013373c1abe"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\DataTable.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\DataTable.tsx",
+    "sha256": "e97b27d0037ca9dce7ed56eccc8500acc8d7e141ff6d4d32978851dbb6f63c22"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\examples\\EmployeeTable.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\examples\\EmployeeTable.tsx",
+    "sha256": "4ffc597a6e93bf2796f068ee98e22f45bdd41f92f180f80291d4a5c36238092f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\examples\\index.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\examples\\index.tsx",
+    "sha256": "2b415a2e51e29ba5e3cd38cb1dee940388d39453c3107e82e28cf7f72ecb1ccd"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\hooks\\useTableState.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\hooks\\useTableState.ts",
+    "sha256": "3d247d3a6bcf49e032bc5c4c6121873754b76d35dd804d2838f3f5b746041334"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\IMPLEMENTATION_SUMMARY.md",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\IMPLEMENTATION_SUMMARY.md",
+    "sha256": "4773b7248052fc435cb8795405bfb4fc9996b8b7ad98b869be931da59a30c14f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\index.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\index.ts",
+    "sha256": "81126399da11d8fbb3ed521e15df6b935217a5b1f87123f44ec9b947af35e77f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\migration-guide.md",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\migration-guide.md",
+    "sha256": "b297423d4a32e3639709e969645a0d6dc9f36377af82dfb1510fb42c2ec5ade5"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\README.md",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\README.md",
+    "sha256": "16e9723ac4fbd8992d968746e473463633d97b0f74aac7a686067f65ee88d694"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\SmartTable.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\SmartTable.tsx",
+    "sha256": "877f4d565d25bf0fc92e22d00ab050bd990428a87033ed433c46d286ee32dee7"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\types.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\types.ts",
+    "sha256": "42042fab114e08492adec8049cb787b9216cb6edce36743ed423f171e4651f6d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\data-table\\utils.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\data-table\\utils.ts",
+    "sha256": "83c852e58390826df7eea16f0c8370ffdcc29872510e474c05f9ed2c8ad3b82c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\DemoModeBanner.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\DemoModeBanner.tsx",
+    "sha256": "9ee38574fb857408ca94064f713a0b9c4f208d68cbbdea298a5f1a08715efaef"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\detail\\index.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\detail\\index.tsx",
+    "sha256": "1cf809bdc41545340128980bc095f5f8e52c90dd051b20a309f771d92730a26f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ErrorBoundary.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ErrorBoundary.tsx",
+    "sha256": "0eeb858ea05ada1f415d1c4bb384c4578282f8a4580cc672d6ab276f2d6febfc"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ErrorTracker.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ErrorTracker.tsx",
+    "sha256": "d8aae8eb0360b6d408038123eea8d49cddae3af34ad8bcedab4cc88e3698f6c2"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\FeatureGuard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\FeatureGuard.tsx",
+    "sha256": "d0da9edaf3eb248d1f380dbdc588c8f80cf93922a65746a20b38d19af274ff87"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\AccountDetailPanel.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\AccountDetailPanel.tsx",
+    "sha256": "36e10e144564c1a8088d0b41369a5a2a09f8f40d7e36bea2ec17dd2a643a6354"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\AccountDialogs.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\AccountDialogs.tsx",
+    "sha256": "09ade7f60e78f7c3fa68b3f58b935a43242eaa3312824c9721d413779cc0e751"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\ChartOfAccountsSimple.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\ChartOfAccountsSimple.tsx",
+    "sha256": "8ef8ba58ab4db992c82ca32ba3653fc2b7d3e215ed8311794b7e5139b20ce0a6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\CommissionWorkflow.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\CommissionWorkflow.tsx",
+    "sha256": "c9593d1340b92a550543df89ba6141614f1b5147d974c473e35ec195fc6d911b"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\CreateExpenseDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\CreateExpenseDialog.tsx",
+    "sha256": "37bc7b89894541b66ca8f4f2b4dd20f0eaadb0d2d11f5463eab6e59289ffab1d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\CreateInvoiceDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\CreateInvoiceDialog.tsx",
+    "sha256": "942c0b28408290c1d1b5c63c6dc4a29d07cc8ae4519bb4ead9176f9efa0e9189"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\CreateJournalDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\CreateJournalDialog.tsx",
+    "sha256": "384f5addd62a6fbefac5fb63295284526380c5a0785ec5a1bb9fba63d2c82ca2"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\FinanceDialogs.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\FinanceDialogs.tsx",
+    "sha256": "0b7aa8503b51371349b2fdc0c32effd8ed931f57d0eeaf8e36db7981479ba026"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\FinanceSyncBadge.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\FinanceSyncBadge.tsx",
+    "sha256": "8f396b383b8ecef4cf5d48f0867277e49d4c0b4a909a1d25f7464af6dd7d1bde"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\GeneralLedger.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\GeneralLedger.tsx",
+    "sha256": "37543cbbe032cae8e7e8df738f980de1cb061ad39ba549e1feff0c4823cbb374"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\InvoiceDetailView.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\InvoiceDetailView.tsx",
+    "sha256": "ad9b41d1e789fb8c9971c4f69757b6450366ef1ee0cbb43b44a34e3d3a34b17a"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\InvoicesTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\InvoicesTab.tsx",
+    "sha256": "5aa44c121858ef799ca5141f6fadf4c4c3233c5871cacf4c5969b756701ce4eb"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\JournalDetailView.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\JournalDetailView.tsx",
+    "sha256": "a78aa8c0e7c1c2aac9f1a82e8092ae3bd11428c1666ad5018c2497c713fc9d4d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\JournalsTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\JournalsTab.tsx",
+    "sha256": "94ea87085f518b17ebd4911e894eabdf9db09a54425adfedc7f6ce7031ab8de2"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\MakePaymentDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\MakePaymentDialog.tsx",
+    "sha256": "c240108a6cbc6dc206f9591e4b5d6d77af32cc36039277b669db0aa1244b441b"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\OperationsTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\OperationsTab.tsx",
+    "sha256": "77e8b9352ab3dca21cf72eced54ad48683ae0fbce76435f31022da89e3bedee4"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\PaymentHistory.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\PaymentHistory.tsx",
+    "sha256": "0c91e83a9536e582c526aafb659eae4111dbc48eb7df78da0da35e57d559d90b"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\ReceiptView.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\ReceiptView.tsx",
+    "sha256": "06d62563a4c99a86a80f809e25f191b1d235a9dfac9965c3a79d7c7e5452211d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\TenantSelect.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\TenantSelect.tsx",
+    "sha256": "4cc77a25f600165d5ac31ce89533fdd83ebaece1cfea263d471e1df98bdca514"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\UnifiedLedgersTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\UnifiedLedgersTab.tsx",
+    "sha256": "c2a0910dc7e87799ff6987df0c89f8045e83cca22a50f473996556d494254ad9"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\finance\\VendorSelect.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\finance\\VendorSelect.tsx",
+    "sha256": "6529ad99b938d84923994f551cf359ffc156075ec083cb7a660deb392236f0ef"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\guards\\ModuleGuard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\guards\\ModuleGuard.tsx",
+    "sha256": "2bf2ee0de9c5840c8a8ae124444eafc79572bb5879b65f3f7c1ee88dbbdd7951"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\guards\\RoleUserGuard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\guards\\RoleUserGuard.tsx",
+    "sha256": "755342ec9003ce03f64dd08a28933f6458eff39659b4ba166f563701e6f04167"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\import\\BulkImportTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\import\\BulkImportTab.tsx",
+    "sha256": "1dd1aa5fb20d6c0e402d95fe98cfee414c86fb8dab7e262f9f3d536c141d0de7"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\import\\FileDropzone.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\import\\FileDropzone.tsx",
+    "sha256": "38f2c47eb864e969928ae4075d365aaf89643c70b1d1b94a66e883bb118c5ca3"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\import\\ImportPreviewTable.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\import\\ImportPreviewTable.tsx",
+    "sha256": "a0578dbc2ad82d962427efebc179e517a0413a39dd3cbe173c6823da6b9de2cd"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\import\\ImportWizard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\import\\ImportWizard.tsx",
+    "sha256": "ea500f93c6b8ab43b67ea4328d09d9676f1d1dafdaadb8e972f7d5bbad4f504e"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\import\\index.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\import\\index.ts",
+    "sha256": "08cbde5acee3468461d91eb2c8a2528690bc2a10b5f035e45c18963d4da17506"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\import\\MasterImportModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\import\\MasterImportModal.tsx",
+    "sha256": "ec50794b27bbb0714d519a6f27687cae5f81d18910beee7f0e047d22c1d88ed9"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\import\\MasterImportWizard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\import\\MasterImportWizard.tsx",
+    "sha256": "3ab19f06916830e08770a99b980a2a352fa75eb7d031a5e2f9899a46db7138c4"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\mail\\AccountSetupModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\mail\\AccountSetupModal.tsx",
+    "sha256": "fe336081e7eafa3a18aea651cb0976eb67e88b69abf05af121b9cfba22b5fa19"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\mail\\ComposeModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\mail\\ComposeModal.tsx",
+    "sha256": "0ba103cf490e0644f125c420d3e246d7d63f914c0c2380459ec92edce9172400"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\mail\\EmailList.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\mail\\EmailList.tsx",
+    "sha256": "e957329bc39cd3879a09bcf93304a2b6138fc7110f9b5bf58d0881bd0e3e2f6c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\mail\\EmailPreview.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\mail\\EmailPreview.tsx",
+    "sha256": "b476d6bb64678f79e747e9def3bcb8050e5959993ec2ec41e857e29d2ff327b0"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\mail\\MailSidebar.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\mail\\MailSidebar.tsx",
+    "sha256": "ecf1036f506ba8ef09bd3151f87696cc7a39631c2f6dcd14ce32dc30c854c536"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\Modal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\Modal.tsx",
+    "sha256": "80367f74f1f66e101e335b298e3070e5c1918b8a26cb0bf63498eb473791e9ef"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\notifications\\NotificationBell.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\notifications\\NotificationBell.tsx",
+    "sha256": "a1e5b8a36f4d239b94bdaca19ca44b86dcc5f8b818d9842f3063fd4dc50a727f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\notifications\\ToastContainer.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\notifications\\ToastContainer.tsx",
+    "sha256": "5cbb768fafa4504948ae4bf0cc30ed6f3ba0c427a0821d7c0acd28f0c4195574"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\AdvancedOptions.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\AdvancedOptions.tsx",
+    "sha256": "0230a633f597cbd7a395c2a66dec4fa875a7e5f13c5425a63e3e84142dd080c1"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\AmenityPicker.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\AmenityPicker.tsx",
+    "sha256": "02616b11044901ffba442a92026b1247697033ba86d93d5e2e2b92cd0239f963"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\AddBuyerDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\AddBuyerDialog.tsx",
+    "sha256": "aea4b6197e52fe7aec36affd4c2bee80cfb465251e94d21ab03914e99165d2ed"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\AddLeaseDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\AddLeaseDialog.tsx",
+    "sha256": "4ad30c8cd9a77d6ef81642d60301e4854d0856c137313eadfb517738c25c8af4"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\AddPropertyDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\AddPropertyDialog.tsx",
+    "sha256": "053ba689e3d43f8d994d5e72d28e32937083b5ab10603828f18dd25299ee86da"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\AddRoleDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\AddRoleDialog.tsx",
+    "sha256": "55310f3126d5f878e5823592e9ef50de96697b80cf44d24ef49e7792e2d711e8"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\AddSellerDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\AddSellerDialog.tsx",
+    "sha256": "5c98ef66d2ebc504a15b3e1b57ed5be8a92660658ccebff7ea446966d9d7853f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\AddUnitDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\AddUnitDialog.tsx",
+    "sha256": "3332d7593e8b34b6aee6515297705400dac8159f1c56a999366761e58cc071d7"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\BuyerProfileDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\BuyerProfileDialog.tsx",
+    "sha256": "42f169f21247430bdb27fe2fa7a9f90214d3a3798b80c9bc57f62f409945eacf"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\CancelSaleDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\CancelSaleDialog.tsx",
+    "sha256": "0f612c312f0f694d118a3457fa1be59a4ef1f17e2e9bc99b64a424b103e72f81"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\CompleteSaleDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\CompleteSaleDialog.tsx",
+    "sha256": "ca22d44a936f997a8f175591fe941c06f45e08ab2224a041b9de4e8e0155d99d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\LogInteractionDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\LogInteractionDialog.tsx",
+    "sha256": "59661c831c2bef3aaa742139fb1f597ac80d2efbf920e188fbe09aa889cca7dc"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\RecordPaymentDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\RecordPaymentDialog.tsx",
+    "sha256": "3d9c52bc309581690590a03339a7a4658e498180f23428b8ae20a7d77b118814"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\RecordSaleDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\RecordSaleDialog.tsx",
+    "sha256": "26c0647ccd1dc837af2211b2b869cc3afd2a2aa411ad32ae6737d64c9379e9ca"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\SaleDetailsDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\SaleDetailsDialog.tsx",
+    "sha256": "0b5188f6315c9abd59932fb133e5c3e8fe2979989f22b99b46db4b4454fc2376"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\SellerProfileDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\SellerProfileDialog.tsx",
+    "sha256": "4a500b74d2b8e20060c9dceb04caba2936368e9a31ab041e29489ffc507c0714"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\dialogs\\UpdateSaleStageDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\dialogs\\UpdateSaleStageDialog.tsx",
+    "sha256": "06ed9cdedbbc1a6dea36e6743ffb561a15552635eee1f73405b271a0c23db278"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\LocationPicker.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\LocationPicker.tsx",
+    "sha256": "a2e4ac3ab64a620b931b58da26365b4e1b95e42b9249510a7830273e01bf6956"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\PropertyDetail.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\PropertyDetail.tsx",
+    "sha256": "a9362bb6b53a5fdf7208408fbefd61a42a30ad5b88bff4ceee6ea60aa775a15e"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\tabs\\BuyersTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\tabs\\BuyersTab.tsx",
+    "sha256": "692507ea1695335afc9d10837dd35425aa65549ca76b7419a04881722a4b2724"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\tabs\\LeaseTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\tabs\\LeaseTab.tsx",
+    "sha256": "815551e2a192f66fcc687bed252bab3377b022b2ded4ba9ac26ab19c4462ff74"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\tabs\\PropertiesTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\tabs\\PropertiesTab.tsx",
+    "sha256": "86a877287e8f5794833ecc6704a7ae7cc6a3ee400785898340e9c227e2c2f8ed"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\tabs\\SalesTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\tabs\\SalesTab.tsx",
+    "sha256": "698fc6b3982089004c6949aa735b38692a3bcc5e754dd302fe5e65f89b434522"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\tabs\\SellersTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\tabs\\SellersTab.tsx",
+    "sha256": "acf139a143b92febf4d6da907734fdb5b744b09c61eaa31c04750793f529945f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\property\\tabs\\UnitsTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\property\\tabs\\UnitsTab.tsx",
+    "sha256": "f369328224f9eb1ff4f4df78a630f50ddb3ba297a3c40e95d364c78b861f0f81"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ProtectedRoute.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ProtectedRoute.tsx",
+    "sha256": "505a5892a3d8322d66575c11205ac5d1465d90850243da7648a932c1d0a93f27"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\RecordHistory.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\RecordHistory.tsx",
+    "sha256": "9970f89fbcc042b25774940d1de49942cea1d04d7f17c5e4a6bf2c49dc7bea07"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reminders\\AddReminderButton.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reminders\\AddReminderButton.tsx",
+    "sha256": "1f9d0ed3210a2d36dfda2a612cec9f6f2fd51da4323961ddf465f2e4042c5304"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reminders\\MyRemindersTable.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reminders\\MyRemindersTable.tsx",
+    "sha256": "2c42c9341da3443f54df1474014e564203ad88ce884957a68f5512aac220ad89"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reminders\\NotificationCenter.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reminders\\NotificationCenter.tsx",
+    "sha256": "e9aaa1f109cb2e8288f67c5a3485634eb84d0aa72dd932a7934d4f22d6da89af"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reminders\\NotificationLogs.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reminders\\NotificationLogs.tsx",
+    "sha256": "f465811a8ca89329401f10b93bcf853739718181c2b3a29b39802de0e53fab11"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reminders\\ReminderCalendar.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reminders\\ReminderCalendar.tsx",
+    "sha256": "38f8ec96577a969bf273dd7244cbc4b29b3968ac20fdaa8fa3bdc55e7bebe062"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reminders\\ReminderCard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reminders\\ReminderCard.tsx",
+    "sha256": "73e15e4e86327906cbcd5e838bc35fd3f29f00fbc451353daf9d5e5d99ae4926"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reminders\\ReminderDashboard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reminders\\ReminderDashboard.tsx",
+    "sha256": "26e4a42f137a0661984eba088b8c33610efb5442247e16608390e7e23e34020f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reminders\\ReminderForm.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reminders\\ReminderForm.tsx",
+    "sha256": "e42e1dba0fedd8e6f564685eb9222d7cb6c76ca95d4e143fc9a97ad347d0d6f9"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reminders\\ReminderStats.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reminders\\ReminderStats.tsx",
+    "sha256": "25d77a8e8d2d3a37abc2b4d1da20aae8a0d737fb463289ae7896cb600c0d2097"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reminders\\TemplatesTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reminders\\TemplatesTab.tsx",
+    "sha256": "d9c2837e69561873555c6e263a7c1cc10b52dd1f6524977e69adda8d5bfd85a2"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reports\\ReportDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reports\\ReportDialog.tsx",
+    "sha256": "f26b8c8af501c450319fbc9c0d00b9ad4c68c546ccebf18a42f7feb55675db6f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\reports\\ReportSettingsModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\reports\\ReportSettingsModal.tsx",
+    "sha256": "2db2e6eceabb24b4748bfde3f02fa2b9da392df4d823602aa12d2dd4fc10cd9c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\Sidebar.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\Sidebar.tsx",
+    "sha256": "c80f83abbfb05e53d59f43556b48e3d06da257d2c30f585f8436d6fb49e3ba37"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\Topbar.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\Topbar.tsx",
+    "sha256": "07e204f0571face28a5d3cd878f9ac863aaa856740c533f32f18d232db526eb5"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\AppDialog.d.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\AppDialog.d.ts",
+    "sha256": "a7fc3f7491cc176718136d92cb3bd7f94b633a516cdb1ba291fea9178d1b5d45"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\AppDialog.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\AppDialog.jsx",
+    "sha256": "a95ffd086962deea600b86b2639f89458b6030b2ce5a5d34a0f01f256d664eb6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\AsyncCombobox.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\AsyncCombobox.tsx",
+    "sha256": "5c39f3eae2efc685e5cc250e29f1ef2ae20a255f82f52c515901c8832c4f988b"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\AsyncDebouncedSelect.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\AsyncDebouncedSelect.tsx",
+    "sha256": "08912e87f9bccd9a2d91ff3473556a0864dc6feea37eaf79bed7ec724ac304f8"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\DataTable.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\DataTable.tsx",
+    "sha256": "4d58005039907f40028595d855e708670718889cc0a27da6769bc53ae262edff"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\Dialog.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\Dialog.jsx",
+    "sha256": "a4c49d379f16d57dda961fdbd740254aaf0cbd03bbe7a4098a48954b8045f307"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\DialogButtons.d.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\DialogButtons.d.ts",
+    "sha256": "3d2ed7178a3fe79a6b552f50c5ce7879e7a709ee87866b8d79428c87ca5e72b3"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\DialogButtons.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\DialogButtons.jsx",
+    "sha256": "b393dffb48caaa0234540e23cfccfc4d9d066e8fec99203da7960061546f2c8a"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\DialogForm.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\DialogForm.jsx",
+    "sha256": "f71d25641f56ec57702afd829b9a4039f84a1a75b4ad8b03541075dd609e41d5"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\FilesCountBadge.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\FilesCountBadge.jsx",
+    "sha256": "60d4289ec9f92d532947cb14443377098b21fb41e4106ab2f20bc5af61f6d7be"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\FileUpload.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\FileUpload.jsx",
+    "sha256": "fff365c736b38b04e415fa019be68912dbe81e1feb1017f35dd56cae57791f05"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\FormLabel.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\FormLabel.tsx",
+    "sha256": "26f1d24b4411383f5e434c0eea212456563907505a6da414e1de35d528d971b6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\FormSection.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\FormSection.tsx",
+    "sha256": "c651dadec32802b909ff4d00aada870e23f99251df63ba4b59956aa6306f98ef"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\ModuleDialog.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\ModuleDialog.tsx",
+    "sha256": "2a9b4ea947fb8287617dcbbeff638993a09282ab1326634fd314741ef6968e57"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\ModuleTabs.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\ModuleTabs.tsx",
+    "sha256": "be16a9374a24cc52f0a7cf60ea9a4921cca17353450384b63eb2845c1beb4fda"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\ScreenBackground.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\ScreenBackground.tsx",
+    "sha256": "a14153140bca37eb4b5bf6104bfc6002a6a5ea9c3ee35d1a60433002c50e090c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\SearchableSelect.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\SearchableSelect.tsx",
+    "sha256": "8cb78380ddee9cfb69407ea792ef5bfe94479ac7f7ba829fdf62cb0ce06a5da9"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\StatCard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\StatCard.tsx",
+    "sha256": "01efe7546799bd6e06962b7a8dae212344a0f784a8568e7469b726e3f7b674c5"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\ToggleSwitch.d.ts",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\ToggleSwitch.d.ts",
+    "sha256": "0a0d844953de730fe8b4d52048ebef5d0bac4936165c9024a28e5415ab1c8f01"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\ui\\ToggleSwitch.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\ui\\ToggleSwitch.jsx",
+    "sha256": "05eb76a6c36ca4e050fe67d7e66a2591acda83a6ba9ea5bd4e10714f7c353cf7"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\components\\UpdateNotification.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\components\\UpdateNotification.tsx",
+    "sha256": "f60a01a740d3a277b20c8411964b70548f63f2072700dbc64523ee33ab21d7e6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\admin.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\admin.ts",
+    "sha256": "39c21c37f384062f8762536077eb8585ce90ade74ceffd660cfb86c037a5df31"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\ai.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\ai.ts",
+    "sha256": "20e1bdc03135ade5125bce963f69e96a48094159354460ebd0e6120ebbb98224"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\backup-restore.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\backup-restore.ts",
+    "sha256": "dc089390a95f6c9375c4baebcfd7759bf6250dc0e169735942c1435ba14f91e9"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\communication.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\communication.ts",
+    "sha256": "fd389486b62fd400a19eaf5e8c2f6bb8fd94322535d97fab1221f3921e4ce6d7"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\construction.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\construction.ts",
+    "sha256": "3f3ccfa19b67886855a652246a7665d7d9a074cd5438bac930d507e090c2961e"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\crm.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\crm.ts",
+    "sha256": "2cf6a4680faa19960882b475de85cf1209e03956bf1178ad3a45202c751a7b95"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\dashboard.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\dashboard.ts",
+    "sha256": "9ac2185596298c2a0bbd9cab98198b6bcd2883b6f44515386b81407b4ebb7c78"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\finance.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\finance.ts",
+    "sha256": "295352cca412a9f35b5d8bd2f90140527c3922df5f459ec7be7c9131c95dde03"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\history.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\history.ts",
+    "sha256": "79e19acb6c976c61baf30fc1081043ea34e16a2699cdee3b8dad761d2388235e"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\hr.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\hr.ts",
+    "sha256": "096cdd2ac5f57d85da3d5ceff22f6ad6c389b6bf362e6c0e56b4203b560fb0fa"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\index.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\index.ts",
+    "sha256": "7ea11b8d431dee594b3b9cc55cf7d9cbe8047200a041b6006e0e2d30fd035da6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\maintenance.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\maintenance.ts",
+    "sha256": "5f67e32fbd8b4829fe591cfcdefccdbc49dda1ed641fafe9d033362eb7742ebd"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\properties.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\properties.ts",
+    "sha256": "1dd7a067b82f193d7d6f7a4b4103ea7cdf47ab643b335b9df4c41a038df13701"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\recycle-bin.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\recycle-bin.ts",
+    "sha256": "e59cf06555dd3a15727835e29247d4a6d7674176bb7d1c8b552ad4c54757970a"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\reminders.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\reminders.ts",
+    "sha256": "13af281596da45888cfef24a59fe97d00a530d62f5588466cfc250e2a4de880c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\reports.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\reports.ts",
+    "sha256": "044ecc9188801a7a42c09ea71b19da3a8aa99d3a6922732b5010403b070efc03"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\spreadsheet.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\spreadsheet.ts",
+    "sha256": "9c172387ff9921912aec866f26a2de9087422d0ef3cc5bed38a922038b075bdc"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\tenants.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\tenants.ts",
+    "sha256": "82e913e26849384e3da9c3cdae1d20027c74335f1e654f084ccde91ffa3a3b5b"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\docs\\towns.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\docs\\towns.ts",
+    "sha256": "823c1861405b37d37b66fe8c7f41e4e567d1fda78f422600b3bc09af4588094b"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\moduleColors.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\moduleColors.ts",
+    "sha256": "4a01bb71b2a0bada78f5a57d7553e79decb4afd99f900103578e1975d0901735"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\moduleTabConfig.js",
+    "ported": "demo-apps\\eyerrems\\src\\config\\moduleTabConfig.js",
+    "sha256": "8e6614cbc5d3ff79c11b1fea9661bbe5e2d8e4bc381c1ad72a42d6b69dcee43b"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\config\\reports.ts",
+    "ported": "demo-apps\\eyerrems\\src\\config\\reports.ts",
+    "sha256": "513ac827a9f752d7fb398ef0c675d549b9f6598ed9eee00fd10600487c20cd58"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\contexts\\ModuleColorContext.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\contexts\\ModuleColorContext.tsx",
+    "sha256": "4a0c801f64dccbfed3c3d95123c52456c4e52e10f025ec43be2b95c4a0d0be14"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\useActivity.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\useActivity.ts",
+    "sha256": "9e4c9c308e7d221e65cb1601c626a2cf60797e4aed3e5e292adae538a858e155"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\useAppBootstrap.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\useAppBootstrap.ts",
+    "sha256": "2692e5dc519baaf2a9c49018da0803331408fc5bfc6a362b75636de8ae7805b3"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\useBookingTransaction.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\useBookingTransaction.ts",
+    "sha256": "67cf1c513fa03ba4dc9cfcb2c8fe8a9987df1719b9c3229ebe10127264ce758e"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\useBulkImport.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\useBulkImport.ts",
+    "sha256": "3c00eeedd566af489c7f75021fab687253d22eab2f550b6466e030b2c96d906c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\useFinance.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\useFinance.ts",
+    "sha256": "29fdd16e40731e2c9f3923aa2bfaf6f172369b73d2f792c5c9c8f134feb5cc12"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\useLookup.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\useLookup.ts",
+    "sha256": "190a288b7c349d966aea5b28b3e2ef28e39d84aa5b217d94a3aae64f5c4c1958"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\useModuleAccessV3.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\useModuleAccessV3.ts",
+    "sha256": "2c830b32b1690cd379024cd0ab3b561381eb2b20c4a9f8ffb04c0132a166ec9d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\usePermissions.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\usePermissions.ts",
+    "sha256": "2d97b8eb40d59c911f79c01e7bf54187abe4364f8a91fea16af8274e91f9134f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\useReminderWebSocket.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\useReminderWebSocket.ts",
+    "sha256": "2f193efde59c132401ac777ed64f54212a4965fdd3504eceeeb756521d9ab0bf"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\useRowActions.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\useRowActions.ts",
+    "sha256": "4f2cf0356a08af9f8c5dad272590466da7afb96c46d95cc272e33e8d7d81c5ff"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\hooks\\useWebSocket.ts",
+    "ported": "demo-apps\\eyerrems\\src\\hooks\\useWebSocket.ts",
+    "sha256": "2523c15ba63a81cb3aecaedeb15bbf50cc305f481a9e53162842c0c907928fed"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\index.css",
+    "ported": "demo-apps\\eyerrems\\src\\index.css",
+    "sha256": "26e5feef7c6a43ab587af8b67d021d508af84ae67cb8500bc3a479e01e6dd714"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\aiApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\aiApi.ts",
+    "sha256": "150e9e1ea25a3ded0ac1facbad117bc615e77479758804cf6395068f5d997a84"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\api.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\api.ts",
+    "sha256": "80dcb725f479890e49fd3b7028a9605486ae8072e1fb1581de5cb56515a2b14d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\attachmentApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\attachmentApi.ts",
+    "sha256": "291d27b1f9459d44c09dd14cb923df27a0d28fd932472bff8e0dc058cca2086f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\auditApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\auditApi.ts",
+    "sha256": "b09b3221c37e2a77c1b2d53b72228fa109af151faf84be8e340905c64d238f6f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\backupApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\backupApi.ts",
+    "sha256": "968b078d830525be41b514d530906a3575c70c4ad2899c03db98246e83393ffb"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\bookingApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\bookingApi.ts",
+    "sha256": "05cb7ec65968ea99890d3d0aaca655b03444145eb1b31685e5069a5e294b49b2"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\chatApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\chatApi.ts",
+    "sha256": "6341dd568b867571d5ab7ee728c85bed8a0de2609d06d5febded5d7bde47f5b3"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\cnic.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\cnic.ts",
+    "sha256": "a3b0cc2213499d298e08eb7fab0b8a727c6ff0d487cb24fdea0e9a22c218b9f0"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\config.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\config.ts",
+    "sha256": "5f7955340ad92b9d2d53a72d9f0471f69c7058f9d564f76a73d0d3a3db8c9edf"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\constructionApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\constructionApi.ts",
+    "sha256": "66d4a0f380e49b101cfd7c2e1e778ca4fa9862247ff31c90e06970997f2eb606"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\crmApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\crmApi.ts",
+    "sha256": "8d286d9f826773920297ed6b9e9399d42dc0582607180c4eeb6ba1e58f300a00"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\currency.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\currency.ts",
+    "sha256": "e7152b6ef740e885999d858200746adaf5a1f14933b0be126fe48114c103ced4"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\entitySearchApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\entitySearchApi.ts",
+    "sha256": "c6ef1b0f337862fb99d58e076db519644f3ae3f92413cffb7a8bb03fe1a43ce7"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\financeApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\financeApi.ts",
+    "sha256": "407790b568ffa990099459502fa6b905da585fe1577a4c23e9930d360047d330"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\hrApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\hrApi.ts",
+    "sha256": "45cd2c3b9b5be7b519c6206a907f2da240a059dbda0e90ab9aa58e5c9250e3c5"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\importApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\importApi.ts",
+    "sha256": "d437eec3f4b490596c00003703fbcea013665486cd688670a09162ef5655500c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\installmentEngine.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\installmentEngine.ts",
+    "sha256": "745e3f3653bcbc9936ac771a3df1fcea6b607ff049a2dea4448b67ab9e2eecb4"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\ledgerApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\ledgerApi.ts",
+    "sha256": "16d7b6fd068b5505528e7e7789995bfc395b4f26af0417daeeb874a84d2b32a7"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\lookupApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\lookupApi.ts",
+    "sha256": "173c8973ba0ed7c207c70cd06b37cc2000d91591db37ae4a20d2e0c100284d02"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\pipelineApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\pipelineApi.ts",
+    "sha256": "ddafe5ee11e83adddbf023a558a27fe21e0dd510953da4a474e8e26ee36900d1"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\propertyApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\propertyApi.ts",
+    "sha256": "4307de6367934989b2872a5cad5645990339e3278493d5d7d7103812d62b1d8f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\rbacApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\rbacApi.ts",
+    "sha256": "a0b3dc5928d625902ecf7dd9f760ffa42b9fb9c424228c9b0810e4894605b547"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\recycleBinApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\recycleBinApi.ts",
+    "sha256": "2babb364b58631adf7eccbc37be05d83916070797a5f73ec2759602bd0041a11"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\remindersApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\remindersApi.ts",
+    "sha256": "9eb9975d40a454371ae707e3c84630ea60dd96a8c7efedabd7c0f71b8be0ce93"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\spreadsheetApi.js",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\spreadsheetApi.js",
+    "sha256": "975995e20e314f2c5547606ba12064cc1aba53385cf924f15a93ca0f87006da3"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\superAdminApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\superAdminApi.ts",
+    "sha256": "04297b1dfea1b4e800a157244288f017e7f445aaa8d9b10397c72e8282a0a514"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\tenantApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\tenantApi.ts",
+    "sha256": "c53025d746808cc5ee3202434e6d24f7e46f41c07bef7f57705b81958346dede"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\toastService.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\toastService.ts",
+    "sha256": "bc13499ff8da49a6200036c48404d9ca469597009dbac3092febe5c1dd4ea8e5"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\lib\\townApi.ts",
+    "ported": "demo-apps\\eyerrems\\src\\lib\\townApi.ts",
+    "sha256": "e4988025eebf898a4ae75a2f537f3661ad7d4ca5db8b542ae1226a263ffd05fa"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\main.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\main.tsx",
+    "sha256": "3e4f5b711685b8b30cbbfb3a0a0bc9e873cc57cf16e18c1fc53af9be8c3f6932"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\Admin\\tabs\\AuditLogsTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\Admin\\tabs\\AuditLogsTab.tsx",
+    "sha256": "adf623b368d040ca00182a3f3b402f72d583133f957762711d8e5e2279329c43"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\Admin\\tabs\\DetailTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\Admin\\tabs\\DetailTab.tsx",
+    "sha256": "5cba6eac872152c72fedd10f6be1781d8ee8192bf06f06fc9ef20a541db25456"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\Admin\\tabs\\MonitoringTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\Admin\\tabs\\MonitoringTab.tsx",
+    "sha256": "41161aa0f10e4b52b7e38fa7fd4761378abc8ccf0616fff1cdc55ccfa6cd61de"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\Admin\\tabs\\ReportSettingsTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\Admin\\tabs\\ReportSettingsTab.tsx",
+    "sha256": "302c3c47ff7af542bb113ed4ab34f3d0ca7b25f40ef55367938319a92ddbfa68"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\Admin\\tabs\\RolesTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\Admin\\tabs\\RolesTab.tsx",
+    "sha256": "75f66a75fc6c74cf1ef0709009b9380b632465cd499d38fa774a939d79350ab3"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\Admin\\tabs\\UsersTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\Admin\\tabs\\UsersTab.tsx",
+    "sha256": "090da516e40d047ddcc33826016509f0611185109f3daad24123f7105ec88f66"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\ConstructionDashboard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\ConstructionDashboard.tsx",
+    "sha256": "38aa10cb9517bbd272dd99b3dcc03aa8d43286e002fa7589397337ff5bd9c5bc"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\ProjectDetails.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\ProjectDetails.tsx",
+    "sha256": "89de67fe8bd6ffa5723613a5440fcf699bb322b50886a5d397880f502c3ba431"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\ProjectList.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\ProjectList.tsx",
+    "sha256": "55b0fd3eacf3785f4134a3a201b02ab1833be288bb05ca9fa27d15837e64163c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\ProjectView.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\ProjectView.tsx",
+    "sha256": "36e1afd2577dbc87928ff8315f28d973b4cfcbe081bc6c2534c17c0d72af9811"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\BudgetTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\BudgetTab.tsx",
+    "sha256": "7dd45b9682a5516bad6c7f516312f5dda14e83d839fba6430ec572b7fee62d00"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\DocumentsTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\DocumentsTab.tsx",
+    "sha256": "36284f7893d6b404fdbdbda49e341df1cb892e65ebe89010b10f9ae0309192b0"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\ExecutionTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\ExecutionTab.tsx",
+    "sha256": "fd333c39361c625e73663736dd2dd8da707ef195adcc311617be9a2924285c07"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\FinanceTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\FinanceTab.tsx",
+    "sha256": "995d7bbabefb4d73bf544e44e7fa09d905f363cdab00c39c91dedc69b0f61377"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\NotificationsTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\NotificationsTab.tsx",
+    "sha256": "67cc8e9ef96575bfa0d91ca6e19d88345bf97587039a76f7890b1575671bc6f6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\OverviewTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\OverviewTab.tsx",
+    "sha256": "e2e4009aed6f724446635ea49d4a0e53bf8b04d00a9168a75589c1b6caa1f287"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\PlanningTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\PlanningTab.tsx",
+    "sha256": "4ed28d2e9a2c97b3f29d894850170426d17ff1841aa4de723a33ee035677654d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\ProcurementTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\ProcurementTab.tsx",
+    "sha256": "c56620eb4ba9f152cc6cba7533b55275c5879765fb390cb7e2ecb3cc42179fd4"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\QualityTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\QualityTab.tsx",
+    "sha256": "2fc608ee71426706fdbed7749030317385dd3f021b310891a691dc24fd2c4ffe"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\ResourcesTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\ResourcesTab.tsx",
+    "sha256": "eb3c7138562bace3f1fdaa37cbbfee0809e050fdea55ae240af67c1a1db10a10"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\SafetyTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\SafetyTab.tsx",
+    "sha256": "9bfb3638f17ff330ee64d88cadea3528dee725a2fa76aa5bb791ae3639192570"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\construction\\tabs\\TimelineTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\construction\\tabs\\TimelineTab.tsx",
+    "sha256": "02e9e723745b371c998b8c3047c3136ff954c8ae5c8be68d1e3f69cacc25fede"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\SuperAdmin\\pages\\CompaniesPage.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\SuperAdmin\\pages\\CompaniesPage.tsx",
+    "sha256": "93920964c7f700aeb1cf0716feb3625c559205a322488ebb6b092397a4d04903"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\SuperAdmin\\pages\\CompanyDetailPage.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\SuperAdmin\\pages\\CompanyDetailPage.tsx",
+    "sha256": "dc4bb36a311eeafd0b581379e5189f614064f3e175f544fb0154c16ca673f0ee"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\SuperAdmin\\pages\\DevicesPage.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\SuperAdmin\\pages\\DevicesPage.tsx",
+    "sha256": "0031e1a3280c98b1127d38c2c31143bd7fd2f34a7154811d3c2fe93789fee912"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\SuperAdmin\\pages\\LicensesPage.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\SuperAdmin\\pages\\LicensesPage.tsx",
+    "sha256": "afecadee493c4c7ea87ab20454c17a8d66bb107699dd2c7f343470f5387bddac"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\SuperAdmin\\pages\\SuperAdminDashboard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\SuperAdmin\\pages\\SuperAdminDashboard.tsx",
+    "sha256": "18809adb2c9eaf697020842ddb01c17d2041c1b20b434c5e3531b32b40c19003"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\SuperAdmin\\SuperAdminLayout.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\SuperAdmin\\SuperAdminLayout.tsx",
+    "sha256": "efa742c454e089ccf7c9d6332261bbe63ca956ce269243bb92df85f71f5ae214"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\Sync\\api.ts",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\Sync\\api.ts",
+    "sha256": "ca3fd3c0e903c02be4cdf02ab1c249527c1e0bf168d5f4eeee687a3116c14856"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\Sync\\SyncPage.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\Sync\\SyncPage.tsx",
+    "sha256": "4a28d04259adb16b9a8c33166fef6187afd4d7f3d6bdb5a22af2f43b20961693"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\modules\\Users\\UsersPage.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\modules\\Users\\UsersPage.tsx",
+    "sha256": "dd15d9724fa874a40e7e5ba9fa6a5f1899b87bfe93c0810381dcd6406dfd035d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\AccessDenied.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\AccessDenied.tsx",
+    "sha256": "5428f7d941d1856ff2265b9ad0fa85240af9113a629f932eb88e63d8ff7a88ea"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Admin.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Admin.tsx",
+    "sha256": "ce5b57b28f21523f27177c04c4ad87d03f5c8f0446633d0f9549fb5d385d4811"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\AdvanceOptions.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\AdvanceOptions.tsx",
+    "sha256": "50b4488015436c95876602668741b4c68abd3a3b24b76e1cc55b44f1f756848b"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\AIIntelligence.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\AIIntelligence.tsx",
+    "sha256": "d250eb00c8dfeb44973cde6799cba93a8a0af9e1f3b752617f4863ccef2f78d5"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\BackupRestore.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\BackupRestore.tsx",
+    "sha256": "cd0e32ccc22700ab1553b1e9f13ef0ef659746eb0ffb9b7472fc5c5e232498ad"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Bookings.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Bookings.tsx",
+    "sha256": "ab9aa706169a761804e8f036d94ea633f939f08d76f65eced2aff61f784131b8"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ChangePassword.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ChangePassword.tsx",
+    "sha256": "8d957a9e043c8db5ff13494c401bd890ba9eaf61f3ad91016bae4cff561406ff"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Communication.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Communication.tsx",
+    "sha256": "d5d4fabbc1db054d342f34b7592c8a0db245736acd8bff88071645dabf234403"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\bookings\\BookingConvertModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\bookings\\BookingConvertModal.tsx",
+    "sha256": "aafee2f645b62e30c3dede91b791288ecb5adafa61f7a934ceb69850f587f919"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\bookings\\BookingCreateModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\bookings\\BookingCreateModal.tsx",
+    "sha256": "41f8d864575ba3383bdd4fff6b7d3a9a9cf3cd09d6225bc5a5d0a2451bd29207"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\bookings\\BookingDetail.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\bookings\\BookingDetail.tsx",
+    "sha256": "7a40468a9445d21f3814be6caf2cfef4a1d5229e01839791a862b27511964ffc"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\bookings\\BookingExtendModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\bookings\\BookingExtendModal.tsx",
+    "sha256": "c4d40618c5ea364baffb317cb13edbaed03434d9afb1efcb109947e186abbecd"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\bookings\\BookingList.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\bookings\\BookingList.tsx",
+    "sha256": "893bf3d3eea751868cc1be48c7753f3b2a5ee8b5d41a41c475df870d314116fd"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\ClientDetail.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\ClientDetail.tsx",
+    "sha256": "c940f8ac297170778c6cecb5ecc48169992f1f2ec6bd95f1f5e13eba8d7338b5"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\CRMDashboard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\CRMDashboard.tsx",
+    "sha256": "d603aaf2cf5c38e5724e730a2bbe32408856939df6e771014a19a3edea800f21"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\DealDetail.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\DealDetail.tsx",
+    "sha256": "c3e08f715ee0224d512da208809da63941cf9d33e14cd961eca14f6350565c05"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\DealerDetail.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\DealerDetail.tsx",
+    "sha256": "bf4c7a6569b2cb528d8ec30780815b58eefaa58e6f2b70570a83d2964a1e4234"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\FollowUps.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\FollowUps.tsx",
+    "sha256": "bc79201abdebc099899dc51aff352305c2c0887c2c566ad064d27039f1de4efe"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\InstallmentPlanBuilder.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\InstallmentPlanBuilder.tsx",
+    "sha256": "7fec3b4617b6f56bbd510795a310b43e306930ba29887be361594c5d5f93d870"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\Installments.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\Installments.tsx",
+    "sha256": "777d5d58616cb126dd7249f7dfcc2d2c908c1bf9f24e47944c9e8ff165f0d1c2"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\LeadDetail.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\LeadDetail.tsx",
+    "sha256": "0e59a35b14256f0ad3cafa2425468e3a417a9040c0164bc6474b8bbaf746bef2"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\Payments.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\Payments.tsx",
+    "sha256": "22c50b5ab1df3cf2ddc01b671c562f62331962cf7acd65ec904b083d8a4c6903"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\crm\\SiteVisits.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\crm\\SiteVisits.tsx",
+    "sha256": "6801dd7e9de4ecb9d3590007552cace111b5f9b379d08132be68a2c1a516e6af"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\CRM.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\CRM.tsx",
+    "sha256": "9548aaa628dc61b9cbf7a3f26bec2ea0e3d8e6653ca4cf6ce220a1d6171782d1"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Dashboard.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Dashboard.tsx",
+    "sha256": "8a4bdd5cabe8dd63825d8d0c1c09f4eeb0854281d0daac91d24b8f0a5255ed7f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Documentation.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Documentation.tsx",
+    "sha256": "96bff4425df0c71356d71f366d726aa0562b501188f3089bf9aede4b371ad599"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Finance.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Finance.tsx",
+    "sha256": "cebfec9e383e58cefb09b7a8b3c8a1fe87b72901354d20fd528d268a9f05db0a"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\History.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\History.tsx",
+    "sha256": "d460d54588c536d318b0ad5469239d642d271b33700694ab9d24bfec59027a6a"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\hr\\PerformanceTab.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\hr\\PerformanceTab.tsx",
+    "sha256": "e324d438d6a6c564506d3eead1e1fe4db4d356ddb4daed0b03a89fe743ac08b1"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\HR.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\HR.tsx",
+    "sha256": "70c4362772fc786de07b8b45557dc0cac79ab36cd02b651ae9b6da09bc53a7ae"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ImportCenter.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ImportCenter.tsx",
+    "sha256": "519a1699fdae30b238b33b84498be7da64a89809bf8a235680fb01234e6f6895"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ledger\\AddEntryModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ledger\\AddEntryModal.tsx",
+    "sha256": "d90b077aa7873b44e3b19030e4c849cd89940c5f85ae30fe3976a9a489a5e43f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ledger\\ClientLedger.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ledger\\ClientLedger.tsx",
+    "sha256": "fe22ec7bd39780ab556a07d81d8fc818865afd3eca5e3cfed764a98e647dc7af"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ledger\\DealerLedger.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ledger\\DealerLedger.tsx",
+    "sha256": "1d2f71d18c133ec7fee6d2ff1a69031186b424edc79e147b0f69fc8ac3dda9b6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ledger\\LedgerDetailModal.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ledger\\LedgerDetailModal.tsx",
+    "sha256": "bf72939b9981ee231721d71e71b6f8689564a751b6ac011508b228473c9bd85a"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ledger\\ledgerExport.ts",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ledger\\ledgerExport.ts",
+    "sha256": "0b3e1a290c5c85c878cc8413e9db515d34364d3872f6c1f30c18d1d3f9e33df1"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ledger\\LedgerFilters.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ledger\\LedgerFilters.tsx",
+    "sha256": "6b862da6a87009e1677d6af2a69dd7c24504c17a6c6c733c1abb72704eef11c5"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ledger\\LedgersPage.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ledger\\LedgersPage.tsx",
+    "sha256": "0f5ff64b0db4b7d029f3f7382450fdd9bc6746bfd4b02b504a86e406f9236038"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ledger\\LedgerSummaryCards.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ledger\\LedgerSummaryCards.tsx",
+    "sha256": "98554c283c28b96f186bde0613c044ad695fdb66dc73a2be9ef7118309b19d3d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ledger\\LedgerTable.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ledger\\LedgerTable.tsx",
+    "sha256": "af24719ec435a2cc24ee46fdb1f6251f11b99cd8e663543c4d4b8d4bb8d26fb2"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ledger\\PropertyLedger.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ledger\\PropertyLedger.tsx",
+    "sha256": "cc4dedd401592504b879c279cae4ab732b621c488956128b5b3964fc0f104aa0"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Login.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Login.tsx",
+    "sha256": "f9030d3c53f5a5de0f6a9c4ea3c42eba17952ace3a88e7f03e7c87b2deed1478"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Mail.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Mail.tsx",
+    "sha256": "68783ae2cffde059cbca823a48c8f4a38a1d5eb0a209f3bcff48dda87aa37887"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Maintenance.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Maintenance.tsx",
+    "sha256": "a237bc98d084ab36692b06a92d4a2d1182f561a3dea779b14073078a531128c6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ProductSpreadsheetPage.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ProductSpreadsheetPage.jsx",
+    "sha256": "603a1969d3a778de90f5cf8bfa9ea218eb69c8614d6488de9e2026ce67d8a617"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Property.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Property.tsx",
+    "sha256": "4da98115aaea9581bed96fa6e6f1b6e4dc285a0031fc4aa32fa6efec7c89594d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\PropertyView.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\PropertyView.tsx",
+    "sha256": "57f39f3bc67bb0324300391295b03ca116c6dc9ce08be55290bff82e2091019a"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\RecentActivity.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\RecentActivity.tsx",
+    "sha256": "7084cc5586384a15c97e90b80632f3e7c52ea02ff4a0c8248033b7787d67f7b2"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\RecycleBin.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\RecycleBin.tsx",
+    "sha256": "9645a295f2d2498356ab85abf61f954e986708b081d87a2b7ffe460aacae35da"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Reminders.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Reminders.tsx",
+    "sha256": "074fe1fecda1145f218b5437d2bd9d879a560836787370fa2315ae79b4b36d57"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ReportDetail.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ReportDetail.tsx",
+    "sha256": "205e919f2b45d7a2f9e535215f9b05355ada16bb2c702a186707b7d60f98e8e4"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\ReportsHub.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\ReportsHub.tsx",
+    "sha256": "55a38233e7c7c58680d405798caaa4e7dada7d8f6e430b07d6ba146522474fa8"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Settings.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Settings.tsx",
+    "sha256": "0123a7d5ebb2a8c536e02df61d8835fe61b8ab31b9a3810391e3b77b2c4785ff"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\Tenant.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\Tenant.tsx",
+    "sha256": "762564359cf5b07bdc2a9fe35efd60817d7aa5d7c4cd6b00ce4054bb517eafd6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\TenantDetail.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\TenantDetail.tsx",
+    "sha256": "02d2832e55675d38b633368625be75394751d976cb8e9da0c32189eabedcdb94"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\towns\\TownDetail.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\towns\\TownDetail.tsx",
+    "sha256": "fc0ba6b286c726264ad5856cb5ab3264f67cc8ca3a08ce1a45b43bff2a8a4e4d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\towns\\TownList.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\towns\\TownList.tsx",
+    "sha256": "ed43975eece0ddef65d97321b15647af3f8da17549e6bef0d6e2c217e48f308e"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\towns\\TownManagement.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\towns\\TownManagement.tsx",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\pages\\UsersPage.tsx",
+    "ported": "demo-apps\\eyerrems\\src\\pages\\UsersPage.tsx",
+    "sha256": "dcf070d87d159cf0e90bf71cd63ea329aa6ea826f0c722ce06c2372b5e905a99"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\services\\calls\\CallService.ts",
+    "ported": "demo-apps\\eyerrems\\src\\services\\calls\\CallService.ts",
+    "sha256": "20a3e1880b9ec1dc7823dfc95a6c7d2157d9d59b3f235c3a676da87dcadd3a71"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\services\\chat\\ChatService.ts",
+    "ported": "demo-apps\\eyerrems\\src\\services\\chat\\ChatService.ts",
+    "sha256": "7814e86efa24463cbfc3a112447e14788f53a902b55c4ac038f344b07bd60982"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\services\\fileService.js",
+    "ported": "demo-apps\\eyerrems\\src\\services\\fileService.js",
+    "sha256": "3c945a7d3a4b83e324c714b24ef89855b04f01e5097dcd230736178a607d4f31"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\services\\whatsapp\\WhatsAppService.ts",
+    "ported": "demo-apps\\eyerrems\\src\\services\\whatsapp\\WhatsAppService.ts",
+    "sha256": "43fee917f6751e34ef99e749aece3c9afefdf77dca2dc4f56014208e48034191"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\components\\ContextMenu.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\components\\ContextMenu.jsx",
+    "sha256": "8bd636174d2eb4099f80506b9b4e2401f563ca3525311398866071a62b92fc52"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\components\\FindReplace.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\components\\FindReplace.jsx",
+    "sha256": "cd6c87f230a8ce0db23490a0101400e015b9cf2345c8d4bb8bdc780e16625034"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\components\\FormulaBar.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\components\\FormulaBar.jsx",
+    "sha256": "448a57609b412e1d69eaae071a25a9bf3ce0676e6d859544dc098660b322a7c3"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\components\\SheetTabs.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\components\\SheetTabs.jsx",
+    "sha256": "0aa2e6a042520963fc70c837e6b4bd84028d140dae725b2371b84503f5c9829d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\components\\StatusBar.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\components\\StatusBar.jsx",
+    "sha256": "e86d1055795159588d2196dcf06eeeea8bb04156d2866ba7bbee8d8abc7bd8b8"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\components\\Toolbar.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\components\\Toolbar.jsx",
+    "sha256": "62d38c254ebd5916aa629a638cadf31432035420398c36cdec774b6f4096b0e1"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\core\\CellStore.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\core\\CellStore.js",
+    "sha256": "052b13b1fee02275f0bf7d126bac2c402399c68ae9baff09d118cfa1edda9280"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\core\\Clipboard.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\core\\Clipboard.js",
+    "sha256": "e8632513e20c8bcb3e9ccea1fef82cc3448a9e6a084a33264dd15ff8168a45d5"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\core\\Commands.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\core\\Commands.js",
+    "sha256": "708de201daf1f1f210889e52c1eb2fd4938aea5927b0fdb4e39e31c8a0c55e44"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\core\\EventBus.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\core\\EventBus.js",
+    "sha256": "19e6b6ff17dd4c517086e42c0015601301d4dfe9ff7c164eab22a978f7c23125"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\core\\FileIO.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\core\\FileIO.js",
+    "sha256": "faed112e636f41a9d4d95d056359d039250cbde01b659df7a9ef74fe3885ec37"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\core\\FormulaEngine.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\core\\FormulaEngine.js",
+    "sha256": "70f51bc88d288c37e71c588cd6eeab81e8dfaf81159c9f2d210bd67ee59b3d78"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\core\\NumberFormat.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\core\\NumberFormat.js",
+    "sha256": "c59d73fb525f7a3bec486bb2ce55b11cb5866a026c256af0a1fa66d750a0cac6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\core\\Selection.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\core\\Selection.js",
+    "sha256": "c765aec1e9146ff1ae88842642f9d5ed1488c098a929325b05c5b9695eec84c3"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\core\\utils.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\core\\utils.js",
+    "sha256": "529f02d62cdc73fc0f7e4aa1e3569441f69d2cd62a31ac940ecf4df9f81bbd85"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\core\\Workbook.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\core\\Workbook.js",
+    "sha256": "b9a44da235cbaaee105cfc42358cc48525f1ac2af05ab09d154a0df5921dd3b3"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\hooks\\useGridTheme.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\hooks\\useGridTheme.js",
+    "sha256": "08216e7723cde5cfb2f62fb75f19579656e1fd832adbabafa7f1678b3f2157ab"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\render\\GridRenderer.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\render\\GridRenderer.js",
+    "sha256": "367ace0db603ef7f62c187b863320c782684ad0f888299f2f86443408c0c5776"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\render\\GridTheme.js",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\render\\GridTheme.js",
+    "sha256": "77fc51ec2fdf65104164b86d9484249a30943ede79ed78d75a59af3843322f9c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\Spreadsheet.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\Spreadsheet.jsx",
+    "sha256": "24bf00238addfce1f3e98cee03771b878917d24b55535948695b1c497d98934d"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\SpreadsheetWorkspace.jsx",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\SpreadsheetWorkspace.jsx",
+    "sha256": "e50457e22a3a7cd8d5da58c7c475cbb3b48996b401ee48567f6c93fcd431b8e4"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\spreadsheet\\styles\\spreadsheet.css",
+    "ported": "demo-apps\\eyerrems\\src\\spreadsheet\\styles\\spreadsheet.css",
+    "sha256": "d0be3335db2608079e5846232b2eb975646a034e8b2c531bdb675d639194a45a"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\auth.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\auth.ts",
+    "sha256": "cb6fef69956ba0306c9dd9ea7cfc59e4004d102ee1287b4397383f6b6b14cc3c"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\calls.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\calls.ts",
+    "sha256": "ea687e68aee1d84e7ff59e86f82e54b3cc95890419445454c3cc312d3834c7e4"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\chat.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\chat.ts",
+    "sha256": "e379af306c743225823912bb705e508c3acf563927d83336984b50ef173c67c6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\constructionStore.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\constructionStore.ts",
+    "sha256": "f9e1829357e99d25b989754c1475ce64ee4be218e963d9a38257710cca8ae71a"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\crmDashboard.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\crmDashboard.ts",
+    "sha256": "d532e1a9c7c4d3cd2e01e5bc8bdf2b463f9549f9ad2f1bdea4b15f6eaa811528"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\currency.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\currency.ts",
+    "sha256": "99990dcf0c4765098ea688bb054891ecbfda14250d72e8fe90c656f7a4599286"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\dashboard.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\dashboard.ts",
+    "sha256": "a668092d84536b7dc213681543c260c5870ca27717126a7c98ed0472d9b6e6b6"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\mail.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\mail.ts",
+    "sha256": "7403494e1b2be45821e5e70db76e622c6dd5909f6a9167e99629c1a5dddd0451"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\notifications.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\notifications.ts",
+    "sha256": "f7f0b45bece3c7d1e1b655d45f2298e4e44a1a7cdce8dfb147b616b7c35658de"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\ui.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\ui.ts",
+    "sha256": "d63e29f62e6cf3b37b09e79087aba479983ad4e7b75c3950a48ce40838d1a8b9"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\useDataStore.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\useDataStore.ts",
+    "sha256": "8167d6fc29197a5e394435193c441bcf1c6b3d5fff8514109b3430e051aaec3f"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\store\\whatsapp.ts",
+    "ported": "demo-apps\\eyerrems\\src\\store\\whatsapp.ts",
+    "sha256": "8eb5e95aea6b47f83c184646c0a6d88c192bf71fe8fde1929e735b0c6efde819"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\types\\electron.d.ts",
+    "ported": "demo-apps\\eyerrems\\src\\types\\electron.d.ts",
+    "sha256": "162d333f8060fbd831b7c52aa3da7645cbea001492d4dbff2072a920d19991ae"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\utils\\fileHelpers.ts",
+    "ported": "demo-apps\\eyerrems\\src\\utils\\fileHelpers.ts",
+    "sha256": "f936acf9976178c155537e37937253f83218a645b9d1df76be0420d7d966c3f0"
+  },
+  {
+    "source": "Eyerrems-desktop\\frontend\\src\\vite-env.d.ts",
+    "ported": "demo-apps\\eyerrems\\src\\vite-env.d.ts",
+    "sha256": "462c0d49f875199d3853506da0af92a8e96ebb921266be8203b17c4f5d20a796"
+  }
+]

@@ -1,0 +1,2814 @@
+{
+  "auth.setupStatus": {
+    "isComplete": false,
+    "companyName": "Cedar company Name",
+    "machineId": "Demo",
+    "appVersion": "Demo"
+  },
+  "auth.setup": {
+    "isComplete": false,
+    "companyName": "Cedar company Name",
+    "machineId": "Demo",
+    "appVersion": "Demo"
+  },
+  "auth.login": {
+    "user": {
+      "id": 1,
+      "username": "Cedar username",
+      "displayName": "Cedar display Name",
+      "roleId": 1,
+      "roleName": "Cedar role Name",
+      "mustChangePassword": false,
+      "email": "demo1@example.invalid",
+      "phone": "+92 300 0000000",
+      "avatarDataUrl": "",
+      "createdAt": "2026-11-20",
+      "lastLoginAt": "2026-11-20",
+      "permissions": [
+        {
+          "module": "Demo",
+          "action": "Demo"
+        },
+        {
+          "module": "Demo",
+          "action": "Demo"
+        },
+        {
+          "module": "Demo",
+          "action": "Demo"
+        }
+      ]
+    },
+    "isSetupComplete": false
+  },
+  "auth.logout": {
+    "ok": true
+  },
+  "auth.currentUser": {
+    "id": 1,
+    "username": "Cedar username",
+    "displayName": "Cedar display Name",
+    "roleId": 1,
+    "roleName": "Cedar role Name",
+    "mustChangePassword": false,
+    "email": "demo1@example.invalid",
+    "phone": "+92 300 0000000",
+    "avatarDataUrl": "",
+    "createdAt": "2026-11-20",
+    "lastLoginAt": "2026-11-20",
+    "permissions": [
+      {
+        "module": "Demo",
+        "action": "Demo"
+      },
+      {
+        "module": "Demo",
+        "action": "Demo"
+      },
+      {
+        "module": "Demo",
+        "action": "Demo"
+      }
+    ]
+  },
+  "auth.changePassword": {
+    "ok": true
+  },
+  "auth.recoverPassword": {
+    "ok": true
+  },
+  "auth.saveDevSession": {
+    "ok": true
+  },
+  "auth.loadDevSession": {
+    "id": 1,
+    "username": "Cedar username",
+    "displayName": "Cedar display Name",
+    "roleId": 1,
+    "roleName": "Cedar role Name",
+    "mustChangePassword": false,
+    "email": "demo1@example.invalid",
+    "phone": "+92 300 0000000",
+    "avatarDataUrl": "",
+    "createdAt": "2026-11-20",
+    "lastLoginAt": "2026-11-20",
+    "permissions": [
+      {
+        "module": "Demo",
+        "action": "Demo"
+      },
+      {
+        "module": "Demo",
+        "action": "Demo"
+      },
+      {
+        "module": "Demo",
+        "action": "Demo"
+      }
+    ]
+  },
+  "auth.clearDevSession": {
+    "ok": true
+  },
+  "registration.status": {
+    "setupComplete": false,
+    "administratorUsername": "Cedar administrator Username",
+    "administratorName": "Cedar administrator Name"
+  },
+  "registration.details": {
+    "username": "Cedar username",
+    "companyName": "Cedar company Name",
+    "companyTrn": "Demo",
+    "companyAddress": "Demo",
+    "companyPhone": "+92 300 0000000",
+    "companyEmail": "demo1@example.invalid",
+    "ownerName": "Cedar owner Name",
+    "ownerEmail": "demo1@example.invalid",
+    "ownerPhone": "+92 300 0000000",
+    "licensedClientName": "Cedar licensed Client Name",
+    "edition": "Demo",
+    "expiresAt": "2026-11-20"
+  },
+  "registration.update": {
+    "username": "Cedar username",
+    "companyName": "Cedar company Name",
+    "companyTrn": "Demo",
+    "companyAddress": "Demo",
+    "companyPhone": "+92 300 0000000",
+    "companyEmail": "demo1@example.invalid",
+    "ownerName": "Cedar owner Name",
+    "ownerEmail": "demo1@example.invalid",
+    "ownerPhone": "+92 300 0000000",
+    "licensedClientName": "Cedar licensed Client Name",
+    "edition": "Demo",
+    "expiresAt": "2026-11-20"
+  },
+  "registration.createAccount": {
+    "id": 1,
+    "username": "Cedar username",
+    "displayName": "Cedar display Name",
+    "roleId": 1,
+    "roleName": "Cedar role Name",
+    "mustChangePassword": false,
+    "isActive": false,
+    "lastLoginAt": "2026-11-20"
+  },
+  "profile.get": {
+    "id": 1,
+    "username": "Cedar username",
+    "displayName": "Cedar display Name",
+    "email": "demo1@example.invalid",
+    "phone": "+92 300 0000000",
+    "avatarDataUrl": "",
+    "roleName": "Cedar role Name",
+    "createdAt": "2026-11-20",
+    "lastLoginAt": "2026-11-20",
+    "companyName": "Cedar company Name"
+  },
+  "profile.update": {
+    "id": 1,
+    "username": "Cedar username",
+    "displayName": "Cedar display Name",
+    "email": "demo1@example.invalid",
+    "phone": "+92 300 0000000",
+    "avatarDataUrl": "",
+    "roleName": "Cedar role Name",
+    "createdAt": "2026-11-20",
+    "lastLoginAt": "2026-11-20",
+    "companyName": "Cedar company Name"
+  },
+  "profile.chooseAvatar": {
+    "name": "Cedar name"
+  },
+  "license.check": {
+    "ok": false,
+    "machineId": "Demo",
+    "clientName": "Cedar client Name",
+    "expiresAt": "2026-11-20",
+    "daysUntilExpiry": 12,
+    "isExpiringSoon": false
+  },
+  "license.activate": {
+    "ok": false,
+    "machineId": "Demo",
+    "clientName": "Cedar client Name",
+    "expiresAt": "2026-11-20",
+    "daysUntilExpiry": 12,
+    "isExpiringSoon": false
+  },
+  "license.status": {
+    "clientName": "Cedar client Name",
+    "expiresAt": "2026-11-20",
+    "daysUntilExpiry": 12,
+    "isExpiringSoon": false,
+    "machineId": "Demo"
+  },
+  "dashboard.summary": {
+    "salesFils": 125000,
+    "previousSalesFils": 125000,
+    "purchasesFils": 125000,
+    "expensesFils": 125000,
+    "netProfitFils": 125000,
+    "receivablesFils": 125000,
+    "payablesFils": 125000,
+    "lowStockCount": 12,
+    "salesVsExpenses": [
+      {
+        "month": "Demo",
+        "salesFils": 125000,
+        "expenseFils": 125000
+      },
+      {
+        "month": "Demo",
+        "salesFils": 250000,
+        "expenseFils": 250000
+      },
+      {
+        "month": "Demo",
+        "salesFils": 375000,
+        "expenseFils": 375000
+      }
+    ],
+    "topProducts": [
+      {
+        "name": "Cedar name",
+        "qtyMilli": 10000,
+        "netFils": 125000
+      },
+      {
+        "name": "Orchard name",
+        "qtyMilli": 20000,
+        "netFils": 250000
+      },
+      {
+        "name": "Harbor name",
+        "qtyMilli": 30000,
+        "netFils": 375000
+      }
+    ],
+    "inventory": {
+      "productCount": 12,
+      "totalQuantityMilli": 10000,
+      "stockedCount": 12,
+      "totalStockValueFils": 125000,
+      "units": [
+        "Demo",
+        "Demo",
+        "Demo"
+      ],
+      "recentProducts": [
+        {
+          "id": 1,
+          "sku": "DEMO-001",
+          "barcode": "DEMO-001",
+          "name": "Cedar name",
+          "description": "Cedar description",
+          "category": "Demo",
+          "unit": "pcs",
+          "quantityMilli": 10000,
+          "reorderLevelMilli": 10000,
+          "averageCostFils": 125000,
+          "salePriceFils": 125000,
+          "vatTreatment": "standard",
+          "isActive": false,
+          "stockValueFils": 125000,
+          "isLowStock": false,
+          "lastCostFils": 125000,
+          "lastSalePriceFils": 125000
+        },
+        {
+          "id": 2,
+          "sku": "DEMO-002",
+          "barcode": "DEMO-002",
+          "name": "Orchard name",
+          "description": "Orchard description",
+          "category": "Demo",
+          "unit": "pcs",
+          "quantityMilli": 20000,
+          "reorderLevelMilli": 20000,
+          "averageCostFils": 250000,
+          "salePriceFils": 250000,
+          "vatTreatment": "standard",
+          "isActive": false,
+          "stockValueFils": 250000,
+          "isLowStock": false,
+          "lastCostFils": 250000,
+          "lastSalePriceFils": 250000
+        },
+        {
+          "id": 3,
+          "sku": "DEMO-003",
+          "barcode": "DEMO-003",
+          "name": "Harbor name",
+          "description": "Harbor description",
+          "category": "Demo",
+          "unit": "pcs",
+          "quantityMilli": 30000,
+          "reorderLevelMilli": 30000,
+          "averageCostFils": 375000,
+          "salePriceFils": 375000,
+          "vatTreatment": "standard",
+          "isActive": false,
+          "stockValueFils": 375000,
+          "isLowStock": false,
+          "lastCostFils": 375000,
+          "lastSalePriceFils": 375000
+        }
+      ],
+      "lowStockProducts": [
+        {
+          "id": 1,
+          "sku": "DEMO-001",
+          "barcode": "DEMO-001",
+          "name": "Cedar name",
+          "description": "Cedar description",
+          "category": "Demo",
+          "unit": "pcs",
+          "quantityMilli": 10000,
+          "reorderLevelMilli": 10000,
+          "averageCostFils": 125000,
+          "salePriceFils": 125000,
+          "vatTreatment": "standard",
+          "isActive": false,
+          "stockValueFils": 125000,
+          "isLowStock": false,
+          "lastCostFils": 125000,
+          "lastSalePriceFils": 125000
+        },
+        {
+          "id": 2,
+          "sku": "DEMO-002",
+          "barcode": "DEMO-002",
+          "name": "Orchard name",
+          "description": "Orchard description",
+          "category": "Demo",
+          "unit": "pcs",
+          "quantityMilli": 20000,
+          "reorderLevelMilli": 20000,
+          "averageCostFils": 250000,
+          "salePriceFils": 250000,
+          "vatTreatment": "standard",
+          "isActive": false,
+          "stockValueFils": 250000,
+          "isLowStock": false,
+          "lastCostFils": 250000,
+          "lastSalePriceFils": 250000
+        },
+        {
+          "id": 3,
+          "sku": "DEMO-003",
+          "barcode": "DEMO-003",
+          "name": "Harbor name",
+          "description": "Harbor description",
+          "category": "Demo",
+          "unit": "pcs",
+          "quantityMilli": 30000,
+          "reorderLevelMilli": 30000,
+          "averageCostFils": 375000,
+          "salePriceFils": 375000,
+          "vatTreatment": "standard",
+          "isActive": false,
+          "stockValueFils": 375000,
+          "isLowStock": false,
+          "lastCostFils": 375000,
+          "lastSalePriceFils": 375000
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cedar name",
+          "count": 12,
+          "valueFils": 125000
+        },
+        {
+          "name": "Orchard name",
+          "count": 24,
+          "valueFils": 250000
+        },
+        {
+          "name": "Harbor name",
+          "count": 36,
+          "valueFils": 375000
+        }
+      ]
+    },
+    "generatedAtIso": "2026-11-20"
+  },
+  "reports.profitAndLoss": {
+    "fromDate": "Demo",
+    "toDate": "Demo",
+    "revenueFils": 125000,
+    "netSalesFils": 125000,
+    "costOfGoodsFils": 125000,
+    "grossProfitFils": 125000,
+    "grossMarginPercent": 10,
+    "operatingExpensesFils": 125000,
+    "netProfitFils": 125000,
+    "expensesByCategory": [
+      {
+        "category": "Demo",
+        "amountFils": 125000
+      },
+      {
+        "category": "Demo",
+        "amountFils": 250000
+      },
+      {
+        "category": "Demo",
+        "amountFils": 375000
+      }
+    ]
+  },
+  "reports.partnerSplit": {
+    "fromDate": "Demo",
+    "toDate": "Demo",
+    "netProfitFils": 125000,
+    "donationRatePercent": 10,
+    "donationFils": 125000,
+    "distributableFils": 125000,
+    "partners": [
+      {
+        "partnerId": 1,
+        "name": "Cedar name",
+        "sharePercent": 10,
+        "amountFils": 125000
+      },
+      {
+        "partnerId": 2,
+        "name": "Orchard name",
+        "sharePercent": 10,
+        "amountFils": 250000
+      },
+      {
+        "partnerId": 3,
+        "name": "Harbor name",
+        "sharePercent": 10,
+        "amountFils": 375000
+      }
+    ],
+    "configurationError": "Demo"
+  },
+  "reports.stockValuation": {
+    "rows": [
+      {
+        "productId": 1,
+        "sku": "DEMO-001",
+        "name": "Cedar name",
+        "category": "Demo",
+        "quantityMilli": 10000,
+        "averageCostFils": 125000,
+        "valueFils": 125000
+      },
+      {
+        "productId": 2,
+        "sku": "DEMO-002",
+        "name": "Orchard name",
+        "category": "Demo",
+        "quantityMilli": 20000,
+        "averageCostFils": 250000,
+        "valueFils": 250000
+      },
+      {
+        "productId": 3,
+        "sku": "DEMO-003",
+        "name": "Harbor name",
+        "category": "Demo",
+        "quantityMilli": 30000,
+        "averageCostFils": 375000,
+        "valueFils": 375000
+      }
+    ]
+  },
+  "reports.documentRegister": [
+    {
+      "id": 1,
+      "number": "DEMO-001",
+      "issueDate": "Demo",
+      "partyName": "Cedar party Name",
+      "status": "draft",
+      "netFils": 125000,
+      "vatFils": 125000,
+      "grossFils": 125000,
+      "paidFils": 125000,
+      "outstandingFils": 125000,
+      "lineCount": 12
+    },
+    {
+      "id": 2,
+      "number": "DEMO-002",
+      "issueDate": "Demo",
+      "partyName": "Orchard party Name",
+      "status": "draft",
+      "netFils": 250000,
+      "vatFils": 250000,
+      "grossFils": 250000,
+      "paidFils": 250000,
+      "outstandingFils": 250000,
+      "lineCount": 24
+    },
+    {
+      "id": 3,
+      "number": "DEMO-003",
+      "issueDate": "Demo",
+      "partyName": "Harbor party Name",
+      "status": "draft",
+      "netFils": 375000,
+      "vatFils": 375000,
+      "grossFils": 375000,
+      "paidFils": 375000,
+      "outstandingFils": 375000,
+      "lineCount": 36
+    }
+  ],
+  "reports.export": {
+    "path": ""
+  },
+  "parties.list": [
+    {
+      "id": 1,
+      "code": "DEMO-001",
+      "name": "Cedar name",
+      "kind": "customer",
+      "phone": "+92 300 0000000",
+      "email": "demo1@example.invalid",
+      "trn": "Demo",
+      "addressLine": "Demo",
+      "openingBalanceFils": 125000,
+      "isActive": false,
+      "balanceFils": 125000
+    },
+    {
+      "id": 2,
+      "code": "DEMO-002",
+      "name": "Orchard name",
+      "kind": "customer",
+      "phone": "+92 300 0000000",
+      "email": "demo2@example.invalid",
+      "trn": "Demo",
+      "addressLine": "Demo",
+      "openingBalanceFils": 250000,
+      "isActive": false,
+      "balanceFils": 250000
+    },
+    {
+      "id": 3,
+      "code": "DEMO-003",
+      "name": "Harbor name",
+      "kind": "customer",
+      "phone": "+92 300 0000000",
+      "email": "demo3@example.invalid",
+      "trn": "Demo",
+      "addressLine": "Demo",
+      "openingBalanceFils": 375000,
+      "isActive": false,
+      "balanceFils": 375000
+    }
+  ],
+  "parties.get": {
+    "id": 1,
+    "code": "DEMO-001",
+    "name": "Cedar name",
+    "kind": "customer",
+    "phone": "+92 300 0000000",
+    "email": "demo1@example.invalid",
+    "trn": "Demo",
+    "addressLine": "Demo",
+    "openingBalanceFils": 125000,
+    "isActive": false,
+    "balanceFils": 125000
+  },
+  "parties.save": {
+    "id": 1,
+    "code": "DEMO-001",
+    "name": "Cedar name",
+    "kind": "customer",
+    "phone": "+92 300 0000000",
+    "email": "demo1@example.invalid",
+    "trn": "Demo",
+    "addressLine": "Demo",
+    "openingBalanceFils": 125000,
+    "isActive": false,
+    "balanceFils": 125000
+  },
+  "parties.delete": {
+    "ok": true
+  },
+  "products.list": [
+    {
+      "id": 1,
+      "sku": "DEMO-001",
+      "barcode": "DEMO-001",
+      "name": "Cedar name",
+      "description": "Cedar description",
+      "category": "Demo",
+      "unit": "pcs",
+      "quantityMilli": 10000,
+      "reorderLevelMilli": 10000,
+      "averageCostFils": 125000,
+      "salePriceFils": 125000,
+      "vatTreatment": "standard",
+      "isActive": false,
+      "stockValueFils": 125000,
+      "isLowStock": false,
+      "lastCostFils": 125000,
+      "lastSalePriceFils": 125000
+    },
+    {
+      "id": 2,
+      "sku": "DEMO-002",
+      "barcode": "DEMO-002",
+      "name": "Orchard name",
+      "description": "Orchard description",
+      "category": "Demo",
+      "unit": "pcs",
+      "quantityMilli": 20000,
+      "reorderLevelMilli": 20000,
+      "averageCostFils": 250000,
+      "salePriceFils": 250000,
+      "vatTreatment": "standard",
+      "isActive": false,
+      "stockValueFils": 250000,
+      "isLowStock": false,
+      "lastCostFils": 250000,
+      "lastSalePriceFils": 250000
+    },
+    {
+      "id": 3,
+      "sku": "DEMO-003",
+      "barcode": "DEMO-003",
+      "name": "Harbor name",
+      "description": "Harbor description",
+      "category": "Demo",
+      "unit": "pcs",
+      "quantityMilli": 30000,
+      "reorderLevelMilli": 30000,
+      "averageCostFils": 375000,
+      "salePriceFils": 375000,
+      "vatTreatment": "standard",
+      "isActive": false,
+      "stockValueFils": 375000,
+      "isLowStock": false,
+      "lastCostFils": 375000,
+      "lastSalePriceFils": 375000
+    }
+  ],
+  "products.get": {
+    "id": 1,
+    "sku": "DEMO-001",
+    "barcode": "DEMO-001",
+    "name": "Cedar name",
+    "description": "Cedar description",
+    "category": "Demo",
+    "unit": "pcs",
+    "quantityMilli": 10000,
+    "reorderLevelMilli": 10000,
+    "averageCostFils": 125000,
+    "salePriceFils": 125000,
+    "vatTreatment": "standard",
+    "isActive": false,
+    "stockValueFils": 125000,
+    "isLowStock": false,
+    "lastCostFils": 125000,
+    "lastSalePriceFils": 125000
+  },
+  "products.save": {
+    "id": 1,
+    "sku": "DEMO-001",
+    "barcode": "DEMO-001",
+    "name": "Cedar name",
+    "description": "Cedar description",
+    "category": "Demo",
+    "unit": "pcs",
+    "quantityMilli": 10000,
+    "reorderLevelMilli": 10000,
+    "averageCostFils": 125000,
+    "salePriceFils": 125000,
+    "vatTreatment": "standard",
+    "isActive": false,
+    "stockValueFils": 125000,
+    "isLowStock": false,
+    "lastCostFils": 125000,
+    "lastSalePriceFils": 125000
+  },
+  "products.openStock": {
+    "id": 1,
+    "sku": "DEMO-001",
+    "barcode": "DEMO-001",
+    "name": "Cedar name",
+    "description": "Cedar description",
+    "category": "Demo",
+    "unit": "pcs",
+    "quantityMilli": 10000,
+    "reorderLevelMilli": 10000,
+    "averageCostFils": 125000,
+    "salePriceFils": 125000,
+    "vatTreatment": "standard",
+    "isActive": false,
+    "stockValueFils": 125000,
+    "isLowStock": false,
+    "lastCostFils": 125000,
+    "lastSalePriceFils": 125000
+  },
+  "products.movements": [
+    {
+      "id": 1,
+      "productId": 1,
+      "productName": "Cedar product Name",
+      "documentNumber": "DEMO-001",
+      "movementDate": "Demo",
+      "kind": "receipt",
+      "quantityMilli": 10000,
+      "unitCostFils": 125000,
+      "costFils": 125000,
+      "notes": "Demo"
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "productName": "Orchard product Name",
+      "documentNumber": "DEMO-002",
+      "movementDate": "Demo",
+      "kind": "receipt",
+      "quantityMilli": 20000,
+      "unitCostFils": 250000,
+      "costFils": 250000,
+      "notes": "Demo"
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "productName": "Harbor product Name",
+      "documentNumber": "DEMO-003",
+      "movementDate": "Demo",
+      "kind": "receipt",
+      "quantityMilli": 30000,
+      "unitCostFils": 375000,
+      "costFils": 375000,
+      "notes": "Demo"
+    }
+  ],
+  "products.delete": {
+    "ok": true
+  },
+  "documents.list": [
+    {
+      "id": 1,
+      "kind": "invoice",
+      "number": "DEMO-001",
+      "partyId": 1,
+      "partyName": "Cedar party Name",
+      "issueDate": "Demo",
+      "dueDate": "Demo",
+      "status": "draft",
+      "netFils": 125000,
+      "vatFils": 125000,
+      "grossFils": 125000,
+      "discountFils": 125000,
+      "paidFils": 125000,
+      "outstandingFils": 125000,
+      "costFils": 125000,
+      "fiscalYear": 12,
+      "notes": "Demo",
+      "reason": "Demo",
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20",
+      "updatedAt": "2026-11-20",
+      "lines": [
+        {
+          "id": 1,
+          "lineNo": 1,
+          "productId": 1,
+          "description": "Cedar description",
+          "quantityMilli": 10000,
+          "unitPriceFils": 125000,
+          "netFils": 125000,
+          "vatFils": 125000,
+          "vatTreatment": "standard",
+          "unitCostFils": 125000,
+          "costFils": 125000
+        },
+        {
+          "id": 2,
+          "lineNo": 2,
+          "productId": 2,
+          "description": "Orchard description",
+          "quantityMilli": 20000,
+          "unitPriceFils": 250000,
+          "netFils": 250000,
+          "vatFils": 250000,
+          "vatTreatment": "standard",
+          "unitCostFils": 250000,
+          "costFils": 250000
+        },
+        {
+          "id": 3,
+          "lineNo": 3,
+          "productId": 3,
+          "description": "Harbor description",
+          "quantityMilli": 30000,
+          "unitPriceFils": 375000,
+          "netFils": 375000,
+          "vatFils": 375000,
+          "vatTreatment": "standard",
+          "unitCostFils": 375000,
+          "costFils": 375000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "invoice",
+      "number": "DEMO-002",
+      "partyId": 2,
+      "partyName": "Orchard party Name",
+      "issueDate": "Demo",
+      "dueDate": "Demo",
+      "status": "draft",
+      "netFils": 250000,
+      "vatFils": 250000,
+      "grossFils": 250000,
+      "discountFils": 250000,
+      "paidFils": 250000,
+      "outstandingFils": 250000,
+      "costFils": 250000,
+      "fiscalYear": 24,
+      "notes": "Demo",
+      "reason": "Demo",
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20",
+      "updatedAt": "2026-11-20",
+      "lines": [
+        {
+          "id": 1,
+          "lineNo": 1,
+          "productId": 1,
+          "description": "Cedar description",
+          "quantityMilli": 10000,
+          "unitPriceFils": 125000,
+          "netFils": 125000,
+          "vatFils": 125000,
+          "vatTreatment": "standard",
+          "unitCostFils": 125000,
+          "costFils": 125000
+        },
+        {
+          "id": 2,
+          "lineNo": 2,
+          "productId": 2,
+          "description": "Orchard description",
+          "quantityMilli": 20000,
+          "unitPriceFils": 250000,
+          "netFils": 250000,
+          "vatFils": 250000,
+          "vatTreatment": "standard",
+          "unitCostFils": 250000,
+          "costFils": 250000
+        },
+        {
+          "id": 3,
+          "lineNo": 3,
+          "productId": 3,
+          "description": "Harbor description",
+          "quantityMilli": 30000,
+          "unitPriceFils": 375000,
+          "netFils": 375000,
+          "vatFils": 375000,
+          "vatTreatment": "standard",
+          "unitCostFils": 375000,
+          "costFils": 375000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "invoice",
+      "number": "DEMO-003",
+      "partyId": 3,
+      "partyName": "Harbor party Name",
+      "issueDate": "Demo",
+      "dueDate": "Demo",
+      "status": "draft",
+      "netFils": 375000,
+      "vatFils": 375000,
+      "grossFils": 375000,
+      "discountFils": 375000,
+      "paidFils": 375000,
+      "outstandingFils": 375000,
+      "costFils": 375000,
+      "fiscalYear": 36,
+      "notes": "Demo",
+      "reason": "Demo",
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20",
+      "updatedAt": "2026-11-20",
+      "lines": [
+        {
+          "id": 1,
+          "lineNo": 1,
+          "productId": 1,
+          "description": "Cedar description",
+          "quantityMilli": 10000,
+          "unitPriceFils": 125000,
+          "netFils": 125000,
+          "vatFils": 125000,
+          "vatTreatment": "standard",
+          "unitCostFils": 125000,
+          "costFils": 125000
+        },
+        {
+          "id": 2,
+          "lineNo": 2,
+          "productId": 2,
+          "description": "Orchard description",
+          "quantityMilli": 20000,
+          "unitPriceFils": 250000,
+          "netFils": 250000,
+          "vatFils": 250000,
+          "vatTreatment": "standard",
+          "unitCostFils": 250000,
+          "costFils": 250000
+        },
+        {
+          "id": 3,
+          "lineNo": 3,
+          "productId": 3,
+          "description": "Harbor description",
+          "quantityMilli": 30000,
+          "unitPriceFils": 375000,
+          "netFils": 375000,
+          "vatFils": 375000,
+          "vatTreatment": "standard",
+          "unitCostFils": 375000,
+          "costFils": 375000
+        }
+      ]
+    }
+  ],
+  "documents.get": {
+    "id": 1,
+    "kind": "invoice",
+    "number": "DEMO-001",
+    "partyId": 1,
+    "partyName": "Cedar party Name",
+    "issueDate": "Demo",
+    "dueDate": "Demo",
+    "status": "draft",
+    "netFils": 125000,
+    "vatFils": 125000,
+    "grossFils": 125000,
+    "discountFils": 125000,
+    "paidFils": 125000,
+    "outstandingFils": 125000,
+    "costFils": 125000,
+    "fiscalYear": 12,
+    "notes": "Demo",
+    "reason": "Demo",
+    "createdBy": "Demo",
+    "createdAt": "2026-11-20",
+    "updatedAt": "2026-11-20",
+    "lines": [
+      {
+        "id": 1,
+        "lineNo": 1,
+        "productId": 1,
+        "description": "Cedar description",
+        "quantityMilli": 10000,
+        "unitPriceFils": 125000,
+        "netFils": 125000,
+        "vatFils": 125000,
+        "vatTreatment": "standard",
+        "unitCostFils": 125000,
+        "costFils": 125000
+      },
+      {
+        "id": 2,
+        "lineNo": 2,
+        "productId": 2,
+        "description": "Orchard description",
+        "quantityMilli": 20000,
+        "unitPriceFils": 250000,
+        "netFils": 250000,
+        "vatFils": 250000,
+        "vatTreatment": "standard",
+        "unitCostFils": 250000,
+        "costFils": 250000
+      },
+      {
+        "id": 3,
+        "lineNo": 3,
+        "productId": 3,
+        "description": "Harbor description",
+        "quantityMilli": 30000,
+        "unitPriceFils": 375000,
+        "netFils": 375000,
+        "vatFils": 375000,
+        "vatTreatment": "standard",
+        "unitCostFils": 375000,
+        "costFils": 375000
+      }
+    ]
+  },
+  "documents.save": {
+    "id": 1,
+    "kind": "invoice",
+    "number": "DEMO-001",
+    "partyId": 1,
+    "partyName": "Cedar party Name",
+    "issueDate": "Demo",
+    "dueDate": "Demo",
+    "status": "draft",
+    "netFils": 125000,
+    "vatFils": 125000,
+    "grossFils": 125000,
+    "discountFils": 125000,
+    "paidFils": 125000,
+    "outstandingFils": 125000,
+    "costFils": 125000,
+    "fiscalYear": 12,
+    "notes": "Demo",
+    "reason": "Demo",
+    "createdBy": "Demo",
+    "createdAt": "2026-11-20",
+    "updatedAt": "2026-11-20",
+    "lines": [
+      {
+        "id": 1,
+        "lineNo": 1,
+        "productId": 1,
+        "description": "Cedar description",
+        "quantityMilli": 10000,
+        "unitPriceFils": 125000,
+        "netFils": 125000,
+        "vatFils": 125000,
+        "vatTreatment": "standard",
+        "unitCostFils": 125000,
+        "costFils": 125000
+      },
+      {
+        "id": 2,
+        "lineNo": 2,
+        "productId": 2,
+        "description": "Orchard description",
+        "quantityMilli": 20000,
+        "unitPriceFils": 250000,
+        "netFils": 250000,
+        "vatFils": 250000,
+        "vatTreatment": "standard",
+        "unitCostFils": 250000,
+        "costFils": 250000
+      },
+      {
+        "id": 3,
+        "lineNo": 3,
+        "productId": 3,
+        "description": "Harbor description",
+        "quantityMilli": 30000,
+        "unitPriceFils": 375000,
+        "netFils": 375000,
+        "vatFils": 375000,
+        "vatTreatment": "standard",
+        "unitCostFils": 375000,
+        "costFils": 375000
+      }
+    ]
+  },
+  "documents.cancel": {
+    "id": 1,
+    "kind": "invoice",
+    "number": "DEMO-001",
+    "partyId": 1,
+    "partyName": "Cedar party Name",
+    "issueDate": "Demo",
+    "dueDate": "Demo",
+    "status": "draft",
+    "netFils": 125000,
+    "vatFils": 125000,
+    "grossFils": 125000,
+    "discountFils": 125000,
+    "paidFils": 125000,
+    "outstandingFils": 125000,
+    "costFils": 125000,
+    "fiscalYear": 12,
+    "notes": "Demo",
+    "reason": "Demo",
+    "createdBy": "Demo",
+    "createdAt": "2026-11-20",
+    "updatedAt": "2026-11-20",
+    "lines": [
+      {
+        "id": 1,
+        "lineNo": 1,
+        "productId": 1,
+        "description": "Cedar description",
+        "quantityMilli": 10000,
+        "unitPriceFils": 125000,
+        "netFils": 125000,
+        "vatFils": 125000,
+        "vatTreatment": "standard",
+        "unitCostFils": 125000,
+        "costFils": 125000
+      },
+      {
+        "id": 2,
+        "lineNo": 2,
+        "productId": 2,
+        "description": "Orchard description",
+        "quantityMilli": 20000,
+        "unitPriceFils": 250000,
+        "netFils": 250000,
+        "vatFils": 250000,
+        "vatTreatment": "standard",
+        "unitCostFils": 250000,
+        "costFils": 250000
+      },
+      {
+        "id": 3,
+        "lineNo": 3,
+        "productId": 3,
+        "description": "Harbor description",
+        "quantityMilli": 30000,
+        "unitPriceFils": 375000,
+        "netFils": 375000,
+        "vatFils": 375000,
+        "vatTreatment": "standard",
+        "unitCostFils": 375000,
+        "costFils": 375000
+      }
+    ]
+  },
+  "documents.delete": {
+    "ok": true
+  },
+  "documents.numberPreview": {
+    "number": "DEMO-001"
+  },
+  "payments.list": [
+    {
+      "id": 1,
+      "receiptNumber": "DEMO-001",
+      "direction": "inbound",
+      "partyId": 1,
+      "partyName": "Cedar party Name",
+      "paymentDate": "Demo",
+      "method": "cash",
+      "amountFils": 125000,
+      "reference": "DEMO-001",
+      "notes": "Demo",
+      "allocations": [
+        {
+          "documentId": 1,
+          "documentNumber": "DEMO-001",
+          "amountFils": 125000
+        },
+        {
+          "documentId": 2,
+          "documentNumber": "DEMO-002",
+          "amountFils": 250000
+        },
+        {
+          "documentId": 3,
+          "documentNumber": "DEMO-003",
+          "amountFils": 375000
+        }
+      ],
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": 2,
+      "receiptNumber": "DEMO-002",
+      "direction": "inbound",
+      "partyId": 2,
+      "partyName": "Orchard party Name",
+      "paymentDate": "Demo",
+      "method": "cash",
+      "amountFils": 250000,
+      "reference": "DEMO-002",
+      "notes": "Demo",
+      "allocations": [
+        {
+          "documentId": 1,
+          "documentNumber": "DEMO-001",
+          "amountFils": 125000
+        },
+        {
+          "documentId": 2,
+          "documentNumber": "DEMO-002",
+          "amountFils": 250000
+        },
+        {
+          "documentId": 3,
+          "documentNumber": "DEMO-003",
+          "amountFils": 375000
+        }
+      ],
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": 3,
+      "receiptNumber": "DEMO-003",
+      "direction": "inbound",
+      "partyId": 3,
+      "partyName": "Harbor party Name",
+      "paymentDate": "Demo",
+      "method": "cash",
+      "amountFils": 375000,
+      "reference": "DEMO-003",
+      "notes": "Demo",
+      "allocations": [
+        {
+          "documentId": 1,
+          "documentNumber": "DEMO-001",
+          "amountFils": 125000
+        },
+        {
+          "documentId": 2,
+          "documentNumber": "DEMO-002",
+          "amountFils": 250000
+        },
+        {
+          "documentId": 3,
+          "documentNumber": "DEMO-003",
+          "amountFils": 375000
+        }
+      ],
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20"
+    }
+  ],
+  "payments.save": {
+    "id": 1,
+    "receiptNumber": "DEMO-001",
+    "direction": "inbound",
+    "partyId": 1,
+    "partyName": "Cedar party Name",
+    "paymentDate": "Demo",
+    "method": "cash",
+    "amountFils": 125000,
+    "reference": "DEMO-001",
+    "notes": "Demo",
+    "allocations": [
+      {
+        "documentId": 1,
+        "documentNumber": "DEMO-001",
+        "amountFils": 125000
+      },
+      {
+        "documentId": 2,
+        "documentNumber": "DEMO-002",
+        "amountFils": 250000
+      },
+      {
+        "documentId": 3,
+        "documentNumber": "DEMO-003",
+        "amountFils": 375000
+      }
+    ],
+    "createdBy": "Demo",
+    "createdAt": "2026-11-20"
+  },
+  "payments.delete": {
+    "ok": true
+  },
+  "expenses.list": [
+    {
+      "id": 1,
+      "expenseDate": "Demo",
+      "category": "Demo",
+      "description": "Cedar description",
+      "amountFils": 125000,
+      "vatFils": 125000,
+      "paymentMethod": "cash",
+      "reference": "DEMO-001",
+      "notes": "Demo",
+      "accountCode": "DEMO-001",
+      "paidFils": 125000
+    },
+    {
+      "id": 2,
+      "expenseDate": "Demo",
+      "category": "Demo",
+      "description": "Orchard description",
+      "amountFils": 250000,
+      "vatFils": 250000,
+      "paymentMethod": "cash",
+      "reference": "DEMO-002",
+      "notes": "Demo",
+      "accountCode": "DEMO-002",
+      "paidFils": 250000
+    },
+    {
+      "id": 3,
+      "expenseDate": "Demo",
+      "category": "Demo",
+      "description": "Harbor description",
+      "amountFils": 375000,
+      "vatFils": 375000,
+      "paymentMethod": "cash",
+      "reference": "DEMO-003",
+      "notes": "Demo",
+      "accountCode": "DEMO-003",
+      "paidFils": 375000
+    }
+  ],
+  "expenses.save": {
+    "id": 1,
+    "expenseDate": "Demo",
+    "category": "Demo",
+    "description": "Cedar description",
+    "amountFils": 125000,
+    "vatFils": 125000,
+    "paymentMethod": "cash",
+    "reference": "DEMO-001",
+    "notes": "Demo",
+    "accountCode": "DEMO-001",
+    "paidFils": 125000
+  },
+  "expenses.delete": {
+    "ok": true
+  },
+  "partners.list": [
+    {
+      "id": 1,
+      "name": "Cedar name",
+      "sharePercent": 10,
+      "isActive": false
+    },
+    {
+      "id": 2,
+      "name": "Orchard name",
+      "sharePercent": 10,
+      "isActive": false
+    },
+    {
+      "id": 3,
+      "name": "Harbor name",
+      "sharePercent": 10,
+      "isActive": false
+    }
+  ],
+  "partners.save": {
+    "id": 1,
+    "name": "Cedar name",
+    "sharePercent": 10,
+    "isActive": false
+  },
+  "partners.transactions": [
+    {
+      "id": 1,
+      "partnerId": 1,
+      "partnerName": "Cedar partner Name",
+      "txnDate": "Demo",
+      "kind": "capital",
+      "amountFils": 125000,
+      "periodRef": "DEMO-001",
+      "notes": "Demo",
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": 2,
+      "partnerId": 2,
+      "partnerName": "Orchard partner Name",
+      "txnDate": "Demo",
+      "kind": "capital",
+      "amountFils": 250000,
+      "periodRef": "DEMO-002",
+      "notes": "Demo",
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20"
+    },
+    {
+      "id": 3,
+      "partnerId": 3,
+      "partnerName": "Harbor partner Name",
+      "txnDate": "Demo",
+      "kind": "capital",
+      "amountFils": 375000,
+      "periodRef": "DEMO-003",
+      "notes": "Demo",
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20"
+    }
+  ],
+  "users.list": [
+    {
+      "id": 1,
+      "username": "Cedar username",
+      "displayName": "Cedar display Name",
+      "roleId": 1,
+      "roleName": "Cedar role Name",
+      "mustChangePassword": false,
+      "isActive": false,
+      "lastLoginAt": "2026-11-20"
+    },
+    {
+      "id": 2,
+      "username": "Orchard username",
+      "displayName": "Orchard display Name",
+      "roleId": 2,
+      "roleName": "Orchard role Name",
+      "mustChangePassword": false,
+      "isActive": false,
+      "lastLoginAt": "2026-11-20"
+    },
+    {
+      "id": 3,
+      "username": "Harbor username",
+      "displayName": "Harbor display Name",
+      "roleId": 3,
+      "roleName": "Harbor role Name",
+      "mustChangePassword": false,
+      "isActive": false,
+      "lastLoginAt": "2026-11-20"
+    }
+  ],
+  "users.save": {
+    "id": 1,
+    "username": "Cedar username",
+    "displayName": "Cedar display Name",
+    "roleId": 1,
+    "roleName": "Cedar role Name",
+    "mustChangePassword": false,
+    "isActive": false,
+    "lastLoginAt": "2026-11-20"
+  },
+  "users.resetPassword": {
+    "id": 1,
+    "username": "Cedar username",
+    "displayName": "Cedar display Name",
+    "roleId": 1,
+    "roleName": "Cedar role Name",
+    "mustChangePassword": false,
+    "isActive": false,
+    "lastLoginAt": "2026-11-20"
+  },
+  "settings.get": {
+    "theme": "light",
+    "themePalette": "midnight-navy",
+    "themeOnboardingComplete": false,
+    "companyName": "Cedar company Name",
+    "companyTrn": "Demo",
+    "companyAddress": "Demo",
+    "companyPhone": "+92 300 0000000",
+    "companyEmail": "demo1@example.invalid",
+    "companyLogoPath": "",
+    "companyLogoDataUrl": "",
+    "invoiceFooter": "Demo",
+    "invoiceTerms": "Demo",
+    "vendorName": "Cedar vendor Name",
+    "fiscalYearStartMonth": 12,
+    "currency": "PKR",
+    "backupDirectory": "Demo",
+    "backupKeepCount": 12,
+    "dailyBackupEnabled": false,
+    "dailyBackupHour": 12,
+    "donationRatePercent": 10,
+    "vatRatePercent": 10,
+    "allowNegativeStock": false
+  },
+  "settings.update": {
+    "theme": "light",
+    "themePalette": "midnight-navy",
+    "themeOnboardingComplete": false,
+    "companyName": "Cedar company Name",
+    "companyTrn": "Demo",
+    "companyAddress": "Demo",
+    "companyPhone": "+92 300 0000000",
+    "companyEmail": "demo1@example.invalid",
+    "companyLogoPath": "",
+    "companyLogoDataUrl": "",
+    "invoiceFooter": "Demo",
+    "invoiceTerms": "Demo",
+    "vendorName": "Cedar vendor Name",
+    "fiscalYearStartMonth": 12,
+    "currency": "PKR",
+    "backupDirectory": "Demo",
+    "backupKeepCount": 12,
+    "dailyBackupEnabled": false,
+    "dailyBackupHour": 12,
+    "donationRatePercent": 10,
+    "vatRatePercent": 10,
+    "allowNegativeStock": false
+  },
+  "finance.overview": {
+    "asOfDate": "Demo",
+    "fromDate": "Demo",
+    "toDate": "Demo",
+    "previousFromDate": "Demo",
+    "previousToDate": "Demo",
+    "metrics": [
+      {
+        "key": "Demo",
+        "label": "Cedar label",
+        "hint": "Demo",
+        "amountFils": 125000,
+        "delta": 12,
+        "kind": "balance"
+      },
+      {
+        "key": "Demo",
+        "label": "Orchard label",
+        "hint": "Demo",
+        "amountFils": 250000,
+        "delta": 24,
+        "kind": "balance"
+      },
+      {
+        "key": "Demo",
+        "label": "Harbor label",
+        "hint": "Demo",
+        "amountFils": 375000,
+        "delta": 36,
+        "kind": "balance"
+      }
+    ],
+    "reconciliation": {
+      "asOfDate": "Demo",
+      "receivableControlFils": 125000,
+      "receivableFromPartiesFils": 125000,
+      "receivableMatches": false,
+      "payableControlFils": 125000,
+      "payableFromPartiesFils": 125000,
+      "payableMatches": false
+    },
+    "expenseBreakdown": [
+      {
+        "code": "DEMO-001",
+        "name": "Cedar name",
+        "amountFils": 125000
+      },
+      {
+        "code": "DEMO-002",
+        "name": "Orchard name",
+        "amountFils": 250000
+      },
+      {
+        "code": "DEMO-003",
+        "name": "Harbor name",
+        "amountFils": 375000
+      }
+    ],
+    "series": [
+      {
+        "key": "Demo",
+        "label": "Cedar label",
+        "revenueFils": 125000,
+        "expenseFils": 125000,
+        "costFils": 125000,
+        "grossProfitFils": 125000,
+        "netProfitFils": 125000,
+        "receivedFils": 125000,
+        "paidFils": 125000
+      },
+      {
+        "key": "Demo",
+        "label": "Orchard label",
+        "revenueFils": 250000,
+        "expenseFils": 250000,
+        "costFils": 250000,
+        "grossProfitFils": 250000,
+        "netProfitFils": 250000,
+        "receivedFils": 250000,
+        "paidFils": 250000
+      },
+      {
+        "key": "Demo",
+        "label": "Harbor label",
+        "revenueFils": 375000,
+        "expenseFils": 375000,
+        "costFils": 375000,
+        "grossProfitFils": 375000,
+        "netProfitFils": 375000,
+        "receivedFils": 375000,
+        "paidFils": 375000
+      }
+    ],
+    "cashFlow": {
+      "fromDate": "Demo",
+      "toDate": "Demo",
+      "openingCashFils": 125000,
+      "operating": {
+        "heading": "Demo",
+        "lines": [
+          {
+            "code": "DEMO-001",
+            "name": "Cedar name",
+            "amountFils": 125000
+          },
+          {
+            "code": "DEMO-002",
+            "name": "Orchard name",
+            "amountFils": 250000
+          },
+          {
+            "code": "DEMO-003",
+            "name": "Harbor name",
+            "amountFils": 375000
+          }
+        ],
+        "totalFils": 125000
+      },
+      "investing": {
+        "heading": "Demo",
+        "lines": [
+          {
+            "code": "DEMO-001",
+            "name": "Cedar name",
+            "amountFils": 125000
+          },
+          {
+            "code": "DEMO-002",
+            "name": "Orchard name",
+            "amountFils": 250000
+          },
+          {
+            "code": "DEMO-003",
+            "name": "Harbor name",
+            "amountFils": 375000
+          }
+        ],
+        "totalFils": 125000
+      },
+      "financing": {
+        "heading": "Demo",
+        "lines": [
+          {
+            "code": "DEMO-001",
+            "name": "Cedar name",
+            "amountFils": 125000
+          },
+          {
+            "code": "DEMO-002",
+            "name": "Orchard name",
+            "amountFils": 250000
+          },
+          {
+            "code": "DEMO-003",
+            "name": "Harbor name",
+            "amountFils": 375000
+          }
+        ],
+        "totalFils": 125000
+      },
+      "netMovementFils": 125000,
+      "closingCashFils": 125000,
+      "totalReceivedFils": 125000,
+      "totalPaidFils": 125000
+    },
+    "receivableAging": {
+      "asOfDate": "Demo",
+      "side": "receivable",
+      "rows": [
+        {
+          "documentId": 1,
+          "documentNumber": "DEMO-001",
+          "partyId": 1,
+          "partyName": "Cedar party Name",
+          "issueDate": "Demo",
+          "dueDate": "Demo",
+          "totalFils": 125000,
+          "paidFils": 125000,
+          "outstandingFils": 125000,
+          "daysOverdue": 12,
+          "bucket": "notDue"
+        },
+        {
+          "documentId": 2,
+          "documentNumber": "DEMO-002",
+          "partyId": 2,
+          "partyName": "Orchard party Name",
+          "issueDate": "Demo",
+          "dueDate": "Demo",
+          "totalFils": 250000,
+          "paidFils": 250000,
+          "outstandingFils": 250000,
+          "daysOverdue": 24,
+          "bucket": "notDue"
+        },
+        {
+          "documentId": 3,
+          "documentNumber": "DEMO-003",
+          "partyId": 3,
+          "partyName": "Harbor party Name",
+          "issueDate": "Demo",
+          "dueDate": "Demo",
+          "totalFils": 375000,
+          "paidFils": 375000,
+          "outstandingFils": 375000,
+          "daysOverdue": 36,
+          "bucket": "notDue"
+        }
+      ],
+      "buckets": [
+        {
+          "key": "notDue",
+          "label": "Cedar label",
+          "amountFils": 125000
+        },
+        {
+          "key": "notDue",
+          "label": "Orchard label",
+          "amountFils": 250000
+        },
+        {
+          "key": "notDue",
+          "label": "Harbor label",
+          "amountFils": 375000
+        }
+      ],
+      "totalOutstandingFils": 125000,
+      "totalOverdueFils": 125000
+    },
+    "payableAging": {
+      "asOfDate": "Demo",
+      "side": "receivable",
+      "rows": [
+        {
+          "documentId": 1,
+          "documentNumber": "DEMO-001",
+          "partyId": 1,
+          "partyName": "Cedar party Name",
+          "issueDate": "Demo",
+          "dueDate": "Demo",
+          "totalFils": 125000,
+          "paidFils": 125000,
+          "outstandingFils": 125000,
+          "daysOverdue": 12,
+          "bucket": "notDue"
+        },
+        {
+          "documentId": 2,
+          "documentNumber": "DEMO-002",
+          "partyId": 2,
+          "partyName": "Orchard party Name",
+          "issueDate": "Demo",
+          "dueDate": "Demo",
+          "totalFils": 250000,
+          "paidFils": 250000,
+          "outstandingFils": 250000,
+          "daysOverdue": 24,
+          "bucket": "notDue"
+        },
+        {
+          "documentId": 3,
+          "documentNumber": "DEMO-003",
+          "partyId": 3,
+          "partyName": "Harbor party Name",
+          "issueDate": "Demo",
+          "dueDate": "Demo",
+          "totalFils": 375000,
+          "paidFils": 375000,
+          "outstandingFils": 375000,
+          "daysOverdue": 36,
+          "bucket": "notDue"
+        }
+      ],
+      "buckets": [
+        {
+          "key": "notDue",
+          "label": "Cedar label",
+          "amountFils": 125000
+        },
+        {
+          "key": "notDue",
+          "label": "Orchard label",
+          "amountFils": 250000
+        },
+        {
+          "key": "notDue",
+          "label": "Harbor label",
+          "amountFils": 375000
+        }
+      ],
+      "totalOutstandingFils": 125000,
+      "totalOverdueFils": 125000
+    },
+    "inventoryValueFils": 125000
+  },
+  "finance.chart": [
+    {
+      "id": 1,
+      "code": "DEMO-001",
+      "name": "Cedar name",
+      "type": "asset",
+      "subtype": "equity",
+      "parentId": 1,
+      "parentCode": "DEMO-001",
+      "normalBalance": "debit",
+      "isSystem": false,
+      "isActive": false,
+      "description": "Cedar description",
+      "balanceFils": 125000,
+      "usageCount": 12,
+      "createdAt": "2026-11-20",
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": 2,
+      "code": "DEMO-002",
+      "name": "Orchard name",
+      "type": "asset",
+      "subtype": "equity",
+      "parentId": 2,
+      "parentCode": "DEMO-002",
+      "normalBalance": "debit",
+      "isSystem": false,
+      "isActive": false,
+      "description": "Orchard description",
+      "balanceFils": 250000,
+      "usageCount": 24,
+      "createdAt": "2026-11-20",
+      "updatedAt": "2026-11-20"
+    },
+    {
+      "id": 3,
+      "code": "DEMO-003",
+      "name": "Harbor name",
+      "type": "asset",
+      "subtype": "equity",
+      "parentId": 3,
+      "parentCode": "DEMO-003",
+      "normalBalance": "debit",
+      "isSystem": false,
+      "isActive": false,
+      "description": "Harbor description",
+      "balanceFils": 375000,
+      "usageCount": 36,
+      "createdAt": "2026-11-20",
+      "updatedAt": "2026-11-20"
+    }
+  ],
+  "finance.chart.save": {
+    "id": 1,
+    "code": "DEMO-001",
+    "name": "Cedar name",
+    "type": "asset",
+    "subtype": "equity",
+    "parentId": 1,
+    "parentCode": "DEMO-001",
+    "normalBalance": "debit",
+    "isSystem": false,
+    "isActive": false,
+    "description": "Cedar description",
+    "balanceFils": 125000,
+    "usageCount": 12,
+    "createdAt": "2026-11-20",
+    "updatedAt": "2026-11-20"
+  },
+  "finance.chart.setActive": {
+    "id": 1,
+    "code": "DEMO-001",
+    "name": "Cedar name",
+    "type": "asset",
+    "subtype": "equity",
+    "parentId": 1,
+    "parentCode": "DEMO-001",
+    "normalBalance": "debit",
+    "isSystem": false,
+    "isActive": false,
+    "description": "Cedar description",
+    "balanceFils": 125000,
+    "usageCount": 12,
+    "createdAt": "2026-11-20",
+    "updatedAt": "2026-11-20"
+  },
+  "finance.chart.delete": {
+    "ok": true
+  },
+  "finance.chart.export": {
+    "path": ""
+  },
+  "finance.generalLedger": {
+    "code": "DEMO-001",
+    "name": "Cedar name",
+    "type": "asset",
+    "normalBalance": "debit",
+    "fromDate": "Demo",
+    "toDate": "Demo",
+    "openingBalanceFils": 125000,
+    "rows": [
+      {
+        "lineId": 1,
+        "entryId": 1,
+        "entryNo": "Demo",
+        "entryDate": "Demo",
+        "reference": "DEMO-001",
+        "description": "Cedar description",
+        "source": "reversal",
+        "status": "draft",
+        "debitFils": 125000,
+        "creditFils": 125000,
+        "runningBalanceFils": 125000,
+        "documentId": 1,
+        "documentNumber": "DEMO-001",
+        "partyName": "Cedar party Name"
+      },
+      {
+        "lineId": 2,
+        "entryId": 2,
+        "entryNo": "Demo",
+        "entryDate": "Demo",
+        "reference": "DEMO-002",
+        "description": "Orchard description",
+        "source": "reversal",
+        "status": "draft",
+        "debitFils": 250000,
+        "creditFils": 250000,
+        "runningBalanceFils": 250000,
+        "documentId": 2,
+        "documentNumber": "DEMO-002",
+        "partyName": "Orchard party Name"
+      },
+      {
+        "lineId": 3,
+        "entryId": 3,
+        "entryNo": "Demo",
+        "entryDate": "Demo",
+        "reference": "DEMO-003",
+        "description": "Harbor description",
+        "source": "reversal",
+        "status": "draft",
+        "debitFils": 375000,
+        "creditFils": 375000,
+        "runningBalanceFils": 375000,
+        "documentId": 3,
+        "documentNumber": "DEMO-003",
+        "partyName": "Harbor party Name"
+      }
+    ],
+    "totalDebitFils": 125000,
+    "totalCreditFils": 125000,
+    "closingBalanceFils": 125000
+  },
+  "finance.journal.list": [
+    {
+      "id": 1,
+      "entryNo": "Demo",
+      "entryDate": "Demo",
+      "reference": "DEMO-001",
+      "description": "Cedar description",
+      "source": "reversal",
+      "status": "draft",
+      "totalDebitFils": 125000,
+      "totalCreditFils": 125000,
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20",
+      "reversesEntryId": 1,
+      "reversedByEntryId": 1
+    },
+    {
+      "id": 2,
+      "entryNo": "Demo",
+      "entryDate": "Demo",
+      "reference": "DEMO-002",
+      "description": "Orchard description",
+      "source": "reversal",
+      "status": "draft",
+      "totalDebitFils": 250000,
+      "totalCreditFils": 250000,
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20",
+      "reversesEntryId": 2,
+      "reversedByEntryId": 2
+    },
+    {
+      "id": 3,
+      "entryNo": "Demo",
+      "entryDate": "Demo",
+      "reference": "DEMO-003",
+      "description": "Harbor description",
+      "source": "reversal",
+      "status": "draft",
+      "totalDebitFils": 375000,
+      "totalCreditFils": 375000,
+      "createdBy": "Demo",
+      "createdAt": "2026-11-20",
+      "reversesEntryId": 3,
+      "reversedByEntryId": 3
+    }
+  ],
+  "finance.journal.get": {
+    "sourceKey": "Demo",
+    "lines": [
+      {
+        "lineNo": 1,
+        "accountId": 1,
+        "accountCode": "DEMO-001",
+        "accountName": "Cedar account Name",
+        "description": "Cedar description",
+        "debitFils": 125000,
+        "creditFils": 125000,
+        "partyId": 1,
+        "partyName": "Cedar party Name",
+        "documentId": 1,
+        "documentNumber": "DEMO-001"
+      },
+      {
+        "lineNo": 2,
+        "accountId": 2,
+        "accountCode": "DEMO-002",
+        "accountName": "Orchard account Name",
+        "description": "Orchard description",
+        "debitFils": 250000,
+        "creditFils": 250000,
+        "partyId": 2,
+        "partyName": "Orchard party Name",
+        "documentId": 2,
+        "documentNumber": "DEMO-002"
+      },
+      {
+        "lineNo": 3,
+        "accountId": 3,
+        "accountCode": "DEMO-003",
+        "accountName": "Harbor account Name",
+        "description": "Harbor description",
+        "debitFils": 375000,
+        "creditFils": 375000,
+        "partyId": 3,
+        "partyName": "Harbor party Name",
+        "documentId": 3,
+        "documentNumber": "DEMO-003"
+      }
+    ],
+    "id": 1,
+    "entryNo": "Demo",
+    "entryDate": "Demo",
+    "reference": "DEMO-001",
+    "description": "Cedar description",
+    "source": "reversal",
+    "status": "draft",
+    "totalDebitFils": 125000,
+    "totalCreditFils": 125000,
+    "createdBy": "Demo",
+    "createdAt": "2026-11-20",
+    "reversesEntryId": 1,
+    "reversedByEntryId": 1
+  },
+  "finance.journal.save": {
+    "sourceKey": "Demo",
+    "lines": [
+      {
+        "lineNo": 1,
+        "accountId": 1,
+        "accountCode": "DEMO-001",
+        "accountName": "Cedar account Name",
+        "description": "Cedar description",
+        "debitFils": 125000,
+        "creditFils": 125000,
+        "partyId": 1,
+        "partyName": "Cedar party Name",
+        "documentId": 1,
+        "documentNumber": "DEMO-001"
+      },
+      {
+        "lineNo": 2,
+        "accountId": 2,
+        "accountCode": "DEMO-002",
+        "accountName": "Orchard account Name",
+        "description": "Orchard description",
+        "debitFils": 250000,
+        "creditFils": 250000,
+        "partyId": 2,
+        "partyName": "Orchard party Name",
+        "documentId": 2,
+        "documentNumber": "DEMO-002"
+      },
+      {
+        "lineNo": 3,
+        "accountId": 3,
+        "accountCode": "DEMO-003",
+        "accountName": "Harbor account Name",
+        "description": "Harbor description",
+        "debitFils": 375000,
+        "creditFils": 375000,
+        "partyId": 3,
+        "partyName": "Harbor party Name",
+        "documentId": 3,
+        "documentNumber": "DEMO-003"
+      }
+    ],
+    "id": 1,
+    "entryNo": "Demo",
+    "entryDate": "Demo",
+    "reference": "DEMO-001",
+    "description": "Cedar description",
+    "source": "reversal",
+    "status": "draft",
+    "totalDebitFils": 125000,
+    "totalCreditFils": 125000,
+    "createdBy": "Demo",
+    "createdAt": "2026-11-20",
+    "reversesEntryId": 1,
+    "reversedByEntryId": 1
+  },
+  "finance.journal.post": {
+    "sourceKey": "Demo",
+    "lines": [
+      {
+        "lineNo": 1,
+        "accountId": 1,
+        "accountCode": "DEMO-001",
+        "accountName": "Cedar account Name",
+        "description": "Cedar description",
+        "debitFils": 125000,
+        "creditFils": 125000,
+        "partyId": 1,
+        "partyName": "Cedar party Name",
+        "documentId": 1,
+        "documentNumber": "DEMO-001"
+      },
+      {
+        "lineNo": 2,
+        "accountId": 2,
+        "accountCode": "DEMO-002",
+        "accountName": "Orchard account Name",
+        "description": "Orchard description",
+        "debitFils": 250000,
+        "creditFils": 250000,
+        "partyId": 2,
+        "partyName": "Orchard party Name",
+        "documentId": 2,
+        "documentNumber": "DEMO-002"
+      },
+      {
+        "lineNo": 3,
+        "accountId": 3,
+        "accountCode": "DEMO-003",
+        "accountName": "Harbor account Name",
+        "description": "Harbor description",
+        "debitFils": 375000,
+        "creditFils": 375000,
+        "partyId": 3,
+        "partyName": "Harbor party Name",
+        "documentId": 3,
+        "documentNumber": "DEMO-003"
+      }
+    ],
+    "id": 1,
+    "entryNo": "Demo",
+    "entryDate": "Demo",
+    "reference": "DEMO-001",
+    "description": "Cedar description",
+    "source": "reversal",
+    "status": "draft",
+    "totalDebitFils": 125000,
+    "totalCreditFils": 125000,
+    "createdBy": "Demo",
+    "createdAt": "2026-11-20",
+    "reversesEntryId": 1,
+    "reversedByEntryId": 1
+  },
+  "finance.journal.reverse": {
+    "sourceKey": "Demo",
+    "lines": [
+      {
+        "lineNo": 1,
+        "accountId": 1,
+        "accountCode": "DEMO-001",
+        "accountName": "Cedar account Name",
+        "description": "Cedar description",
+        "debitFils": 125000,
+        "creditFils": 125000,
+        "partyId": 1,
+        "partyName": "Cedar party Name",
+        "documentId": 1,
+        "documentNumber": "DEMO-001"
+      },
+      {
+        "lineNo": 2,
+        "accountId": 2,
+        "accountCode": "DEMO-002",
+        "accountName": "Orchard account Name",
+        "description": "Orchard description",
+        "debitFils": 250000,
+        "creditFils": 250000,
+        "partyId": 2,
+        "partyName": "Orchard party Name",
+        "documentId": 2,
+        "documentNumber": "DEMO-002"
+      },
+      {
+        "lineNo": 3,
+        "accountId": 3,
+        "accountCode": "DEMO-003",
+        "accountName": "Harbor account Name",
+        "description": "Harbor description",
+        "debitFils": 375000,
+        "creditFils": 375000,
+        "partyId": 3,
+        "partyName": "Harbor party Name",
+        "documentId": 3,
+        "documentNumber": "DEMO-003"
+      }
+    ],
+    "id": 1,
+    "entryNo": "Demo",
+    "entryDate": "Demo",
+    "reference": "DEMO-001",
+    "description": "Cedar description",
+    "source": "reversal",
+    "status": "draft",
+    "totalDebitFils": 125000,
+    "totalCreditFils": 125000,
+    "createdBy": "Demo",
+    "createdAt": "2026-11-20",
+    "reversesEntryId": 1,
+    "reversedByEntryId": 1
+  },
+  "finance.journal.deleteDraft": {
+    "ok": true
+  },
+  "finance.trialBalance": {
+    "fromDate": "Demo",
+    "toDate": "Demo",
+    "rows": [
+      {
+        "accountId": 1,
+        "code": "DEMO-001",
+        "name": "Cedar name",
+        "type": "asset",
+        "subtype": "equity",
+        "normalBalance": "debit",
+        "openingDebitFils": 125000,
+        "openingCreditFils": 125000,
+        "periodDebitFils": 125000,
+        "periodCreditFils": 125000,
+        "closingDebitFils": 125000,
+        "closingCreditFils": 125000
+      },
+      {
+        "accountId": 2,
+        "code": "DEMO-002",
+        "name": "Orchard name",
+        "type": "asset",
+        "subtype": "equity",
+        "normalBalance": "debit",
+        "openingDebitFils": 250000,
+        "openingCreditFils": 250000,
+        "periodDebitFils": 250000,
+        "periodCreditFils": 250000,
+        "closingDebitFils": 250000,
+        "closingCreditFils": 250000
+      },
+      {
+        "accountId": 3,
+        "code": "DEMO-003",
+        "name": "Harbor name",
+        "type": "asset",
+        "subtype": "equity",
+        "normalBalance": "debit",
+        "openingDebitFils": 375000,
+        "openingCreditFils": 375000,
+        "periodDebitFils": 375000,
+        "periodCreditFils": 375000,
+        "closingDebitFils": 375000,
+        "closingCreditFils": 375000
+      }
+    ],
+    "totalOpeningDebitFils": 125000,
+    "totalOpeningCreditFils": 125000,
+    "totalPeriodDebitFils": 125000,
+    "totalPeriodCreditFils": 125000,
+    "totalClosingDebitFils": 125000,
+    "totalClosingCreditFils": 125000,
+    "isBalanced": false,
+    "differenceFils": 125000
+  },
+  "finance.balanceSheet": {
+    "asOfDate": "Demo",
+    "assets": {
+      "heading": "Demo",
+      "lines": [
+        {
+          "code": "DEMO-001",
+          "name": "Cedar name",
+          "amountFils": 125000
+        },
+        {
+          "code": "DEMO-002",
+          "name": "Orchard name",
+          "amountFils": 250000
+        },
+        {
+          "code": "DEMO-003",
+          "name": "Harbor name",
+          "amountFils": 375000
+        }
+      ],
+      "totalFils": 125000
+    },
+    "liabilities": {
+      "heading": "Demo",
+      "lines": [
+        {
+          "code": "DEMO-001",
+          "name": "Cedar name",
+          "amountFils": 125000
+        },
+        {
+          "code": "DEMO-002",
+          "name": "Orchard name",
+          "amountFils": 250000
+        },
+        {
+          "code": "DEMO-003",
+          "name": "Harbor name",
+          "amountFils": 375000
+        }
+      ],
+      "totalFils": 125000
+    },
+    "equity": {
+      "heading": "Demo",
+      "lines": [
+        {
+          "code": "DEMO-001",
+          "name": "Cedar name",
+          "amountFils": 125000
+        },
+        {
+          "code": "DEMO-002",
+          "name": "Orchard name",
+          "amountFils": 250000
+        },
+        {
+          "code": "DEMO-003",
+          "name": "Harbor name",
+          "amountFils": 375000
+        }
+      ],
+      "totalFils": 125000
+    },
+    "currentPeriodEarningsFils": 125000,
+    "liabilitiesAndEquityFils": 125000,
+    "isBalanced": false,
+    "differenceFils": 125000
+  },
+  "finance.profitAndLoss": {
+    "fromDate": "Demo",
+    "toDate": "Demo",
+    "grossSalesFils": 125000,
+    "salesReturnsFils": 125000,
+    "netSalesFils": 125000,
+    "costOfGoodsSoldFils": 125000,
+    "grossProfitFils": 125000,
+    "grossMarginPercent": 10,
+    "operatingExpensesFils": 125000,
+    "otherIncomeFils": 125000,
+    "netProfitFils": 125000,
+    "expenseLines": [
+      {
+        "code": "DEMO-001",
+        "name": "Cedar name",
+        "amountFils": 125000
+      },
+      {
+        "code": "DEMO-002",
+        "name": "Orchard name",
+        "amountFils": 250000
+      },
+      {
+        "code": "DEMO-003",
+        "name": "Harbor name",
+        "amountFils": 375000
+      }
+    ],
+    "otherIncomeLines": [
+      {
+        "code": "DEMO-001",
+        "name": "Cedar name",
+        "amountFils": 125000
+      },
+      {
+        "code": "DEMO-002",
+        "name": "Orchard name",
+        "amountFils": 250000
+      },
+      {
+        "code": "DEMO-003",
+        "name": "Harbor name",
+        "amountFils": 375000
+      }
+    ]
+  },
+  "finance.cashFlow": {
+    "fromDate": "Demo",
+    "toDate": "Demo",
+    "openingCashFils": 125000,
+    "operating": {
+      "heading": "Demo",
+      "lines": [
+        {
+          "code": "DEMO-001",
+          "name": "Cedar name",
+          "amountFils": 125000
+        },
+        {
+          "code": "DEMO-002",
+          "name": "Orchard name",
+          "amountFils": 250000
+        },
+        {
+          "code": "DEMO-003",
+          "name": "Harbor name",
+          "amountFils": 375000
+        }
+      ],
+      "totalFils": 125000
+    },
+    "investing": {
+      "heading": "Demo",
+      "lines": [
+        {
+          "code": "DEMO-001",
+          "name": "Cedar name",
+          "amountFils": 125000
+        },
+        {
+          "code": "DEMO-002",
+          "name": "Orchard name",
+          "amountFils": 250000
+        },
+        {
+          "code": "DEMO-003",
+          "name": "Harbor name",
+          "amountFils": 375000
+        }
+      ],
+      "totalFils": 125000
+    },
+    "financing": {
+      "heading": "Demo",
+      "lines": [
+        {
+          "code": "DEMO-001",
+          "name": "Cedar name",
+          "amountFils": 125000
+        },
+        {
+          "code": "DEMO-002",
+          "name": "Orchard name",
+          "amountFils": 250000
+        },
+        {
+          "code": "DEMO-003",
+          "name": "Harbor name",
+          "amountFils": 375000
+        }
+      ],
+      "totalFils": 125000
+    },
+    "netMovementFils": 125000,
+    "closingCashFils": 125000,
+    "totalReceivedFils": 125000,
+    "totalPaidFils": 125000
+  },
+  "finance.aging": {
+    "asOfDate": "Demo",
+    "side": "receivable",
+    "rows": [
+      {
+        "documentId": 1,
+        "documentNumber": "DEMO-001",
+        "partyId": 1,
+        "partyName": "Cedar party Name",
+        "issueDate": "Demo",
+        "dueDate": "Demo",
+        "totalFils": 125000,
+        "paidFils": 125000,
+        "outstandingFils": 125000,
+        "daysOverdue": 12,
+        "bucket": "notDue"
+      },
+      {
+        "documentId": 2,
+        "documentNumber": "DEMO-002",
+        "partyId": 2,
+        "partyName": "Orchard party Name",
+        "issueDate": "Demo",
+        "dueDate": "Demo",
+        "totalFils": 250000,
+        "paidFils": 250000,
+        "outstandingFils": 250000,
+        "daysOverdue": 24,
+        "bucket": "notDue"
+      },
+      {
+        "documentId": 3,
+        "documentNumber": "DEMO-003",
+        "partyId": 3,
+        "partyName": "Harbor party Name",
+        "issueDate": "Demo",
+        "dueDate": "Demo",
+        "totalFils": 375000,
+        "paidFils": 375000,
+        "outstandingFils": 375000,
+        "daysOverdue": 36,
+        "bucket": "notDue"
+      }
+    ],
+    "buckets": [
+      {
+        "key": "notDue",
+        "label": "Cedar label",
+        "amountFils": 125000
+      },
+      {
+        "key": "notDue",
+        "label": "Orchard label",
+        "amountFils": 250000
+      },
+      {
+        "key": "notDue",
+        "label": "Harbor label",
+        "amountFils": 375000
+      }
+    ],
+    "totalOutstandingFils": 125000,
+    "totalOverdueFils": 125000
+  },
+  "finance.partyStatement": {
+    "partyId": 1,
+    "partyName": "Cedar party Name",
+    "kind": "customer",
+    "fromDate": "Demo",
+    "toDate": "Demo",
+    "openingBalanceFils": 125000,
+    "rows": [
+      {
+        "entryId": 1,
+        "entryNo": "Demo",
+        "entryDate": "Demo",
+        "reference": "DEMO-001",
+        "documentNumber": "DEMO-001",
+        "kind": "receipt",
+        "description": "Cedar description",
+        "debitFils": 125000,
+        "creditFils": 125000,
+        "runningBalanceFils": 125000,
+        "isSettled": false,
+        "dueDate": "Demo",
+        "documentId": 1
+      },
+      {
+        "entryId": 2,
+        "entryNo": "Demo",
+        "entryDate": "Demo",
+        "reference": "DEMO-002",
+        "documentNumber": "DEMO-002",
+        "kind": "receipt",
+        "description": "Orchard description",
+        "debitFils": 250000,
+        "creditFils": 250000,
+        "runningBalanceFils": 250000,
+        "isSettled": false,
+        "dueDate": "Demo",
+        "documentId": 2
+      },
+      {
+        "entryId": 3,
+        "entryNo": "Demo",
+        "entryDate": "Demo",
+        "reference": "DEMO-003",
+        "documentNumber": "DEMO-003",
+        "kind": "receipt",
+        "description": "Harbor description",
+        "debitFils": 375000,
+        "creditFils": 375000,
+        "runningBalanceFils": 375000,
+        "isSettled": false,
+        "dueDate": "Demo",
+        "documentId": 3
+      }
+    ],
+    "totalDebitFils": 125000,
+    "totalCreditFils": 125000,
+    "closingBalanceFils": 125000,
+    "overdueFils": 125000
+  },
+  "finance.partyBalances": [
+    {
+      "partyId": 1,
+      "partyName": "Cedar party Name",
+      "kind": "customer",
+      "outstandingFils": 125000,
+      "overdueFils": 125000,
+      "invoiceCount": 12,
+      "lastTransactionDate": "Demo"
+    },
+    {
+      "partyId": 2,
+      "partyName": "Orchard party Name",
+      "kind": "customer",
+      "outstandingFils": 250000,
+      "overdueFils": 250000,
+      "invoiceCount": 24,
+      "lastTransactionDate": "Demo"
+    },
+    {
+      "partyId": 3,
+      "partyName": "Harbor party Name",
+      "kind": "customer",
+      "outstandingFils": 375000,
+      "overdueFils": 375000,
+      "invoiceCount": 36,
+      "lastTransactionDate": "Demo"
+    }
+  ],
+  "finance.cashBook": {
+    "accountCode": "DEMO-001",
+    "accountName": "Cedar account Name",
+    "fromDate": "Demo",
+    "toDate": "Demo",
+    "openingBalanceFils": 125000,
+    "rows": [
+      {
+        "entryId": 1,
+        "entryNo": "Demo",
+        "entryDate": "Demo",
+        "description": "Cedar description",
+        "reference": "DEMO-001",
+        "receiptFils": 125000,
+        "paymentFils": 125000,
+        "balanceFils": 125000
+      },
+      {
+        "entryId": 2,
+        "entryNo": "Demo",
+        "entryDate": "Demo",
+        "description": "Orchard description",
+        "reference": "DEMO-002",
+        "receiptFils": 250000,
+        "paymentFils": 250000,
+        "balanceFils": 250000
+      },
+      {
+        "entryId": 3,
+        "entryNo": "Demo",
+        "entryDate": "Demo",
+        "description": "Harbor description",
+        "reference": "DEMO-003",
+        "receiptFils": 375000,
+        "paymentFils": 375000,
+        "balanceFils": 375000
+      }
+    ],
+    "totalReceiptsFils": 125000,
+    "totalPaymentsFils": 125000,
+    "closingBalanceFils": 125000
+  },
+  "finance.periodComparison": {
+    "fromDate": "Demo",
+    "toDate": "Demo",
+    "previousFromDate": "Demo",
+    "previousToDate": "Demo",
+    "rows": [
+      {
+        "label": "Cedar label",
+        "currentFils": 125000,
+        "previousFils": 125000,
+        "changeFils": 125000,
+        "changePercent": 10
+      },
+      {
+        "label": "Orchard label",
+        "currentFils": 250000,
+        "previousFils": 250000,
+        "changeFils": 250000,
+        "changePercent": 10
+      },
+      {
+        "label": "Harbor label",
+        "currentFils": 375000,
+        "previousFils": 375000,
+        "changeFils": 375000,
+        "changePercent": 10
+      }
+    ]
+  },
+  "finance.export": {
+    "path": ""
+  },
+  "finance.transfer": {
+    "ok": true
+  },
+  "finance.recordPayment": {
+    "id": 1,
+    "receiptNumber": "DEMO-001",
+    "direction": "inbound",
+    "partyId": 1,
+    "partyName": "Cedar party Name",
+    "paymentDate": "Demo",
+    "method": "cash",
+    "amountFils": 125000,
+    "reference": "DEMO-001",
+    "notes": "Demo",
+    "allocations": [
+      {
+        "documentId": 1,
+        "documentNumber": "DEMO-001",
+        "amountFils": 125000
+      },
+      {
+        "documentId": 2,
+        "documentNumber": "DEMO-002",
+        "amountFils": 250000
+      },
+      {
+        "documentId": 3,
+        "documentNumber": "DEMO-003",
+        "amountFils": 375000
+      }
+    ],
+    "createdBy": "Demo",
+    "createdAt": "2026-11-20"
+  },
+  "finance.periods.list": [
+    {
+      "id": 1,
+      "name": "Cedar name",
+      "startDate": "Demo",
+      "endDate": "Demo",
+      "status": "open",
+      "closedAt": "2026-11-20"
+    },
+    {
+      "id": 2,
+      "name": "Orchard name",
+      "startDate": "Demo",
+      "endDate": "Demo",
+      "status": "open",
+      "closedAt": "2026-11-20"
+    },
+    {
+      "id": 3,
+      "name": "Harbor name",
+      "startDate": "Demo",
+      "endDate": "Demo",
+      "status": "open",
+      "closedAt": "2026-11-20"
+    }
+  ],
+  "finance.periods.save": {
+    "id": 1,
+    "name": "Cedar name",
+    "startDate": "Demo",
+    "endDate": "Demo",
+    "status": "open",
+    "closedAt": "2026-11-20"
+  },
+  "finance.periods.close": {
+    "id": 1,
+    "name": "Cedar name",
+    "startDate": "Demo",
+    "endDate": "Demo",
+    "status": "open",
+    "closedAt": "2026-11-20"
+  },
+  "finance.periods.reopen": {
+    "id": 1,
+    "name": "Cedar name",
+    "startDate": "Demo",
+    "endDate": "Demo",
+    "status": "open",
+    "closedAt": "2026-11-20"
+  },
+  "finance.openingBalances": {
+    "ok": true
+  },
+  "finance.migrationAudit": {
+    "hasAccountingHistory": false,
+    "documentsWithoutEntry": 12,
+    "paymentsWithoutEntry": 12,
+    "expensesWithoutEntry": 12,
+    "documentsWithEntry": 12,
+    "paymentsWithEntry": 12,
+    "expensesWithEntry": 12,
+    "unmigratable": [
+      {
+        "kind": "Demo",
+        "reference": "DEMO-001",
+        "reason": "Demo"
+      },
+      {
+        "kind": "Demo",
+        "reference": "DEMO-002",
+        "reason": "Demo"
+      },
+      {
+        "kind": "Demo",
+        "reference": "DEMO-003",
+        "reason": "Demo"
+      }
+    ],
+    "stockValueFils": 125000,
+    "inventoryAccountFils": 125000,
+    "inventoryMatches": false
+  },
+  "finance.backfill": {
+    "posted": 12,
+    "skipped": 12
+  }
+}
