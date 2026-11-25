@@ -50,6 +50,11 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link to="/technical-credits" className={footerLink}>
+                Technical Credits
+              </Link>
+            </li>
+            <li>
               <Link to="/services" className={footerLink}>
                 Services
               </Link>

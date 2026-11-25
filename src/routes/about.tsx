@@ -101,23 +101,6 @@ export const Route = createFileRoute("/about")({
         type: "application/ld+json",
         content: JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "Person",
-          name: "Muhammad Umer Farooq",
-          url: "https://www.eyercall.com/about",
-          jobTitle: "Senior Developer",
-          worksFor: {
-            "@type": "Organization",
-            name: "Eyercall",
-            url: "https://www.eyercall.com"
-          },
-          description: "Muhammad Umer Farooq is a Senior Developer at Eyercall, contributing to software development and technical delivery.",
-          sameAs: []
-        }),
-      },
-      {
-        type: "application/ld+json",
-        content: JSON.stringify({
-          "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
             {

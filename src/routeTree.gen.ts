@@ -14,6 +14,7 @@ import { Route as AboutRouteImport } from './routes/about'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as ServicesRouteImport } from './routes/services'
+import { Route as TechnicalCreditsRouteImport } from './routes/technical-credits'
 import { Route as CoursesIndexRouteImport } from './routes/courses.index'
 import { Route as CoursesSlugRouteImport } from './routes/courses.$slug'
 import { Route as CoursesEnrollRouteImport } from './routes/courses.enroll'
@@ -65,6 +66,11 @@ const PrivacyRoute = PrivacyRouteImport.update({
 const ServicesRoute = ServicesRouteImport.update({
   id: '/services',
   path: '/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TechnicalCreditsRoute = TechnicalCreditsRouteImport.update({
+  id: '/technical-credits',
+  path: '/technical-credits',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CoursesIndexRoute = CoursesIndexRouteImport.update({
@@ -222,6 +228,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/privacy': typeof PrivacyRoute
   '/services': typeof ServicesRoute
+  '/technical-credits': typeof TechnicalCreditsRoute
   '/courses/$slug': typeof CoursesSlugRoute
   '/courses/enroll': typeof CoursesEnrollRoute
   '/products/$slug': typeof ProductsSlugRoute
@@ -256,6 +263,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/privacy': typeof PrivacyRoute
   '/services': typeof ServicesRoute
+  '/technical-credits': typeof TechnicalCreditsRoute
   '/courses/$slug': typeof CoursesSlugRoute
   '/courses/enroll': typeof CoursesEnrollRoute
   '/products/$slug': typeof ProductsSlugRoute
@@ -288,6 +296,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/privacy': typeof PrivacyRoute
   '/services': typeof ServicesRoute
+  '/technical-credits': typeof TechnicalCreditsRoute
   '/courses/$slug': typeof CoursesSlugRoute
   '/courses/enroll': typeof CoursesEnrollRoute
   '/products/$slug': typeof ProductsSlugRoute
@@ -324,6 +333,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/privacy'
     | '/services'
+    | '/technical-credits'
     | '/courses/$slug'
     | '/courses/enroll'
     | '/products/$slug'
@@ -358,6 +368,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/privacy'
     | '/services'
+    | '/technical-credits'
     | '/courses/$slug'
     | '/courses/enroll'
     | '/products/$slug'
@@ -389,6 +400,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/privacy'
     | '/services'
+    | '/technical-credits'
     | '/courses/$slug'
     | '/courses/enroll'
     | '/products/$slug'
@@ -424,6 +436,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   PrivacyRoute: typeof PrivacyRoute
   ServicesRoute: typeof ServicesRoute
+  TechnicalCreditsRoute: typeof TechnicalCreditsRoute
   CoursesSlugRoute: typeof CoursesSlugRoute
   CoursesEnrollRoute: typeof CoursesEnrollRoute
   ProductsSlugRoute: typeof ProductsSlugRoute
@@ -471,6 +484,13 @@ declare module '@tanstack/react-router' {
       path: '/services'
       fullPath: '/services'
       preLoaderRoute: typeof ServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/technical-credits': {
+      id: '/technical-credits'
+      path: '/technical-credits'
+      fullPath: '/technical-credits'
+      preLoaderRoute: typeof TechnicalCreditsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/courses/': {
@@ -734,6 +754,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   PrivacyRoute: PrivacyRoute,
   ServicesRoute: ServicesRoute,
+  TechnicalCreditsRoute: TechnicalCreditsRoute,
   CoursesSlugRoute: CoursesSlugRoute,
   CoursesEnrollRoute: CoursesEnrollRoute,
   ProductsSlugRoute: ProductsSlugRoute,

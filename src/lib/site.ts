@@ -53,11 +53,6 @@ export const leadership: LeadershipMember[] = [
     role: "Founder, Owner & CEO",
     bio: "Founder and owner of Eyercall, leading the company's vision and direction.",
   },
-  {
-    name: "Muhammad Umer Farooq",
-    role: "Senior Developer",
-    bio: "Senior developer at Eyercall, contributing to software development and technical delivery.",
-  },
 ];
 
 const email = env("VITE_CONTACT_EMAIL");
