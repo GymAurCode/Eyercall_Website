@@ -1,22 +1,67 @@
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/privacy")({
-  head: () => ({
-    meta: [
-      { title: "Privacy Policy | Eyercall" },
-      {
-        name: "description",
-        content: "How Eyercall handles information submitted through this website.",
-      },
-      { property: "og:title", content: "Privacy Policy | Eyercall" },
-      {
-        property: "og:description",
-        content: "How Eyercall handles information submitted through this website.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-    ],
-  }),
+  head: () => {
+    const canonicalUrl = "https://www.eyercall.com/privacy";
+    return {
+      meta: [
+        { title: "Privacy Policy | Eyercall" },
+        {
+          name: "description",
+          content: "How Eyercall handles information submitted through this website.",
+        },
+        { property: "og:title", content: "Privacy Policy | Eyercall" },
+        {
+          property: "og:description",
+          content: "How Eyercall handles information submitted through this website.",
+        },
+        { property: "og:type", content: "website" },
+        { name: "twitter:card", content: "summary" },
+        { name: "robots", content: "noindex" },
+      ],
+      links: [
+        { rel: "canonical", href: canonicalUrl },
+      ],
+      script: [
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            name: "Privacy Policy",
+            description: "How Eyercall handles information submitted through this website.",
+            url: canonicalUrl,
+            publisher: {
+              "@type": "Organization",
+              name: "Eyercall",
+              url: "https://www.eyercall.com"
+            }
+          }),
+        },
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.eyercall.com/"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Privacy Policy",
+                item: "https://www.eyercall.com/privacy"
+              }
+            ]
+          }),
+        },
+      ],
+    };
+  },
   component: () => (
     <section className="page-shell pb-10 pt-40">
       <div className="max-w-3xl">

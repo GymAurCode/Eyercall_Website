@@ -32,6 +32,157 @@ export const Route = createFileRoute("/courses/")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [
+      { rel: "canonical", href: "https://www.eyercall.com/courses/" },
+    ],
+    script: [
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Eyercall",
+          url: "https://www.eyercall.com",
+          logo: "https://www.eyercall.com/logo.png",
+          sameAs: [
+            "https://www.linkedin.com/company/eyercall",
+            "https://twitter.com/eyercall",
+            "https://www.facebook.com/eyercall",
+            "https://www.instagram.com/eyercall"
+          ],
+          description: "Eyercall builds business software and delivers practical IT training for individuals and organizations.",
+          contactPoint: {
+            "@type": "ContactPoint",
+            email: "contact@eyercall.com",
+            telephone: "+1-800-EYERCALL",
+            website: "https://www.eyercall.com",
+            availableLanguage: ["English"]
+          }
+        }),
+      },
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: "Eyercall IT Courses",
+          description: "Practical IT training courses offered by Eyercall",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              item: {
+                "@type": "Course",
+                name: "Cyber Security Fundamentals",
+                description: "Essential cybersecurity concepts, threat awareness, and defensive practices for individuals and teams.",
+                provider: {
+                  "@type": "Organization",
+                  name: "Eyercall",
+                  url: "https://www.eyercall.com"
+                },
+                url: "https://www.eyercall.com/courses/cyber-security"
+              }
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              item: {
+                "@type": "Course",
+                name: "Web Development",
+                description: "Modern web development from HTML/CSS fundamentals to full-stack applications with React and Node.js.",
+                provider: {
+                  "@type": "Organization",
+                  name: "Eyercall",
+                  url: "https://www.eyercall.com"
+                },
+                url: "https://www.eyercall.com/courses/web-development"
+              }
+            },
+            {
+              "@type": "ListItem",
+              position: 3,
+              item: {
+                "@type": "Course",
+                name: "ITES & BPO Fundamentals",
+                description: "Industry-standard skills for IT-enabled services and business process outsourcing roles.",
+                provider: {
+                  "@type": "Organization",
+                  name: "Eyercall",
+                  url: "https://www.eyercall.com"
+                },
+                url: "https://www.eyercall.com/courses/ites-bpo"
+              }
+            },
+            {
+              "@type": "ListItem",
+              position: 4,
+              item: {
+                "@type": "Course",
+                name: "Graphic Design",
+                description: "Design principles, typography, branding and practical projects using industry tools.",
+                provider: {
+                  "@type": "Organization",
+                  name: "Eyercall",
+                  url: "https://www.eyercall.com"
+                },
+                url: "https://www.eyercall.com/courses/graphic-design"
+              }
+            },
+            {
+              "@type": "ListItem",
+              position: 5,
+              item: {
+                "@type": "Course",
+                name: "Video Editing",
+                description: "Video editing fundamentals, storytelling techniques and professional post-production workflows.",
+                provider: {
+                  "@type": "Organization",
+                  name: "Eyercall",
+                  url: "https://www.eyercall.com"
+                },
+                url: "https://www.eyercall.com/courses/video-editing"
+              }
+            },
+            {
+              "@type": "ListItem",
+              position: 6,
+              item: {
+                "@type": "Course",
+                name: "Essential Computer Skills",
+                description: "Core computer literacy, productivity software and digital confidence for work and study.",
+                provider: {
+                  "@type": "Organization",
+                  name: "Eyercall",
+                  url: "https://www.eyercall.com"
+                },
+                url: "https://www.eyercall.com/courses/essential-computer-skills"
+              }
+            }
+          ]
+        }),
+      },
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: "Home",
+              item: "https://www.eyercall.com/"
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: "Courses",
+              item: "https://www.eyercall.com/courses/"
+            }
+          ]
+        }),
+      },
+    ],
   }),
   component: CoursesPage,
 });

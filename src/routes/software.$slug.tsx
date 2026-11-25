@@ -27,6 +27,7 @@ export const Route = createFileRoute("/software/$slug")({
         meta: [{ title: "Product not found | Eyercall" }, { name: "robots", content: "noindex" }],
       };
     const title = `${product.name} — ${product.category} | Eyercall`;
+    const canonicalUrl = `https://www.eyercall.com/software/${product.slug}`;
     return {
       meta: [
         { title },
@@ -35,6 +36,85 @@ export const Route = createFileRoute("/software/$slug")({
         { property: "og:description", content: product.description },
         { property: "og:type", content: "product" },
         { name: "twitter:card", content: "summary_large_image" },
+      ],
+      links: [
+        { rel: "canonical", href: canonicalUrl },
+      ],
+      script: [
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            name: product.name,
+            applicationCategory: product.category === "Desktop" ? "BusinessApplication" : "BusinessApplication",
+            operatingSystem: product.category === "Desktop" ? "Windows" : "Web",
+            description: product.description,
+            url: canonicalUrl,
+            publisher: {
+              "@type": "Organization",
+              name: "Eyercall",
+              url: "https://www.eyercall.com"
+            },
+            offers: {
+              "@type": "Offer",
+              price: "0",
+              priceCurrency: "USD",
+              availability: "https://schema.org/InStock"
+            }
+          }),
+        },
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Eyercall",
+            url: "https://www.eyercall.com",
+            logo: "https://www.eyercall.com/logo.png",
+            sameAs: [
+              "https://www.linkedin.com/company/eyercall",
+              "https://twitter.com/eyercall",
+              "https://www.facebook.com/eyercall",
+              "https://www.instagram.com/eyercall"
+            ],
+            description: "Eyercall builds business software and delivers practical IT training for individuals and organizations.",
+            contactPoint: {
+              "@type": "ContactPoint",
+              email: "contact@eyercall.com",
+              telephone: "+1-800-EYERCALL",
+              website: "https://www.eyercall.com",
+              availableLanguage: ["English"]
+            }
+          }),
+        },
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.eyercall.com/"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Software",
+                item: "https://www.eyercall.com/software/"
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: product.name,
+                item: canonicalUrl
+              }
+            ]
+          }),
+        },
       ],
     };
   },

@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Muhammad Asad",
+  "url": "https://www.eyercall.com/about",
+  "jobTitle": "Founder, Owner & CEO",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Eyercall",
+    "url": "https://www.eyercall.com"
+  },
+  "description": "Muhammad Asad is the Founder, Owner and CEO of Eyercall, leading the company's vision and direction.",
+  "sameAs": []
+}

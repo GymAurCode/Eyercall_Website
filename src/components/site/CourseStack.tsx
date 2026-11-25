@@ -19,6 +19,8 @@ export function CourseStack({ courses }: { courses: Course[] }) {
 
     let cancelled = false;
     let context: { revert: () => void } | null = null;
+    let masterTrigger: { kill: () => void } | null = null;
+    let timeline: any = null;
 
     (async () => {
       const [{ gsap }, { ScrollTrigger }] = await Promise.all([
@@ -30,32 +32,59 @@ export function CourseStack({ courses }: { courses: Course[] }) {
 
       context = gsap.context(() => {
         const cards = gsap.utils.toArray<HTMLElement>("[data-course-card]", root);
+        if (cards.length < 2) return;
 
-        // Sticky offsets do the stacking on their own. The scripted part is only
-        // the depth cue: a card eases down to MIN_SCALE while the next one slides
-        // up over it, and back to 1 when the scroll is reversed.
+        // Calculate the total scroll distance for the stack:
+        // From when the first card's sticky top hits the stack top
+        // to when the last card's sticky top hits the stack top.
+        // The CSS defines: --stack-top + (n-1) * --stack-step for the last card.
+        const stackTop = parseFloat(getComputedStyle(root).getPropertyValue("--stack-top")) || 88;
+        const stackStep = parseFloat(getComputedStyle(root).getPropertyValue("--stack-step")) || 22;
+        const lastCardIndex = cards.length - 1;
+        const lastCardStickyTop = stackTop + lastCardIndex * stackStep;
+
+        // The stack container height gives us the total scroll range.
+        // We use the stage element's scrollHeight minus viewport height.
+        const stage = root.querySelector(".course-stack-stage") as HTMLElement;
+        if (!stage) return;
+
+        // Create a single timeline for all card scale animations
+        timeline = gsap.timeline({
+          paused: true,
+          // Use ease: "none" for direct scroll-to-animation mapping
+        });
+
+        // Add each card's scale animation to the timeline in sequence
+        // Each card scales from 1 to MIN_SCALE as the next card lands on it
         cards.slice(0, -1).forEach((card, i) => {
-          const next = cards[i + 1];
-          if (!next) return;
-          gsap.to(card, {
+          timeline!.to(card, {
             scale: MIN_SCALE,
             ease: "none",
             transformOrigin: "top center",
-            scrollTrigger: {
-              trigger: next,
-              start: "top bottom",
-              // The neighbour has landed once its top reaches this card's sticky line.
-              end: () => `top ${parseFloat(getComputedStyle(card).top) || 0}px`,
-              scrub: 0.3,
-              invalidateOnRefresh: true,
-            },
-          });
+            // Each card's animation takes equal portion of timeline
+            duration: 1,
+          }, i);
         });
+
+        // Create a single master ScrollTrigger that drives the timeline
+        masterTrigger = ScrollTrigger.create({
+          trigger: stage,
+          start: "top top",
+          end: `bottom top+=${lastCardStickyTop}`,
+          animation: timeline,
+          scrub: 0.3,
+          invalidateOnRefresh: true,
+        });
+
+        // Force initial refresh to calculate correct positions
+        ScrollTrigger.refresh();
       }, root);
     })();
 
     return () => {
       cancelled = true;
+      masterTrigger?.kill();
+      timeline?.kill();
       context?.revert();
     };
   }, [courses]);

@@ -129,6 +129,29 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css",
       },
+      { rel: "canonical", href: "https://www.eyercall.com/" },
+      {
+        rel: "alternate",
+        type: "application/ld+json",
+        href: "/robots.txt",
+      },
+    ],
+    script: [
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "Eyercall",
+          url: "https://www.eyercall.com",
+          description: "Software development and IT training company.",
+          potentialAction: {
+            "@type": "SearchAction",
+            target: "https://www.eyercall.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }),
+      },
     ],
   }),
   shellComponent: RootShell,

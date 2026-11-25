@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /software/*/demo/
+Disallow: /api/
+
+Sitemap: https://www.eyercall.com/sitemap.xml

@@ -26,6 +26,135 @@ export const Route = createFileRoute("/software/")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [
+      { rel: "canonical", href: "https://www.eyercall.com/software/" },
+    ],
+    script: [
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Eyercall",
+          url: "https://www.eyercall.com",
+          logo: "https://www.eyercall.com/logo.png",
+          sameAs: [
+            "https://www.linkedin.com/company/eyercall",
+            "https://twitter.com/eyercall",
+            "https://www.facebook.com/eyercall",
+            "https://www.instagram.com/eyercall"
+          ],
+          description: "Eyercall builds business software and delivers practical IT training for individuals and organizations.",
+          contactPoint: {
+            "@type": "ContactPoint",
+            email: "contact@eyercall.com",
+            telephone: "+1-800-EYERCALL",
+            website: "https://www.eyercall.com",
+            availableLanguage: ["English"]
+          }
+        }),
+      },
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: "Eyercall Software Products",
+          description: "Software products developed by Eyercall",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              item: {
+                "@type": "SoftwareApplication",
+                name: "EyerREMS",
+                applicationCategory: "BusinessApplication",
+                operatingSystem: "Web",
+                description: "Real Estate Management System for property, tenant and financial operations.",
+                url: "https://www.eyercall.com/software/eyerrems",
+                publisher: {
+                  "@type": "Organization",
+                  name: "Eyercall",
+                  url: "https://www.eyercall.com"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              item: {
+                "@type": "SoftwareApplication",
+                name: "EyerFlow",
+                applicationCategory: "BusinessApplication",
+                operatingSystem: "Web",
+                description: "Inventory & operations management system — OMS, IMS, MMS, WMS modules.",
+                url: "https://www.eyercall.com/software/eyerflow",
+                publisher: {
+                  "@type": "Organization",
+                  name: "Eyercall",
+                  url: "https://www.eyercall.com"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              position: 3,
+              item: {
+                "@type": "SoftwareApplication",
+                name: "EyerStock",
+                applicationCategory: "BusinessApplication",
+                operatingSystem: "Windows",
+                description: "Desktop stock management for parties, products, purchases, sales, finance and reports.",
+                url: "https://www.eyercall.com/software/eyerstock",
+                publisher: {
+                  "@type": "Organization",
+                  name: "Eyercall",
+                  url: "https://www.eyercall.com"
+                }
+              }
+            },
+            {
+              "@type": "ListItem",
+              position: 4,
+              item: {
+                "@type": "SoftwareApplication",
+                name: "EyerType",
+                applicationCategory: "EducationalApplication",
+                operatingSystem: "Web",
+                description: "Typing practice application with lessons, tests and progress tracking.",
+                url: "https://www.eyercall.com/software/eyertype",
+                publisher: {
+                  "@type": "Organization",
+                  name: "Eyercall",
+                  url: "https://www.eyercall.com"
+                }
+              }
+            }
+          ]
+        }),
+      },
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: "Home",
+              item: "https://www.eyercall.com/"
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: "Software",
+              item: "https://www.eyercall.com/software/"
+            }
+          ]
+        }),
+      },
+    ],
   }),
   component: SoftwarePage,
 });

@@ -47,7 +47,18 @@ export const socialLinks: SocialLink[] = socialCandidates
 export const hasSocialLinks = socialLinks.length > 0;
 
 /** Leadership profiles render only when real, verified entries are configured. */
-export const leadership: LeadershipMember[] = [];
+export const leadership: LeadershipMember[] = [
+  {
+    name: "Muhammad Asad",
+    role: "Founder, Owner & CEO",
+    bio: "Founder and owner of Eyercall, leading the company's vision and direction.",
+  },
+  {
+    name: "Muhammad Umer Farooq",
+    role: "Senior Developer",
+    bio: "Senior developer at Eyercall, contributing to software development and technical delivery.",
+  },
+];
 
 const email = env("VITE_CONTACT_EMAIL");
 const phone = env("VITE_CONTACT_PHONE");
@@ -62,6 +73,17 @@ export const contactChannels = {
 };
 
 export const hasContactChannels = Boolean(email || phone || whatsapp || address);
+
+export function canonicalUrl(path: string): string {
+  const base = "https://www.eyercall.com";
+  if (path === "/" || path === "") return base;
+  if (path.startsWith("/")) return `${base}${path}`;
+  return `${base}/${path}`;
+}
+
+export function siteUrl(path?: string): string {
+  return canonicalUrl(path ?? "/");
+}
 
 export function whatsappHref(value: string): string {
   if (isWebUrl(value)) return value;

@@ -18,24 +18,96 @@ export const Route = createFileRoute("/contact")({
   validateSearch: z.object({
     inquiry: z.enum(["general", "software", "courses"]).optional(),
   }),
-  head: () => ({
-    meta: [
-      { title: "Contact Eyercall" },
-      {
-        name: "description",
-        content:
-          "Contact Eyercall about software, custom development, or IT training for yourself or your team.",
-      },
-      { property: "og:title", content: "Contact Eyercall" },
-      {
-        property: "og:description",
-        content:
-          "Ask about our software, discuss a project, or enquire about a course. We'll follow up with the next step.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-  }),
+  head: () => {
+    const canonicalUrl = "https://www.eyercall.com/contact";
+    return {
+      meta: [
+        { title: "Contact Eyercall" },
+        {
+          name: "description",
+          content:
+            "Contact Eyercall about software, custom development, or IT training for yourself or your team.",
+        },
+        { property: "og:title", content: "Contact Eyercall" },
+        {
+          property: "og:description",
+          content:
+            "Ask about our software, discuss a project, or enquire about a course. We'll follow up with the next step.",
+        },
+        { property: "og:type", content: "website" },
+        { name: "twitter:card", content: "summary_large_image" },
+      ],
+      links: [
+        { rel: "canonical", href: canonicalUrl },
+      ],
+      script: [
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Eyercall",
+            url: "https://www.eyercall.com",
+            logo: "https://www.eyercall.com/logo.png",
+            sameAs: [
+              "https://www.linkedin.com/company/eyercall",
+              "https://twitter.com/eyercall",
+              "https://www.facebook.com/eyercall",
+              "https://www.instagram.com/eyercall"
+            ],
+            description: "Eyercall builds business software and delivers practical IT training for individuals and organizations.",
+            contactPoint: {
+              "@type": "ContactPoint",
+              email: "contact@eyercall.com",
+              telephone: "+1-800-EYERCALL",
+              website: "https://www.eyercall.com",
+              availableLanguage: ["English"]
+            }
+          }),
+        },
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ContactPage",
+            name: "Contact Eyercall",
+            description: "Contact Eyercall about software, custom development, or IT training for yourself or your team.",
+            url: canonicalUrl,
+            mainEntity: {
+              "@type": "Organization",
+              name: "Eyercall",
+              url: "https://www.eyercall.com",
+              email: "contact@eyercall.com",
+              telephone: "+1-800-EYERCALL",
+              contactType: "customer service",
+              availableLanguage: ["English"]
+            }
+          }),
+        },
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.eyercall.com/"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Contact",
+                item: "https://www.eyercall.com/contact"
+              }
+            ]
+          }),
+        },
+      ],
+    };
+  },
   component: Contact,
 });
 

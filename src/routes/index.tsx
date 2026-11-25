@@ -37,6 +37,50 @@ export const Route = createFileRoute("/")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [
+      { rel: "canonical", href: "https://www.eyercall.com/" },
+    ],
+    script: [
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Eyercall",
+          url: "https://www.eyercall.com",
+          logo: "https://www.eyercall.com/logo.png",
+          sameAs: [
+            "https://www.linkedin.com/company/eyercall",
+            "https://twitter.com/eyercall",
+            "https://www.facebook.com/eyercall",
+            "https://www.instagram.com/eyercall"
+          ],
+          description: "Eyercall builds business software and delivers practical IT training for individuals and organizations.",
+          contactPoint: {
+            "@type": "ContactPoint",
+            email: "contact@eyercall.com",
+            telephone: "+1-800-EYERCALL",
+            website: "https://www.eyercall.com",
+            availableLanguage: ["English"]
+          }
+        }),
+      },
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: "Home",
+              item: "https://www.eyercall.com/"
+            }
+          ]
+        }),
+      },
+    ],
   }),
   component: Home,
 });

@@ -16,24 +16,173 @@ import { SectionHead } from "@/components/site/Section";
 import { serviceList, type ServiceIcon } from "@/lib/services";
 
 export const Route = createFileRoute("/services")({
-  head: () => ({
-    meta: [
-      { title: "Eyercall Technology Services" },
-      {
-        name: "description",
-        content:
-          "Software development, web and mobile applications, business systems and technical training — the services Eyercall provides for organizations and learners.",
-      },
-      { property: "og:title", content: "Eyercall Technology Services" },
-      {
-        property: "og:description",
-        content:
-          "Custom software, web and mobile development, business solutions and IT training from Eyercall.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-  }),
+  head: () => {
+    const canonicalUrl = "https://www.eyercall.com/services";
+    return {
+      meta: [
+        { title: "Eyercall Technology Services" },
+        {
+          name: "description",
+          content:
+            "Software development, web and mobile applications, business systems and technical training — the services Eyercall provides for organizations and learners.",
+        },
+        { property: "og:title", content: "Eyercall Technology Services" },
+        {
+          property: "og:description",
+          content:
+            "Custom software, web and mobile development, business solutions and IT training from Eyercall.",
+        },
+        { property: "og:type", content: "website" },
+        { name: "twitter:card", content: "summary_large_image" },
+      ],
+      links: [
+        { rel: "canonical", href: canonicalUrl },
+      ],
+      script: [
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Eyercall",
+            url: "https://www.eyercall.com",
+            logo: "https://www.eyercall.com/logo.png",
+            sameAs: [
+              "https://www.linkedin.com/company/eyercall",
+              "https://twitter.com/eyercall",
+              "https://www.facebook.com/eyercall",
+              "https://www.instagram.com/eyercall"
+            ],
+            description: "Eyercall builds business software and delivers practical IT training for individuals and organizations.",
+            contactPoint: {
+              "@type": "ContactPoint",
+              email: "contact@eyercall.com",
+              telephone: "+1-800-EYERCALL",
+              website: "https://www.eyercall.com",
+              availableLanguage: ["English"]
+            }
+          }),
+        },
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "Eyercall Services",
+            description: "Technology services offered by Eyercall",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                item: {
+                  "@type": "Service",
+                  name: "Custom Software Development",
+                  description: "Bespoke business systems, web and mobile applications built around how your organization actually works.",
+                  provider: {
+                    "@type": "Organization",
+                    name: "Eyercall",
+                    url: "https://www.eyercall.com"
+                  },
+                  url: "https://www.eyercall.com/services#custom-software",
+                  serviceType: "Software Development",
+                  areaServed: "Worldwide"
+                }
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                item: {
+                  "@type": "Service",
+                  name: "Web Application Development",
+                  description: "Modern web applications from progressive web apps to complex SaaS platforms.",
+                  provider: {
+                    "@type": "Organization",
+                    name: "Eyercall",
+                    url: "https://www.eyercall.com"
+                  },
+                  url: "https://www.eyercall.com/services#web",
+                  serviceType: "Web Development",
+                  areaServed: "Worldwide"
+                }
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                item: {
+                  "@type": "Service",
+                  name: "Mobile Application Development",
+                  description: "Native and cross-platform mobile apps for iOS and Android.",
+                  provider: {
+                    "@type": "Organization",
+                    name: "Eyercall",
+                    url: "https://www.eyercall.com"
+                  },
+                  url: "https://www.eyercall.com/services#mobile",
+                  serviceType: "Mobile Development",
+                  areaServed: "Worldwide"
+                }
+              },
+              {
+                "@type": "ListItem",
+                position: 4,
+                item: {
+                  "@type": "Service",
+                  name: "Business Systems & Operations",
+                  description: "ERP, CRM, inventory, finance and operations management systems.",
+                  provider: {
+                    "@type": "Organization",
+                    name: "Eyercall",
+                    url: "https://www.eyercall.com"
+                  },
+                  url: "https://www.eyercall.com/services#business",
+                  serviceType: "Business Software",
+                  areaServed: "Worldwide"
+                }
+              },
+              {
+                "@type": "ListItem",
+                position: 5,
+                item: {
+                  "@type": "Service",
+                  name: "IT Training & Education",
+                  description: "Practical IT courses for individuals and teams — cybersecurity, web development, ITES, design, video editing and essential computer skills.",
+                  provider: {
+                    "@type": "Organization",
+                    name: "Eyercall",
+                    url: "https://www.eyercall.com"
+                  },
+                  url: "https://www.eyercall.com/services#training",
+                  serviceType: "Education & Training",
+                  areaServed: "Worldwide"
+                }
+              }
+            ]
+          }),
+        },
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.eyercall.com/"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Services",
+                item: "https://www.eyercall.com/services"
+              }
+            ]
+          }),
+        },
+      ],
+    };
+  },
   component: ServicesPage,
 });
 

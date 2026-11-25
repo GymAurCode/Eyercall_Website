@@ -21,6 +21,7 @@ export const Route = createFileRoute("/courses/$slug")({
     const title = course.name.endsWith("Course")
       ? `${course.name} | Eyercall`
       : `${course.name} Course | Eyercall`;
+    const canonicalUrl = `https://www.eyercall.com/courses/${course.slug}`;
     return {
       meta: [
         { title },
@@ -29,6 +30,89 @@ export const Route = createFileRoute("/courses/$slug")({
         { property: "og:description", content: course.description },
         { property: "og:type", content: "article" },
         { name: "twitter:card", content: "summary_large_image" },
+      ],
+      links: [
+        { rel: "canonical", href: canonicalUrl },
+      ],
+      script: [
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Course",
+            name: course.name,
+            description: course.description,
+            provider: {
+              "@type": "Organization",
+              name: "Eyercall",
+              url: "https://www.eyercall.com"
+            },
+            url: canonicalUrl,
+            hasCourseInstance: {
+              "@type": "CourseInstance",
+              courseMode: "Online",
+              courseWorkload: "Self-paced",
+              instructor: {
+                "@type": "Person",
+                name: "Eyercall Training Team",
+                url: "https://www.eyercall.com/about"
+              }
+            },
+            teaches: course.objectives.join(", "),
+            educationalCredentialAwarded: "Certificate of Completion"
+          }),
+        },
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Eyercall",
+            url: "https://www.eyercall.com",
+            logo: "https://www.eyercall.com/logo.png",
+            sameAs: [
+              "https://www.linkedin.com/company/eyercall",
+              "https://twitter.com/eyercall",
+              "https://www.facebook.com/eyercall",
+              "https://www.instagram.com/eyercall"
+            ],
+            description: "Eyercall builds business software and delivers practical IT training for individuals and organizations.",
+            contactPoint: {
+              "@type": "ContactPoint",
+              email: "contact@eyercall.com",
+              telephone: "+1-800-EYERCALL",
+              website: "https://www.eyercall.com",
+              availableLanguage: ["English"]
+            }
+          }),
+        },
+        {
+          type: "application/ld+json",
+          content: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://www.eyercall.com/"
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Courses",
+                item: "https://www.eyercall.com/courses/"
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: course.name,
+                item: canonicalUrl
+              }
+            ]
+          }),
+        },
       ],
     };
   },

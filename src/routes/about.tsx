@@ -52,6 +52,90 @@ export const Route = createFileRoute("/about")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    links: [
+      { rel: "canonical", href: "https://www.eyercall.com/about" },
+    ],
+    script: [
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Eyercall",
+          url: "https://www.eyercall.com",
+          logo: "https://www.eyercall.com/logo.png",
+          sameAs: [
+            "https://www.linkedin.com/company/eyercall",
+            "https://twitter.com/eyercall",
+            "https://www.facebook.com/eyercall",
+            "https://www.instagram.com/eyercall"
+          ],
+          description: "Eyercall builds business software and delivers practical IT training for individuals and organizations.",
+          contactPoint: {
+            "@type": "ContactPoint",
+            email: "contact@eyercall.com",
+            telephone: "+1-800-EYERCALL",
+            website: "https://www.eyercall.com",
+            availableLanguage: ["English"]
+          }
+        }),
+      },
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Muhammad Asad",
+          url: "https://www.eyercall.com/about",
+          jobTitle: "Founder, Owner & CEO",
+          worksFor: {
+            "@type": "Organization",
+            name: "Eyercall",
+            url: "https://www.eyercall.com"
+          },
+          description: "Muhammad Asad is the Founder, Owner and CEO of Eyercall, leading the company's vision and direction.",
+          sameAs: []
+        }),
+      },
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Muhammad Umer Farooq",
+          url: "https://www.eyercall.com/about",
+          jobTitle: "Senior Developer",
+          worksFor: {
+            "@type": "Organization",
+            name: "Eyercall",
+            url: "https://www.eyercall.com"
+          },
+          description: "Muhammad Umer Farooq is a Senior Developer at Eyercall, contributing to software development and technical delivery.",
+          sameAs: []
+        }),
+      },
+      {
+        type: "application/ld+json",
+        content: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: "Home",
+              item: "https://www.eyercall.com/"
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: "About",
+              item: "https://www.eyercall.com/about"
+            }
+          ]
+        }),
+      },
+    ],
   }),
   component: About,
 });

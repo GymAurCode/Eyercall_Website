@@ -1,0 +1,1 @@
+- [SEO Implementation Report](docs/seo/SEO_IMPLEMENTATION_REPORT.md) — report
